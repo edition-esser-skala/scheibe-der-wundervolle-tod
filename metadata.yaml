@@ -1,0 +1,26 @@
+composer:
+  last: Scheibe
+  first: Johann Adolph
+title: Der wundervolle Tod des Welterlösers
+id: SchW online B2:313
+genre: oratory
+scoring: 3 S, 5 T, 3 B (solo), S, A, T, B (coro 1), S, A, T, B (coro 2), 2 fl, 2 ob, 2 fag, 2 cor, timp, 2 vl, vla, b, bc
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: D-B
+    shelfmark: Mus. ms. autogr. Scheibe 4
+    date: 1761
+    rism: 464131824
+    url: https://resolver.staatsbibliothek-berlin.de/SBB0001D80900000000
+    license: public domain
+    principal: true
+  C1:
+    siglum: Dk-Kk
+    shelfmark: 4,-428 8o
+    date: 1761
+    url: https://www.kb.dk/e-mat/dod/130021514617_color.pdf
+    license: public domain
+    notes: libretto, Johann Christian & Georg Christopher Berling, Copenhagen
+imslp:
+parts:
