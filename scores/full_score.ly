@@ -7,21 +7,45 @@
   \bookpart {
     \section "1" "Coro" "Wo sind wir?"
     \addTocLabel "wosindwir"
-    \paper { indent = 3\cm }
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      indent = 3\cm
+    }
     \score {
       <<
         \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = "Flauto traverso I, II"
-            \partCombine \WoSindWirFlautoI \WoSindWirFlautoII
-          }
-          \new Staff {
-            \set Staff.instrumentName = "Oboe grande I, II"
-            \partCombine \WoSindWirOboeI \WoSindWirOboeII
-          }
+          \new GrandStaff \with { \setGroupDistance #10.5 #10.5 } <<
+            \set GrandStaff.instrumentName = "Flauto traverso"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \WoSindWirFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \WoSindWirFlautoII
+            }
+          >>
+          \new GrandStaff \with { \setGroupDistance #10.5 #10.5 } <<
+            \set GrandStaff.instrumentName = "Oboe grande"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              % \transpose g e
+              \WoSindWirOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              % \transpose g e
+              \WoSindWirOboeII
+            }
+          >>
         >>
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff \with { \setGroupDistance #10.5 #10.5 } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
@@ -32,12 +56,19 @@
               \WoSindWirViolinoII
             }
           >>
-          \new Staff {
-            \set Staff.instrumentName = "Viola I, II"
-            \partCombine \WoSindWirViolaI \WoSindWirViolaII
-          }
+          \new GrandStaff \with { \setGroupDistance #10.5 #10.5 } <<
+            \set GrandStaff.instrumentName = "Viola"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \WoSindWirViolaI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \WoSindWirViolaII
+            }
+          >>
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #12 } <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #18 }
           \new Staff {
             \incipit "Soprano I" "soprano" #-19.5 #-1.8
@@ -46,7 +77,7 @@
           \new Lyrics \lyricsto SopranoA \WoSindWirSopranoALyrics
 
           \new Staff {
-            \incipit \markup \center-column { "Soprano II" "Alto" } "soprano" #-20 #-1.8
+            \incipit \markup \center-column { "Soprano II" "od Alto" } "soprano" #-20 #-1.8
             \new Voice = "AltoA" { \dynamicUp \WoSindWirAltoA }
           }
           \new Lyrics \lyricsto AltoA \WoSindWirAltoALyrics
@@ -63,7 +94,7 @@
           }
           \new Lyrics \lyricsto BassoA \WoSindWirBassoALyrics
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #12 } <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #18 }
           \new Staff {
             \incipit "Soprano I" "soprano" #-19.5 #-1.8
@@ -72,7 +103,7 @@
           \new Lyrics \lyricsto SopranoB \WoSindWirSopranoBLyrics
 
           \new Staff {
-            \incipit \markup \center-column { "Soprano II" "Alto" } "soprano" #-20 #-1.8
+            \incipit \markup \center-column { "Soprano II" "od Alto" } "soprano" #-20 #-1.8
             \new Voice = "AltoB" { \dynamicUp \WoSindWirAltoB }
           }
           \new Lyrics \lyricsto AltoB \WoSindWirAltoBLyrics
