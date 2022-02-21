@@ -161,3 +161,53 @@ WoSindWirAltoBLyrics = \lyricmode {
   Ju -- da dir ähn -- lich ge --
   macht. %89 finis
 }
+
+WerDuAuchAltoB = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoWerDuAuch
+    R1*23 %23
+    r2 \tempoWerDuAuchB r4 f\pE
+    f8 r16 f f8 a g4 r8 g %25
+    g g g8. g16 f4 r8 a
+    b b a8. b16 b4 r
+    R1*4 %31
+    r4 des8 b g g g8. as16
+    f8 f r4 \tempoWerDuAuchC r2
+    R1*2 %35
+    r8 fis a fis g4 r8 d'
+    c c a8. g16 g4 r
+    R1*17 %54
+    r2 r4 e %55
+    d8. d16 d4 r8 fis fis4
+    r r8 dis e8. e16 e8. dis16
+    fis4 r8 h h e, g h
+    cis4 r8 a a d, fis a
+    h4 r8 h a4 r8 a %60
+    a d, g8. fis16 d4 r
+    R1*15 %76
+    \tempoWerDuAuchD R1*19 %95
+    R1\fermata \bar "|." %96 finis
+  }
+}
+
+WerDuAuchAltoBLyrics = \lyricmode {
+  Ja! %24
+  Heil! Mes -- ſi -- as! Gott! Un -- %25
+  ſchul -- dig biſt du, Herr! Du,
+  dei -- ner Fein -- de Spott!
+
+  Herr! nun rä -- chet dich der %32
+  Him -- mel!
+
+  Man töd -- te ſie! die %36
+  Schuld -- gen die -- ſer That!
+
+  O %55
+  Fin -- ſter -- niß! o Nacht!
+  iſt kei -- ne Ret -- tung
+  da? Ver -- flucht ſey Ka -- i --
+  phas! ver -- flucht ſey Ka -- i --
+  phas! ver -- flucht! ver -- %60
+  flucht ſey Gol -- ga -- tha! %61 finis
+}

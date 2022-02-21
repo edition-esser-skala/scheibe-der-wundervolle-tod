@@ -95,3 +95,42 @@ WoSindWirViolaI = {
     a,4 r r8. c16 c8. c16 \bar "S-S" %89 finis
   }
 }
+
+WerDuAuchViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 2/2 \tempoWerDuAuch
+    R1*23 %23
+    r2 \tempoWerDuAuchB r8 a'16(\p a) a4~
+    a2 b~ %25
+    b a
+    \parOn b4-\parenthesize-! \parOff a-\parenthesize-! r f\f
+    f1\pp
+    g2 as4-\parenthesize-! r
+    c, r c2~ %30
+    c~ c4 r
+    b r g'\f r
+    r \parOn g-\parenthesize-! \tempoWerDuAuchC \parOff as-\parenthesize-! r
+    R1*43 %76
+    \tempoWerDuAuchD \mvTrr f16(\pp-\markup \remark "con sordino" f) f( f) f([ b) b( d)] d2~
+    d b~
+    b1
+    r16 f( f f) f([ as) as( c)] d!2~ %80
+    d r
+    r8 es,16( es) es4~ es as,
+    d2 r
+    r r8 es16( es) es4
+    c'2 r4 g\pocoF %85
+    g16( g) g( g) f([ f) f( f)] f2\pp
+    g e!
+    f c
+    es d!~
+    d des %90
+    c4 f r c\pocoF
+    as r8 a'16(\pp a) a2~
+    a g
+    g fis
+    d~ d4 r %95
+    r cis\f d2\fermata \bar "|." %96 finis
+  }
+}

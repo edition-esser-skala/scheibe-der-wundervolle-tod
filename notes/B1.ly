@@ -162,3 +162,64 @@ WoSindWirBassoALyrics = \lyricmode {
   Ju -- da dir ähn -- lich ge --
   macht. %89 finis
 }
+
+WerDuAuchBassoA = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoWerDuAuch
+    R1*23 %23
+    r2 \tempoWerDuAuchB r4 d'\pE
+    d8 r16 d, f8 d g4 r8 g %25
+    c c c8. c,16 f4 r8 f
+    b b f8. f16 b4 r
+    R1*4 %31
+    r4 des8 b b b g8. f16
+    f8 f r4 \tempoWerDuAuchC r2
+    R1
+    r2 r8 es' c a %35
+    fis4 d' r8 d16 b g8 g
+    c g fis8. g16 g4 r
+    R1*17 %54
+    r4 b a8. a16 a4 %55
+    r r8 c! h4 r8 c
+    dis, dis e8. fis16 g4 r
+    r8 dis' h h e8. h16 h4
+    r8 a cis a d8. a16 a4
+    r8 g h g e e a8. a16 %60
+    d4 r r2
+    R1*11 %72
+    r8 a cis8. a16 a4 r8 a
+    g! g g8. g16 f!4 r8 a
+    d d, f a g4 r8 b %75
+    b g g8. f16 d4 r
+    \tempoWerDuAuchD R1*19 %95
+    R1\fermata \bar "|." %96 finis
+  }
+}
+
+WerDuAuchBassoALyrics = \lyricmode {
+  Ja! %24
+  Heil! Mes -- ſi -- as! Gott! Un -- %25
+  ſchul -- dig biſt du, Herr! Du,
+  dei -- ner Fein -- de Spott!
+
+  Herr! nun rä -- chet dich der %32
+  Him -- mel!
+
+  Man töd -- te %35
+  ſie! ſie! töd -- te man, die
+  Schuld -- gen die -- ſer That!
+
+  O Fin -- ſter -- niß! %55
+  o Nacht! iſt
+  kei -- ne Ret -- tung da?
+  Ver -- flucht ſey Ka -- i -- phas!
+  ver -- flucht ſey Ka -- i -- phas!
+  ver -- flucht! ver -- flucht ſey Gol -- ga -- %60
+  tha!
+
+  Helft, Göt -- ter! helft! Ver -- %73
+  damm -- te Zau -- ber -- nacht! Hier
+  wird man oh -- ne Feind im %75
+  Fin -- ſtern um -- ge -- bracht. %76 finis
+}

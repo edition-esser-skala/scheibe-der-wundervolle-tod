@@ -95,3 +95,42 @@ WoSindWirViolinoII = {
     a,4 r r8. c'16 c8. c16 \bar "S-S"
   }
 }
+
+WerDuAuchViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoWerDuAuch
+    R1*23 %23
+    r2 \tempoWerDuAuchB r8 d'16(\p d) d4~
+    d1 %25
+    c
+    des4-! c-! r a!8.(\f b32 c)
+    b1~\pp
+    b2 es,4-! r
+    r8 ges'( es c) es,2~ %30
+    es~ es4 r
+    des r c'\f r
+    r \parOn c-\parenthesize-! \tempoWerDuAuchC \parOff c-\parenthesize-! r
+    R1*43 %76
+    \tempoWerDuAuchD \mvTrr b16(\pp-\markup \remark "con sordino" b) b( b) b([ d) d( f)] f2~
+    f es
+    des1
+    r16 as( as as) as([ c) c( f)] f2~ %80
+    f r
+    r8 g,16( g) g4~ g fis
+    g2 r
+    r r8 g16( g) g4
+    f'2 r4 h,!\prall\pocoF %85
+    b16( b) b( b) as([ as) as( as)] b2~\pp
+    b g
+    f1
+    ges2 f~
+    f e! %90
+    f4 b r e,!\prall\pocoF
+    c r8 c'16(\pp c) c2~
+    c h!
+    g a
+    g gis4 r %95
+    r fis\f fis2\fermata \bar "|." %96 finis
+  }
+}

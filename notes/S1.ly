@@ -162,3 +162,55 @@ WoSindWirSopranoALyrics = \lyricmode {
   Ju -- da dir ähn -- lich ge --
   macht. %89 finis
 }
+
+WerDuAuchSopranoA = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoWerDuAuch
+    R1*23 %23
+    r2^\markup \remark "Die Weiber und die Gläubigen" \tempoWerDuAuchB r4 a'\pE
+    d8 r16 d d8 a b4 r8 d %25
+    b b b8. c16 a4 r8 c
+    des des c8. des16 b4 r
+    R1*4 %31
+    r4^\markup \remark "Die Weiber und die Gläubigen" des8 b g g g8. as16
+    f8 f r4 \tempoWerDuAuchC r2
+    R1
+    r2 r8^\markup \remark "Das Volk" es' c a %35
+    fis4 a r8 d16 b g8 b
+    es, es fis8. g16 g4 r
+    R1*17 %54
+    r4^\markup \remark "Das Volk" d' cis8. cis16 cis4 %55
+    r r8 a a4 r8 c
+    dis, dis e8. fis16 g4 r
+    r8 fis' dis h e8. h16 h4
+    r8 e cis a d8. a16 a4
+    r8 g h g cis cis cis8. d16 %60
+    d4 r r2
+    R1*15 %76
+    \tempoWerDuAuchD R1*19 %95
+    R1\fermata \bar "|." %96 finis
+  }
+}
+
+WerDuAuchSopranoALyrics = \lyricmode {
+  Ja! %24
+  Heil! Mes -- ſi -- as! Gott! Un -- %25
+  ſchul -- dig biſt du, Herr! Du,
+  dei -- ner Fein -- de Spott!
+
+  Herr! nun rä -- chet dich der %32
+  Him -- mel!
+
+  Man töd -- te %35
+  ſie! ſie! töd -- te man, die
+  Schuld -- gen die -- ſer That!
+
+  O Fin -- ſter -- niß! %55
+  o Nacht! iſt
+  kei -- ne Ret -- tung da?
+  Ver -- flucht ſey Ka -- i -- phas!
+  ver -- flucht ſey Ka -- i -- phas!
+  ver -- flucht! ver -- flucht ſey Gol -- ga -- %60
+  tha! %61 finis
+}

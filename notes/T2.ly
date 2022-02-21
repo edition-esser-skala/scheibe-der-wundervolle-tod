@@ -161,3 +161,62 @@ WoSindWirTenoreBLyrics = \lyricmode {
   Ju -- da dir ähn -- lich ge --
   macht. %89 finis
 }
+
+WerDuAuchTenoreB = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoWerDuAuch
+    R1*23 %23
+    r2 \tempoWerDuAuchB r4 d\pE
+    d8 r16 a a8 d d4 r8 d %25
+    e e e8. c16 c4 r8 f
+    f f f8. des16 des4 r
+    R1*4 %31
+    r4 des8 b e! e e8. f16
+    f8 c r4 \tempoWerDuAuchC r2
+    R1*2 %35
+    r8 d fis d d4 r8 g
+    g g es8. d16 d4 r
+    R1*17 %54
+    r2 r4 cis %55
+    a8. a16 a4 r8 dis dis4
+    r r8 c h8. e16 e8. dis16
+    dis4 r8 dis e e, g h
+    e4 r8 cis d d, fis a
+    d4 r8 g e4 r8 a, %60
+    a d cis8. d16 d4 r
+    R1*11 %72
+    r8^\markup \remark "Die römiſchen Soldaten" e e8. cis16 a4 r8 a
+    e' e e8. f!16 d4 r8 a
+    f' f f d b4 r8 g %75
+    cis cis e8. d16 d4 r
+    \tempoWerDuAuchD R1*19 %95
+    R1\fermata \bar "|." %96 finis
+  }
+}
+
+WerDuAuchTenoreBLyrics = \lyricmode {
+  Ja! %24
+  Heil! Mes -- ſi -- as! Gott! Un -- %25
+  ſchul -- dig biſt du, Herr! Du,
+  dei -- ner Fein -- de Spott!
+
+  Herr! nun rä -- chet dich der %32
+  Him -- mel!
+
+  Man töd -- te ſie! die %36
+  Schuld -- gen die -- ſer That!
+
+  O %55
+  Fin -- ſter -- niß! o Nacht!
+  iſt kei -- ne Ret -- tung
+  da? Ver -- flucht ſey Ka -- i --
+  phas! ver -- flucht ſey Ka -- i --
+  phas! ver -- flucht! ver -- %60
+  flucht ſey Gol -- ga -- tha!
+
+  Helft, Göt -- ter! helft! Ver -- %73
+  damm -- te Zau -- ber -- nacht! Hier
+  wird man oh -- ne Feind im %75
+  Fin -- ſtern um -- ge -- bracht. %76 finis
+}

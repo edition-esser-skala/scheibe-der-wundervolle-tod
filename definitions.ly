@@ -14,9 +14,14 @@ extendLV = #(define-music-function
     \once \override LaissezVibrerTie.details.note-head-gap = #(/ further -2)
     \once \override LaissezVibrerTie.extra-offset = #(cons (/ further 2) 0)
   #})
+fC = \set Staff.forceClef = ##t
 
 
 tempoWoSindWir = \tempoMarkup "Adagio e pomposo"
+tempoWerDuAuch = \tempoMarkup "Recitativo"
+  tempoWerDuAuchB = \tempoMarkup "Accompagnato"
+  tempoWerDuAuchC = \tempoMarkup "[Recitativo]"
+  tempoWerDuAuchD = \tempoMarkup "Accompagnato"
 
 
 \include "notes/fl1.ly"
@@ -33,7 +38,7 @@ tempoWoSindWir = \tempoMarkup "Adagio e pomposo"
 \include "notes/vl2.ly"
 \include "notes/vla1.ly"
 \include "notes/vla2.ly"
-% \include "notes/soli.ly"
+\include "notes/soli.ly"
 \include "notes/S1.ly"
 \include "notes/A1.ly"
 \include "notes/T1.ly"

@@ -187,3 +187,205 @@ WoSindWirBassFigures = \figuremode {
   <7 5 [_+]> <5 4>4 <\t _+>
   r2 r8. <6!>16 r4 %89 finis
 }
+
+WerDuAuchFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoWerDuAuch
+    dis1~\ppE
+    dis2 d
+    c1~
+    c2 h~
+    h1 %5
+    e4 r d!2~
+    d gis,
+    a dis
+    r4 e cis2~
+    cis1 %10
+    d2 b~
+    b a4 r
+    g'2 fis~
+    fis1~
+    fis2 e~ %15
+    e1~
+    e~
+    e
+    es~
+    es2 fis, %20
+    cis'1~
+    cis~
+    cis2 gis
+    r4 a \tempoWerDuAuchB d2~\p
+    d g, %25
+    c es
+    b4 es r f\f
+    b,1~\pp
+    b2 c4 r
+    es r a,!2~ %30
+    a~ a4 r
+    b r b\fE r
+    r c \tempoWerDuAuchC f, r
+    d'!1~\ppE
+    d2 c4 r %35
+    d\pE r g, r
+    c r r d
+    es1\ppE
+    d~
+    d2 g, %40
+    h!1~
+    h2 c4 r
+    e! r cis r
+    dis1~
+    dis2 e4 r %45
+    h r c! r
+    r d gis,2~
+    gis1
+    a
+    g!\pE %50
+    a4 r c r
+    R1
+    f!2 es~
+    es r4 d
+    b2 a %55
+    c! h~
+    h e4 c!
+    h r g r
+    g r fis r
+    g r g' r %60
+    fis g r a
+    dis,1~\ppE
+    dis2 e~
+    e cis4 r
+    d2 b~ %65
+    b a4 r
+    cis1
+    c
+    h
+    g4 c! h r %70
+    gis1
+    c4 f r8. e16 e8. d16
+    cis1~\pE
+    cis2 d~
+    d g,~ %75
+    g r4 a
+    \tempoWerDuAuchD \mvTrr b8(\ppE-\markup \remark "con sordino" b) b( b) b2~
+    b es
+    e1
+    f8 f f f h,!2~ %80
+    h r
+    r8 c16( c) c4 as2
+    g1~
+    g4 r r8 c16( c) c4
+    f,2 r4 g\pocoF %85
+    e'!8 e f f b,2\ppE
+    b1
+    as2 \once \tieDashed a~
+    a as~
+    as g %90
+    as4 b r c\pocoF
+    f, r8 f'16\ppE f fis2~
+    fis f
+    e! d
+    g! eis4 r %95
+    r fis\fE h,2\fermata \bar "|." %96 finis
+  }
+}
+
+WerDuAuchBassFigures = \figuremode {
+  <7 5 [_+]>1
+  r2 <4+ 2>
+  <6>1
+  r2 <5+ _+>
+  r1 %5
+  r2 <4+ 2>
+  r <6 5>
+  <_!> <7 5 [_+]>
+  r4 <_+> <7- 5!>2
+  r <6> %10
+  <_!> <7>
+  <6\\> <_+>
+  <4+ 2> <6>
+  <6\\> <6\\ 5!>
+  r <5 _!> %15
+  <6\\> <6\\ 5->
+  <7- 5->1
+  r2 <6 5->
+  <4 2>1
+  <4 2+>2 <6>4 <5> %20
+  <7- 5>1
+  r2 <6>
+  <6 5> <7 5>
+  r4 <8 _+> <_!>2
+  r <7! _-> %25
+  <7- 5> <4 2>
+  <_->4 <4 2>2.
+  <_->1
+  <6 _->2 <6- [_-]>
+  <6 4! _-> <7- 5-> %30
+  <\t \t>1
+  <5 _->2 <6 4! 2>
+  r4 <_!> <_->2
+  <6! 5- 3>1
+  <6! 5->2 <_-> %35
+  <_+> <_->
+  <_->4 <6 4+ _->2 <_+>4
+  <6\\>1
+  <_+>
+  <7! _+>2 <_-> %40
+  <6 5!>1
+  r2 <_->
+  <6> q
+  <6 5!>1
+  r %45
+  <6>4 <5!>2.
+  r4 <_+> <6 5>2
+  r1
+  <5>4 <6\\> <6\\ 4+ 2>2
+  <6>1 %50
+  r2 <4+ 2>
+  r1
+  <6 4! 2>2 <6>
+  <6\\>2. <_+>4
+  <6\\>2 <[8] _+>4 <7! \t> %55
+  <6 4+ 2>2 <7 5+ _+>
+  r2. <6\\>4
+  <5+ _+>2 <6>
+  <4+ 2> <6!>
+  r <4+ 2> %60
+  <[6]>4 <4+ 2>2 <_+>4
+  <6 [_+]>1
+  r
+  <6!>2 <6>
+  <_!> <6> %65
+  <6\\> <_+>
+  <6>1
+  <4+ 2>
+  <7! 5+ _+>
+  <6>4 <6\\> <[5+] _+>2 %70
+  <7! 5!>2 <6 \t>
+  <6>4 q r8. <_+>16 r4
+  <6>1
+  <6 5!>2 <_!>
+  r2 <_-> %75
+  <4+ _->2. <_+>4
+  r2 <7->
+  r <5->
+  <7- 5->1
+  <_->2 <7- 5 _!> %80
+  r1
+  r8 <_->4. <7 5- 3>4 <6\\ \t \t>
+  <5 _!>1
+  <7!>2 r8 <_->4.
+  <[_-]>2. <5 _!>4 %85
+  <6 5->4 <5 _-> q2
+  <6 _-> <6 4! _->
+  <6> <6 5->
+  <7- 5-> <4! 2!>
+  r <6! 5- _-> %90
+  <6>4 <_->2 <_!>4
+  <_->4. <7- 5 _!>8 <\t \t \t>2
+  r <6 4! 2>
+  <6\\> <7! _+>
+  r <7 5 [_+]> %95
+  r4 <5+ _+> <5+ _!>2 %96 finis
+}
