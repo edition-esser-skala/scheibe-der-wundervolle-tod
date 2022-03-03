@@ -133,9 +133,108 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Accompagnato" "Wer du auch ſeyſt"
+  %   \addTocLabel "werduauch"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WerDuAuchViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WerDuAuchViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WerDuAuchViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #8 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "SopranoA" { \dynamicUp \WerDuAuchSopranoA }
+  %         }
+  %         \new Lyrics \lyricsto SopranoA \WerDuAuchSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "AltoA" { \dynamicUp \WerDuAuchAltoA }
+  %         }
+  %         \new Lyrics \lyricsto AltoA \WerDuAuchAltoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "TenoreA" { \dynamicUp \WerDuAuchTenoreA }
+  %         }
+  %         \new Lyrics \lyricsto TenoreA \WerDuAuchTenoreALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "BassoA" { \dynamicUp \WerDuAuchBassoA }
+  %         }
+  %         \new Lyrics \lyricsto BassoA \WerDuAuchBassoALyrics
+  %       >>
+  %       \new ChoirStaff <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #8 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "SopranoB" { \dynamicUp \WerDuAuchSopranoB }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \WerDuAuchSopranoBLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "AltoB" { \dynamicUp \WerDuAuchAltoB }
+  %         }
+  %         \new Lyrics \lyricsto AltoB \WerDuAuchAltoBLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "TenoreB" { \dynamicUp \WerDuAuchTenoreB }
+  %         }
+  %         \new Lyrics \lyricsto TenoreB \WerDuAuchTenoreBLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "BassoB" { \dynamicUp \WerDuAuchBassoB }
+  %         }
+  %         \new Lyrics \lyricsto BassoB \WerDuAuchBassoBLyrics
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \WerDuAuchSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WerDuAuchSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WerDuAuchFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \WerDuAuchBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Accompagnato" "Wer du auch ſeyſt"
-    \addTocLabel "werduauch"
+    \section "3" "Aria" "O! tödtet mich nur auch, vermeßne Schaaren!"
+    \addTocLabel "otoedtet"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -143,88 +242,37 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WerDuAuchViolinoI
+              \OToedtetViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WerDuAuchViolinoII
+              \OToedtetViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WerDuAuchViola
+            \OToedtetViola
           }
         >>
         \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #8 }
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "SopranoA" { \dynamicUp \WerDuAuchSopranoA }
+            \set Staff.instrumentName = \markup \center-column { "Maria" "Jesus" }
+            \new Voice = "Soli" { \dynamicUp \OToedtetSoli }
           }
-          \new Lyrics \lyricsto SopranoA \WerDuAuchSopranoALyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "AltoA" { \dynamicUp \WerDuAuchAltoA }
-          }
-          \new Lyrics \lyricsto AltoA \WerDuAuchAltoALyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "TenoreA" { \dynamicUp \WerDuAuchTenoreA }
-          }
-          \new Lyrics \lyricsto TenoreA \WerDuAuchTenoreALyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "BassoA" { \dynamicUp \WerDuAuchBassoA }
-          }
-          \new Lyrics \lyricsto BassoA \WerDuAuchBassoALyrics
-        >>
-        \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #8 }
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "SopranoB" { \dynamicUp \WerDuAuchSopranoB }
-          }
-          \new Lyrics \lyricsto SopranoB \WerDuAuchSopranoBLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "AltoB" { \dynamicUp \WerDuAuchAltoB }
-          }
-          \new Lyrics \lyricsto AltoB \WerDuAuchAltoBLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "TenoreB" { \dynamicUp \WerDuAuchTenoreB }
-          }
-          \new Lyrics \lyricsto TenoreB \WerDuAuchTenoreBLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "BassoB" { \dynamicUp \WerDuAuchBassoB }
-          }
-          \new Lyrics \lyricsto BassoB \WerDuAuchBassoBLyrics
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \WerDuAuchSoli }
-          }
-          \new Lyrics \lyricsto Soli \WerDuAuchSoliLyrics
+          \new Lyrics \lyricsto Soli \OToedtetSoliLyricsA
+          \new Lyrics \lyricsto Soli \OToedtetSoliLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
-            % \transpose c c,
-            \WerDuAuchFondamento
+            \transpose c c,
+            \OToedtetFondamento
           }
         >>
-        \new FiguredBass { \WerDuAuchBassFigures }
+        \new FiguredBass { \OToedtetBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

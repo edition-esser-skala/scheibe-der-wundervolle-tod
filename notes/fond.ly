@@ -389,3 +389,173 @@ WerDuAuchBassFigures = \figuremode {
   r <7 5 [_+]> %95
   r4 <5+ _+> <5+ _!>2 %96 finis
 }
+
+OToedtetFondamento = {
+  \relative c {
+    \clef bass
+    \key e \major \time 2/2 \tempoOToedtet
+    \partial 8 r8 \mvTr e4\fE-\soloE e, r8. e'16 a8. ais16
+    h8. h,16 h'8. cis16 dis8. h16 fis8. dis16
+    h4 h' r8. h,16 h8. h16
+    e8. e,16 e'8. fis16 gis4 e
+    a8. a,16 a'8. cis16 ais4 fis\p %5
+    h8. h,16 h'8. cis16\f h8. a16 gis8. fis16
+    e4 fis gis r8 gis,
+    a4 h e r8. gis,16\p
+    a4 h e r8 e\f
+    a4 cis8. a16 h4 h, %10
+    \mvTr e4\p-\tasto d c h
+    ais ais h h
+    e8. h'16[\f cis8. a16] h4 h, \noBreak
+    e,2 r \bar "S-S"
+    e'4\pp e, r8. e'16 a8. ais16 \noBreak %15
+    h8. h,16 h'8. cis16 dis8. h16 fis8. dis16
+    h4 h' r8. h,16 h8. h16
+    e8. e,16 e'8. fis16 gis4 e
+    a8. a,16 a'8. cis16 ais4 fis
+    h8.[ h,16 h'8.] \mvTrr cis16\mf-\unisono h8. a16 gis8. fis16 %20
+    e2 r8. cis16\pp dis8. h16
+    e4 e, r8. dis'16 eis8. cis16
+    fis4 fis, r \tempoOToedtetB r
+    r2 r8 \mvTrr g'(\pp-\tasto fis e
+    d cis h4) r \tempoOToedtetC r %25
+    h' a! g fis
+    eis eis fis fis
+    h,8. fis'16[ gis!8. e16] fis4 fis,
+    h r r r8 dis\f
+    e4 fis h, r8. dis16\p %30
+    e4 fis h, r
+    \mvTr h'\f-\tasto a! g fis
+    eis eis fis fis
+    h,8. fis'16 gis!8. e16 fis4 fis,
+    h2 r %35
+    h4\pp h r8. h16 h8. h16
+    e8. e,16 e'8. fis16 gis8. e16 h8. gis16
+    e4 e' r8. e16 a8. ais16
+    h8. h,16 h8. cis16 dis4 h
+    e8. e,16 e'8. gis16 eis4 cis %40
+    fis4. r16 \mvTrr d'\mf-\tasto cis8. h16 a8. gis16
+    fis4 r8. cis'16 h8. a16 gis8. fis16
+    e2 r8. e16\p e8. e16
+    e4 e, r8. e'16 e8. e16
+    e4 e, r r8 e'16\f-! fis-! %45
+    gis8. e16 h8. gis16 e4 \tempoOToedtetD r
+    r2 r8 \mvTrr c''(\pp-\tasto h a
+    g fis e4) r \tempoOToedtetE r
+    e\mf d c h
+    ais ais h h %50
+    e8. h'16[ cis!8. a16] h4 h,
+    e, r \markFineE r\fermata \tempoOToedtetF r
+    R1
+    h''8\pp h h h e, e dis cis
+    h4 r a'! r16. gis32 a16. e32 %55
+    a8 d, e e, a4 r
+    fis'8 fis fis fis h, h h h
+    e d cis a e' e e e
+    a, a dis e h h' r a
+    gis a h h, e4 r8 dis %60
+    e a h h, e4 r
+    r8 e\f e e a, a a ais
+    h4 r8 a gis a h h
+    e4 r8 dis e a h h,
+    e4\fermata r8. d16\pp cis4 r16. cis32 h16. a32 %65
+    e'8 e e e a, a' r a
+    d, h h h cis cis cis cis
+    fis, fis' r16. fis,32 ais16. fis32 h8 e! fis fis,
+    h4 r d2
+    cis4 r8. cis16 e!4\fermata r8. d16 %70
+    d4\fermata r8. cis16 d4 h
+    e fis d e
+    a,2 r4 a
+    fis'1
+    e2 r8. e16 gis8. e16 %75
+    a2 r
+    ais,1\pp\cresc
+    h2-\tasto r4\fermata \tempoOToedtetG r8. gis16\f
+    a4 h e, r8. gis16
+    a4 h e, r \bar "S-S" %80 finis
+  }
+}
+
+OToedtetBassFigures = \figuremode {
+  r8 r2. <6>8. <7 5>16
+  <6 4>4 <5 3> <6> <6 4>
+  r <7> r8. <5 3>16 <6 4>8. <7 5 3>16
+  <9 4>4 <8 3> <6> <7!>
+  <5 4!>4 <\t 3> <6> <7 _+> %5
+  \bo <[5 4]> \bc <[\t _+]>2.
+  <5 3>4 <6\\> <6>4. q8
+  r4 <7 5>2 r8. <6>16
+  r4 <7>2.
+  r4 <6> <6 4> <5 3> %10
+  r1
+  r
+  r8. <5 _+>16 <5>8. <5 _+>16 <6 4>4 <5 _+>
+  r1
+  r2. <6>8. <7 5>16 %15
+  <6 4>4 <5 3> <6> <6 4>
+  r <7 3>2 <6 4>8. <7 5 3>16
+  <9 4>4 <8 3> <6> <7!>
+  <9 4!> <8 3> <6> <7 _+>
+  <9 4> <8 _+>2. %20
+  r2 r8. <[6]>16 <6 5>8. <7>16
+  <9 4>4 <8 3> r8. <6>16 <6 5>8. <7 _+>16
+  <9 4>4 <8 _+>2.
+  r1
+  r %25
+  r
+  r
+  r8. <5 _+>16 <5>8. q16 <6 4>4 <5 _+>
+  r2.. <6>8
+  r4 <7 _+>2 r8. <6>16 %30
+  r4 <7 _+>2.
+  r1
+  r
+  r8. <5 _+>16 <5+>4 <6 4>4 <5 _+>
+  r1 %35
+  r2. \bo <[6 4]>8. \bc <[7! 5]>16
+  <9 4>4 <8 3> <6> <6 4>
+  r2. <6>8. <7 5>16
+  <6 4>4 <5 3> <6> <8>8. <7!>16
+  <9 4>4 <8 3> <6> <8 _+>8. <7 \t>16 %40
+  <9 4>4 <8 3>2.
+  r1
+  r2 r8. <5 3>16 <6 4>8. <7! 5>16
+  <6 4>4 <5 3> r8. q16 <6 4>8. <7! 5>16
+  <6 4>4 <5 3>2. %45
+  r1
+  r
+  r
+  r
+  r %50
+  r8. <5 _+>16 <5>8. <3>16 <6 4>4 <5 3>
+  r1
+  r
+  r4. <7>8 <9 4> <8 3> <6> <7>16 <6\\>
+  r2. r16. <[6 5!]>32 r8 %55
+  r <6 5> <5 4> <\t 3> r2
+  <4>8 <_+> <7 _+>4 <_!>2
+  r8 <4 2> <6>4 <5 4>8 <\t 3>4 <7!>8
+  <9 4!>16 <8 3> <5> <6> <6 5>4 <6 4>8 <5 3>4 <4 2>8
+  <6>4 <6 4>8 <5 3>2 <6 5>8 %60
+  r4 <6 4>8 <7 5 3> r2
+  r4. <7!> <6 5>8 <\t \t>
+  <9 4> <8 _+>4 <4 2>8 <6>4 <6 4>8 <5 3>
+  r4. <6 5> <6 4>8 <5 3>
+  r4.. <4 2>16 <6>4 r16. q32 <6 _!>16. <5>32 %65
+  <6 4>8 <7! 5 3> <5 4> <\t 3> r2
+  r8 <_!>4 <6 5 _!>8 <5 4> <\t _+>16. <9! 7 5 _+>32 <\t \t \t \t>8 <8 6 4>16. <[7] 5 _+>32
+  r4. <6>16. <7! [_+]>32 <_!>8 <6 5 _!> <5 4> <\t _+>
+  <[_!]>2 <6\\>
+  <_+>4.. q16 <4+ 2>4.. <6>16 %70
+  <4 2>4.. <6>16 r4 <_!>
+  <7! 3> <5> <6 5> \bo <[6 4]>8. \bc <[7! 5]>16
+  <4!>8 <3>2..
+  <7>2 <6\\>
+  r2. \bo <[6]>8. \bc <[7!]>16 %75
+  <9 4!>4 <8 3>2.
+  <6 5>1
+  r2... <6>16
+  r4 <7>2 r8. <6>16
+  r4 <7 3>2. %80 finis
+}

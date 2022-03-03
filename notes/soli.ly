@@ -177,3 +177,147 @@ WerDuAuchSoliLyrics = \lyricmode {
   Aug’ im Tod’ ent -- ſchlum -- mernd %95
   bricht! %96 finis
 }
+
+OToedtetSoli = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 2/2 \autoBeamOff \tempoOToedtet
+    \partial 8 r8 R1*13 \noBreak %13
+    r2 r4 r8 e^\markup \remark "Maria" \bar "S-S"
+    gis8. e16 h'8. gis16 e'8. h16 a8. gis16 \noBreak %15
+    gis4 fis r r8 h,
+    fis'8. dis16 a'8. fis16 cis'8. fis,16 gis8. a16
+    a4 gis r8. h16 e,8. d'16
+    d4( cis) r8. cis16 fis,8. e16
+    e4( dis!8.) cis'16 h8. a!16 gis8. fis16 %20
+    e2 r8. e16 a8. a16
+    a4 gis r8. h16 h8. h16
+    h4 ais r \tempoOToedtetB fis
+    h h h2~
+    h r4 \tempoOToedtetC fis %25
+    d'1~
+    d8 cis4 e dis cis8
+    dis8. ais16 h8. e,16 fis4 cis'
+    h fis8. dis16 h'4 r
+    R1*5 %34
+    r2 r4 r8 h, %35
+    dis8. h16 fis'8. dis16 h'8. fis16 gis8. a!16
+    a4 gis r r8 e
+    gis8. e16 h'8. gis16 e'8. h16 a8. gis16
+    gis4 fis r8. fis16 h8. a16
+    a4( gis) r8. gis16 cis8. h16 %40
+    h4( a!8.) d16 cis8. h16 a8. gis16
+    fis4. r16 cis' h8. a16 gis8. fis16
+    e2 r8. h'16 cis8. d16
+    cis4 h r8. h16 cis8. d16
+    cis4 h e4. e,8 %45
+    e2 r4 \tempoOToedtetD h'
+    e, e e2~
+    e4 r r \tempoOToedtetE h'
+    g1~
+    g8 c4 h a gis16([ fis]) %50
+    gis8. dis'!16 e8. a,16 gis4 fis
+    e h'8. gis16 \markFineE e'4\fermata \tempoOToedtetF \clef "treble_8" h,^\markup \remark "Jeſus (ſimple ohne Manieren)"
+    h4.( e8) e4 r
+    \clef treble fis4^\markup \remark "Maria" r16. h32 fis16. a32 a8 gis h8. e,16
+    fis4 r cis' r16. d32 cis16. h32 %55
+    cis8 h32([ a16.)] a8([ gis16.)] a32 a4 r8 cis
+    \appoggiatura h ais4 r8 fis d'4 r8 fis,
+    gis fis32([ e16.)] a8 cis \tuplet 3/2 8 { h16([ e, fis] gis[ a h)] } h4~
+    h16([ cis)] cis([ a)] a8 gis gis([ fis16)] fis h4~
+    h16[ e] cis([ a)] gis8([ a16)] fis e8 \tuplet 3/2 8 { gis16([ fis e)] } h'4~ %60
+    h16([ e)] cis([ a)] gis8([ a16)] fis e8 h'~ \tuplet 3/2 8 { h16[ a gis] a([ gis fis)] }
+    e4 r r2
+    R1*2
+    r4\fermata r8. e16 a4 r16. a32 h16. cis32 %65
+    cis8([ d16.)] h32 a8([ gis16.)] d'32 cis16.([ d32)] e8 r e,
+    fis d' cis32([ h16.)] a32([ gis16.)] fis8([ eis16.)] d'32 d8([ cis16.)] h32
+    a16.([ h32)] cis8 r16. cis32 fis,16. e'!32 \appoggiatura e16 d8 cis32([ h16.)] h8([ ais16.)] h32
+    h8 d h gis! fis fis fis8. eis16
+    gis4 r8. cis16 ais4\fermata r8. h16 %70
+    e4\fermata r8. e,16 fis4. d'8
+    d4 cis h( cis8.) d16
+    d4( cis) r8. cis16 e8. cis16
+    a4. a8 a4. h8
+    gis8.([ a16]) h4 r8. h16 e,8. d'16 %75
+    d4( cis) r8. cis16^\markup \remark "legato" cis4~
+    cis4. ais?8 fis4. e8
+    r8 e4( dis!8) r4\fermata \tempoOToedtetG r
+    R1
+    r2 r4 r8 e \bar "S-S" %80 finis
+  }
+}
+
+OToedtetSoliLyricsA = \lyricmode {
+  O! %14
+  töd -- tet mich nur auch, ver -- meß -- ne %15
+  Schaa -- ren! O!
+  töd -- tet mich nur auch, ver -- meß -- ne
+  Schaa -- ren! Mein Sohn iſt
+  todt, __ mein Sohn iſt
+  todt: __ ſo töd -- tet nun auch %20
+  mich. Ver -- meß -- ne
+  Schaa -- ren! Ver -- meß -- ne
+  Schaa -- ren! Mein
+  Sohn iſt todt: __
+  ſo %25
+  töd --
+  _ _ _ tet
+  mich, ſo töd -- tet nun auch
+  mich! töd -- tet mich!
+
+  O! %35
+  töd -- tet mich nur auch, ver -- meß -- ne
+  Schaa -- ren! O!
+  töd -- tet mich nur auch, ver -- meß -- ne
+  Schaa -- ren! Mein Sohn iſt
+  todt! __ Mein Sohn iſt %40
+  todt! __ ſo töd -- tet nun auch
+  mich! ſo töd -- tet nun auch
+  mich! Ver -- meß -- ne
+  Schaa -- ren! ver -- meß -- ne
+  Schaa -- ren! töd -- tet %45
+  mich! Mein
+  Sohn iſt todt: __
+  ſo
+  töd --
+  _ _ _ tet %50
+  mich! ſo töd -- tet nun auch
+  mich! töd -- tet mich! Ma --
+  ri -- a!
+  Herr! ſo rufſt du war -- nend mir noch
+  zu? Herr! ſo rufſt du %55
+  war -- nend mir noch zu? Du
+  lebſt, mein Heil! du
+  lebſt, mein Heil, und ſeg -- _
+  neſt mei -- ne Ruh! du ſeg --
+  neſt mei -- ne Ruh! du __ ſeg -- %60
+  neſt mei -- ne Ruh! mei -- ne __
+  Ruh!
+
+  Doch ach! was ſoll mir %65
+  die -- ſes Le -- ben nü -- tzen? Wer
+  wird mich nun im hö -- hern Al -- ter
+  ſtü -- tzen? Was iſt Ma -- ri -- a oh -- ne
+  dich? Was iſt Ma -- ri -- a oh -- ne
+  dich? Ach Gott! ach %70
+  Gott! was muß die
+  Mut -- ter dei -- nes
+  Sohns, __ die Mut -- ter
+  dei -- nes Sohns er --
+  fah -- ren? Mein Schmerz er -- %75
+  wacht, __ der Troſt __
+  ver -- lie -- ret
+  ſich. __
+
+  Drum %80 finis
+}
+
+OToedtetSoliLyricsB = \lyricmode {
+  \repeat unfold 11 { \skip 1 }
+  Drum %16
+  \repeat unfold 54 { \skip 1 }
+  Drum %35
+  \repeat unfold 10 { \skip 1 }
+  Drum %37
+}

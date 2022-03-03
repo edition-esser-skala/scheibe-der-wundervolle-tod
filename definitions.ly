@@ -16,12 +16,24 @@ extendLV = #(define-music-function
   #})
 fC = \set Staff.forceClef = ##t
 
+markFineE = {
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \mark \markup { \remarkE "fine" }
+}
+
 
 tempoWoSindWir = \tempoMarkup "Adagio e pomposo"
 tempoWerDuAuch = \tempoMarkup "Recitativo"
   tempoWerDuAuchB = \tempoMarkup "Accompagnato"
   tempoWerDuAuchC = \tempoMarkup "[Recitativo]"
   tempoWerDuAuchD = \tempoMarkup "Accompagnato"
+tempoOToedtet = \tempoMarkup "Poco allegro e pesante"
+  tempoOToedtetB = \tempoMarkup "Adagio"
+  tempoOToedtetC = \tempoMarkup "Poco allegro"
+  tempoOToedtetD = \tempoMarkup "Adagio"
+  tempoOToedtetE = \tempoMarkup "Poco allegro"
+  tempoOToedtetF = \tempoMarkup "Adagio"
+  tempoOToedtetG = \tempoMarkup "Poco allegro"
 
 
 \include "notes/fl1.ly"

@@ -134,3 +134,90 @@ WerDuAuchViolinoII = {
     r fis\f fis2\fermata \bar "|." %96 finis
   }
 }
+
+OToedtetViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 2/2 \tempoOToedtet
+    \partial 8 e8\fE gis8. e16 h'8. gis16 e'8. gis,16 fis8. e16
+    e4\prall dis r r8 h
+    dis8. h16 fis'8. dis16 a'8. dis,16 e8. fis16
+    fis4\prall e r8. e'16 e,8. d'16
+    d4( cis) r8. fis16\p fis,8. e'16 %5
+    e4( dis8.) cis16\f h8. a16 gis8. fis16
+    gis[ e fis gis] a[ h cis dis] e4 r8 gis,,
+    a8. fis'16 fis8.([\prall e32 dis)] e8. gis16 gis8. gis,16\p
+    a8. fis'16 fis8.(\prall e32 dis)] e8. gis'16 gis8. h,16\f
+    cis8. e16 e,8. e16 e4 dis\prall %10
+    e'8\p e4 e e e8~
+    e a4 g fis e16 dis
+    e8. dis16[\f e8. a,16] gis4 fis\prall \noBreak
+    e h e r \bar "S-S"
+    e\pp gis r8. gis16 fis8. e16 \noBreak %15
+    e4 dis r2
+    dis8. h16 fis'8. dis16 a'8. dis,16 e8. fis16
+    fis4 e h' h
+    h( a) cis cis
+    cis( h8.) cis16\mf h8. a!16 gis8. fis16 %20
+    gis[ e\f fis gis] a h cis dis e8. e,16[\pp fis8. fis16]
+    fis8. h,16 e8. gis16 fis8. fis16 gis8. gis16
+    gis8. cis,16 fis4 r \tempoOToedtetB r
+    r8 e(\pp d cis) h2~
+    h4 r r \tempoOToedtetC fis' %25
+    h8 h4 h h h8~
+    h ais4 cis h ais8
+    h8. ais16[ h8. e,16] fis4 ais
+    h r r r8 dis,\f
+    e8. cis'16 cis8.([\prall h32 ais)] h8. dis16 dis8. dis,16\p %30
+    e8. cis'16 cis8.([\prall h32 ais)] h8. dis16 dis8. fis,16\fE
+    h8 h4 h h h8~
+    h e4 d cis h16 ais
+    h8. ais16 h8. e,16 dis4 cis\prall
+    h8. h'16 fis8. dis16 h4 r %35
+    h\pp dis r8. dis16 e8. fis16
+    fis4 e r2
+    e4 gis r8. gis16 fis8. e16
+    e4 dis fis fis
+    fis( e) gis gis %40
+    gis( fis8.) d'16\mf cis8. h16 a8. gis16
+    a[ fis a cis] fis8. cis16 h8. a16 gis8. fis16
+    gis[ e\f fis gis] a h cis dis e8. gis,16\p a8. h16
+    a8. fis16 gis8. e16 e'8. gis,16 a8. h16
+    a4 gis e'4. e,16-!\f fis-! %45
+    gis8. e16 h8. gis16 <e' h' gis'>4 \tempoOToedtetD r
+    r8 a(\pp g fis) e2~
+    e4 r r \tempoOToedtetE h'\mf
+    e8 e4 e e e8~
+    e a4 g fis e16 dis %50
+    e8. dis16[ e8. e,16] e4 dis\prall
+    e r \markFineE r\fermata \tempoOToedtetF r
+    R1
+    dis8\pp dis dis fis fis e fis-\critnote e
+    dis4 r a'! r16. h32 a16. gis32 %55
+    a8 a a gis e4 r
+    \tuplet 3/2 8 { r16 fis( eis fis[ gis ais)] ais([ h cis]) cis( h ais) h([ h ais)] h( cis d) } d([ h) fis( d)]
+    e8 e e a a( gis) \tuplet 3/2 8 { gis16([ e fis] gis a h) }
+    h([ a) a( fis)] fis8 e e( dis) r h'
+    h e, e dis! e4 r8 fis %60
+    e e e dis h4 r
+    \tuplet 3/2 8 { r16 e([\f dis] e fis gis) gis([ a h] h a gis) } a8 e e cis
+    cis( h) r \tuplet 3/2 8 { dis16( e fis) } e8 e e dis
+    e4 r8 \tuplet 3/2 8 { fis16( gis a) } gis8 e e dis
+    h4\fermata r8. e16\pp e4 r16. e32 gis16. a32 %65
+    a8( h16.) gis32 e8 h' a16.( h32 cis8) r cis,
+    d fis fis d cis~ cis16. h'32 h8( a16.) gis32
+    fis16.( gis32 a8) r16. ais32 fis16. cis'32 h8 g fis fis
+    fis4 r fis2
+    eis4 r8. gis16 fis4\fermata r8. fis16 %70
+    gis4\fermata r8. e16 d4 fis
+    gis a2 gis4
+    a2 r8. a16 cis8. e,16
+    e2 dis!
+    e r8. gis16 e8. h'16 %75
+    h4( a) r2
+    e1
+    r2 r4\fermata \tempoOToedtetG r8. gis,16\f
+    a8. fis'16 fis8.([\prall e32 dis)] e8. gis16 gis8. gis,16
+    a8. fis'16 fis8.([\prall e32 dis)] e8. gis'16 gis8 r \bar "S-S"
+  }
+}

@@ -134,3 +134,90 @@ WerDuAuchViola = {
     r cis\f d2\fermata \bar "|." %96 finis
   }
 }
+
+OToedtetViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 2/2 \tempoOToedtet
+    \partial 8 r8 h4\fE gis' r8. e16 cis8. cis16
+    h4 h r2
+    h4 dis r8. h16 h8. h16
+    h4 h h gis'
+    e e cis ais'\p %5
+    h fis8. cis'16\f h8. a16 gis8. fis16
+    e4 fis gis r8 gis,
+    a4 h h r8. gis16\p
+    a4 h h r8 e\f
+    e4 cis8. cis16 h4 h %10
+    e\p d c h
+    ais ais h h
+    h8. h'16[\f gis!8. cis,!16] h4 dis \noBreak
+    e,2 r \bar "S-S"
+    h'4\pp e r8. e16 cis8. cis16 %15
+    h4 h r2
+    h4 h r8. h16 h8. h16
+    h4 h e gis
+    e2 fis4 ais
+    fis~ fis8. cis'16\mf h8. a16 gis8. fis16 %20
+    e2 r8. cis16\pp h8. dis16
+    h4 h r8. dis16 cis8. eis16
+    cis4 cis r \tempoOToedtetB r
+    r2 r4 r8 g'(\pp
+    fis e d cis h4) \tempoOToedtetC r %25
+    h' a! g fis
+    eis eis fis fis
+    fis8. fis16 dis!8. e16 fis4 fis
+    dis r r r8 dis\f
+    e4 fis fis r8. dis16\p %30
+    e4 fis fis r
+    h\f a! g fis
+    eis eis fis fis
+    fis8. e16 dis!8. gis,!16 fis4 ais
+    h2 r %35
+    fis4\pp h r8. h16 h8. h16
+    h4 h r2
+    h4 e r8. e16 cis8. cis16
+    h4 h h dis
+    h h cis eis %40
+    cis~ cis8. d16\mf cis8. h16 a8. gis16
+    fis4 r8. cis'16 h8. a16 gis8. fis16
+    e2 r8. e'16\p e8. e16
+    e4 e r8. e16 e8. e16
+    e4 e r r8 e16-!\f fis-! %45
+    gis8. e16 h8. gis16 e4 \tempoOToedtetD r
+    r2 r4 r8 c'(\pp
+    h a g fis e4) \tempoOToedtetE r
+    e'\mf d c h
+    ais ais h h %50
+    h8. a16[ gis!8. cis16] h4 h
+    gis r \markFineE r\fermata \tempoOToedtetF r
+    R1
+    h8\pp h h dis h h h8. ais16
+    h4 r e r16. e32 e16. e32 %55
+    e8 fis e e cis4 r
+    cis8 cis fis fis fis h, h h
+    h h a e' e e e e
+    e e h h h4 r8 fis'
+    h, cis h h gis4 r8 h %60
+    h a h h gis4 r
+    r8 h\f e e e a, fis fis
+    fis4 r8 h h a h h
+    gis4 r8 h h a h h
+    gis4\fermata r8. e'16\pp e4 r16. e32 d16. e32 %65
+    e8 e h e e a r a,
+    a h h h gis gis eis' eis
+    cis fis r16. fis32 cis16. fis32 fis8 e cis cis
+    d4 r d2
+    gis,4 r8. eis'16 cis4\fermata r8. h16 %70
+    h4\fermata r8. a16 a4 h
+    h a fis' e
+    e2 r4 a,
+    cis2 fis,
+    h r8. e16 h8. gis'16 %75
+    e2 r
+    cis1
+    r2 r4\fermata \tempoOToedtetG r8. gis16\f
+    a4 h h r8. gis16
+    a4 h h r \bar "S-S" %80 finis
+  }
+}
