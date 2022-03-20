@@ -221,3 +221,66 @@ OToedtetViolinoII = {
     a8. fis'16 fis8.([\prall e32 dis)] e8. gis'16 gis8 r \bar "S-S"
   }
 }
+
+AchHeilandViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoAchHeiland
+    \mvTrr cis'1~\pp-\markup \remark "con sordino"
+    cis2 h
+    g!1~
+    g4 r f2~
+    f1~ %5
+    f4 r f2
+    es f4 r
+    r2 r8 a16( a) a4~
+    a2 b
+    as g4 r %10
+    d'1~
+    d
+    c4 r e,!2~
+    e1
+    f4 r des r %15
+    r r8 g!16(\pocoF g) f([ f) f( f)] f( f) f( f)
+    fis1~\pp
+    fis
+    d
+    f!2. r4 %20
+    r8 es16([ es)] es( es) es( es) r8 e16([ e)] e( e) e( e)
+    r8 d16([ d)] d( d) d( d) r8 cis16([ cis)] cis( cis) cis( cis)
+    r8 c16([ c)] c( c) c( c) c4 r
+    r8 des16([ des)] des8 r r2
+    r8 des16([ des)] des8 r r c16([ c)] c8 r %25
+    \tempoAchHeilandB R1*14 %39
+    r2 \tempoAchHeilandC r8 fis16([\pp fis)] fis( fis) fis( fis) %40
+    fis4 r r2
+    eis4 r r8 gis,16([ gis)] gis( gis) gis( gis)
+    gis4 r r2
+    fis'4 r e!2~
+    e1 %45
+    dis2 r8 dis16([ dis)] dis( dis) dis( dis)
+    cis4 r16 gis'-!\f cis-! gis-! eis'[-! cis-! gis'-! eis]-! cis8 r
+    r2-\markup \remark "senza sordino" r16 eis-!\pocoF cis-! gis-! eis[-! eis-! fis-! gis]-!
+    fis4 r r16 fis-! ais-! cis-! e![-! e-! dis-! cis]-!
+    cis4 r r16 h h cis dis[ dis e fis] %50
+    e4 r r2
+    r8 gis,16[ gis] gis8 r a\p r fis r
+    r16 h-!\f gis-! e-! dis[ dis e fis] e32([ h16.) gis'32( e16.)] h'32( gis16.) e'32( h16.)
+    gis'4 r r2
+    r e4\p r %55
+    r2 \slurDashed fis,32(\f d16.) a'32( fis16.) d'32([ a16.) fis'32( d16.)] \slurSolid
+    d1~\p
+    d2 cis
+    cis4 r e! r16 cis\f cis cis
+    <d fis, a,>4 r d2~\p %60
+    d e~
+    e d
+    r4 h\f cis2~
+    cis1\p
+    r16 fis\pocoF d a fis[ fis g a] g4 r %65
+    g\pp r fis2
+    r4 a\f h r
+    \tempoAchHeilandD R1*51 %118
+    R1\fermata \bar "||" %119 finis
+  }
+}

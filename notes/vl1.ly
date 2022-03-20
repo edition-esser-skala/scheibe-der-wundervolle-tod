@@ -221,3 +221,66 @@ OToedtetViolinoI = {
     a8. a'16 a8.([\prall gis32 fis)] gis8. h'16 h8. e,,16\ppE \bar "S-S" %80 finis
   }
 }
+
+AchHeilandViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoAchHeiland
+    \mvTrr e'1~\pp-\markup \remark "con sordino"
+    e2 d~
+    d1
+    r8 g16( e) c8[ b] a2~
+    a c %5
+    r8 f16([ d)] b8 b b2~
+    b a!4 r
+    r2 r8 c16( c) c4~
+    c2 b~
+    b r8 b16([ es] g8) g %10
+    g1
+    f
+    es4 r g,2~
+    g1
+    f4 r ges r %15
+    r r8 b16(\pocoF b) a!([ a) a( a)] a( a) a( a)
+    a1~\pp
+    a
+    as~
+    as2. r4 %20
+    r8 a16([ a)] a( a) a( a) r8 g16([ g)] g( g) g( g)
+    r8 g16([ g)] g( g) g( g) r8 g16([ g)] g( g) g( g)
+    r8 g16([ g)] g( g) g( g) f4 r
+    r8 f16([ f)] f8 r r2
+    r8 f16([ f)] f8 r r e!16([ e)] e8 r %25
+    \tempoAchHeilandB R1*14 %39
+    r2 \tempoAchHeilandC r8 a16([\pp a)] a( a) a( a) %40
+    a4 r r2
+    gis4 r r8 h,16([ h)] h( h) h( h)
+    h4 r r2
+    a'!4 r fis2~
+    fis1~ %45
+    fis2 r8 fis16([ fis)] fis( fis) fis( fis)
+    eis4 r16 gis-!\f cis-! gis-! eis'[-! cis-! gis'-! eis]-! cis8 r
+    r2-\markup \remark "senza sordino" r16 gis'-!\pocoF eis-! cis-! gis[-! gis-! ais-! h!]-!
+    ais4 r r16 ais-! cis-! e!-! gis[ gis fis e]
+    e4 r r16 dis dis e fis[ fis gis a!] %50
+    gis4 r r2
+    r8 h,16[ h] h8 r cis\p r dis r
+    r16 e-!\f h-! gis-! fis[ fis gis a] gis32( e16.) h'32( gis16.) e'32([ h16.) gis'32( e16.)]
+    h'4 r r2
+    r a4\p r %55
+    r2 \slurDashed fis,32(\f d16.) a'32( fis16.) d'32([ a16.) fis'32( d16.)] \slurSolid
+    h'1~\p
+    h
+    a4 r a r16 e\f e e
+    <fis a, d,>4 r fis2~\p %60
+    fis gis~
+    gis4 a d,2
+    r4 gis\f\prall a2
+    e1\p
+    r16 a\pocoF fis d a[ a h c!] h4 r %65
+    e\pp r a,2
+    r4 fis'-!\f g-! r
+    \tempoAchHeilandD R1*51 %118
+    R1\fermata \bar "||" %119 finis
+  }
+}

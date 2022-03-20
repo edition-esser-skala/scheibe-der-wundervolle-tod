@@ -227,9 +227,57 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Aria" "O! tödtet mich nur auch, vermeßne Schaaren!"
+  %   \addTocLabel "otoedtet"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OToedtetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OToedtetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OToedtetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Maria" "Jesus" }
+  %           \new Voice = "Soli" { \dynamicUp \OToedtetSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \OToedtetSoliLyricsA
+  %         \new Lyrics \lyricsto Soli \OToedtetSoliLyricsB
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OToedtetFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \OToedtetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Aria" "O! tödtet mich nur auch, vermeßne Schaaren!"
-    \addTocLabel "otoedtet"
+    \section "4" "Accompagnato" "Ach! Heiland! Sohn! ach tröſte mich!"
+    \addTocLabel "achheiland"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -242,37 +290,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OToedtetViolinoI
+              \AchHeilandViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OToedtetViolinoII
+              \AchHeilandViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OToedtetViola
+            \AchHeilandViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Maria" "Jesus" }
-            \new Voice = "Soli" { \dynamicUp \OToedtetSoli }
+            \set Staff.instrumentName = "soli"
+            \new Voice = "Soli" { \dynamicUp \AchHeilandSoli }
           }
-          \new Lyrics \lyricsto Soli \OToedtetSoliLyricsA
-          \new Lyrics \lyricsto Soli \OToedtetSoliLyricsB
+          \new Lyrics \lyricsto Soli \AchHeilandSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
-            \transpose c c,
-            \OToedtetFondamento
+            % \transpose c c,
+            \AchHeilandFondamento
           }
         >>
-        \new FiguredBass { \OToedtetBassFigures }
+        \new FiguredBass { \AchHeilandBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

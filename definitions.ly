@@ -34,6 +34,10 @@ tempoOToedtet = \tempoMarkup "Poco allegro e pesante"
   tempoOToedtetE = \tempoMarkup "Poco allegro"
   tempoOToedtetF = \tempoMarkup "Adagio"
   tempoOToedtetG = \tempoMarkup "Poco allegro"
+tempoAchHeiland = \tempoMarkup "Accompagnato"
+  tempoAchHeilandB = \tempoMarkup "[Recitativo]"
+  tempoAchHeilandC = \tempoMarkup "Accompagnato"
+  tempoAchHeilandD = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/fl1.ly"

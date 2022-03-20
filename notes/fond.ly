@@ -559,3 +559,251 @@ OToedtetBassFigures = \figuremode {
   r4 <7>2 r8. <6>16
   r4 <7 3>2. %80 finis
 }
+
+AchHeilandFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoAchHeiland
+    \mvTrr ais1~\pp-\markup \remark "con sordino"
+    ais2 h~
+    h1
+    c4 r es2~
+    es a, %5
+    b4 r as2
+    ges f4 r
+    r2 r8 es'16( es) es4~
+    es2 d~
+    d es4 r %10
+    h!1~
+    h
+    c4 r b2~
+    b1
+    as4 r b r %15
+    r r8 c16\pocoF c es( es) es( es) es([ es) es( es)]
+    d1~\pp
+    d
+    f!
+    h,!2. r4 %20
+    r8 fis'16( fis) fis([ fis) fis( fis)] r8 cis16( cis) cis([ cis) cis( cis)]
+    r8 d16( d) d([ d) d( d) ]r8 es16( es) es([ es) es( es)]
+    r8 e16( e) e([ e) e( e)] f4 r
+    r8 des16([ des)] des8 r r2
+    r8 b16([ b)] b8 r r b16([ b)] b8 r %25
+    \tempoAchHeilandB e!1\pE
+    f
+    as,2 r4 b
+    es8 g16( f) es([ des) c( b)] as2~
+    as1 %30
+    des~
+    des2 c4 des
+    r es as,8 ges'16( f) es([ des) c( b)]
+    a2 b~
+    b1 %35
+    e!~
+    e
+    d!2 g,
+    r4 a d8 c'!16( h!) a([ g) fis( e)]
+    dis( cis) h8 r4 \tempoAchHeilandC r8 his16(\pp his) his([ his) his( his)] %40
+    his4 r r2
+    h4 r r8 eis16( eis) eis([ eis) eis( eis)]
+    eis4 r r2
+    fis4 r ais,2~
+    ais1 %45
+    h2 r8 his16( his) his([ his) his( his)]
+    h4 r r2
+    R1_\markup \remark "senza sordino"
+    fis'4\pocoF r r2
+    ais,4 r h r %50
+    e, r r2
+    r8 e'16[ e] e8 r a,\p r a r
+    r16 h-!\fE h-! h-! h[ h h h] e8 e e e
+    e4 r r2
+    r a4\p r %55
+    r2 d,8\f d d d
+    gis,1~\p
+    gis2 eis'
+    fis4 r cis r16 a\f a a
+    d4 r d2~\p %60
+    d1~
+    d4 cis h2
+    r4 e\f g!2~
+    g1\p
+    fis4\pocoFE r g r %65
+    c,!\ppE r c2
+    r4 d\f g, r
+    \tempoAchHeilandD e'1\pE
+    e2 f!~
+    f1 %70
+    fis
+    f
+    h,!~
+    h2 c
+    f r4 r16 g8( f16) %75
+    e!1~
+    e2 es
+    d1
+    e!
+    d %80
+    g~
+    g2 es~
+    es2. r8 b
+    e2 r4 r16 f8( es16)
+    d!1 %85
+    d2 des~
+    des c~
+    c1~
+    c
+    cis2 cis~ %90
+    cis1
+    d~
+    d
+    es4 as, r b
+    h1~ %95
+    h2 c~
+    c1~
+    c2 a!~
+    a1
+    b %100
+    e!~
+    e2 f
+    b, r4 c
+    cis1
+    d %105
+    f~
+    f2 h,!
+    c1
+    e!
+    d2 fis~ %110
+    fis g
+    f e!
+    f b,
+    des1
+    c4 r c2~ %115
+    c1
+    fis
+    g2 es
+    d2 r\fermata \bar "||" %119 finis
+  }
+}
+
+AchHeilandBassFigures = \figuremode {
+  <6 5 [_+]>1
+  r2 <5+ 3>
+  <6!> <6 5!>
+  <_!> <4 2>
+  r <6 5-> %5
+  r <4 2->
+  <6- [_-]> <5 _!>
+  r r8 <4 2>4.
+  r2 <6->
+  <6- 5-> <[5-]> %10
+  <6>1
+  <6 5>2 <7- \t>
+  <_-> <4! 2>
+  <6 4! _->1
+  <6>2 <6- _->4 <[6!] 4! 2> %15
+  r4. <7- _!>8 <[4! 2]>2
+  <7 _+>1
+  r
+  <6 4! _->
+  <7- 5> %20
+  r8 \bo <7- 5 [_!]>2 \bc <7- 5 [_!]>4.
+  r8 <6- 4>2 <6\\ 5- 3>4.
+  r8 <6! 5->4. <_->2
+  r8 <[5-]>2..
+  r8 <_->2 <4! 2>4. %25
+  <6 5->1
+  <_->
+  <4! 2->
+  <[5-]>8 <6- [_-]>4. <[5-]>2
+  r <7- [5-]> %30
+  <[5-]>1
+  <[6-] 4! 2->2 <6- [_-]>4 <[6-] 4 2->
+  r \bo <[5-]> \bc q2
+  <6 5->2 <_->
+  r1 %35
+  <7- 5->2 <6\\ \t>
+  r1
+  <5! _!>2 <_->
+  r4 <_+> q <6\\ 4 _!>
+  <6 5 [_+]>2 r8 <7 5+ [_+]>4. %40
+  r1
+  <[6+] 4+ 2+>2 r8 <6+ 5 [_+]>4.
+  r1
+  <5+>2 <6+ 5! [_+]>
+  r1 %45
+  <5+ _+>2 r8 <7! 5+ [_+]>4.
+  <[6+] 4+ 2+>1
+  r
+  <5+ _+>
+  <6 5! [_+]>2 <5+ _+> %50
+  <_+>1
+  r8 <_+>4. q4 <[6+] 4+ 2>
+  r16 <6+ 4>8. <5+ _+>4 <_+>2
+  q1
+  r2 q %55
+  r <5 _+>
+  <6 5>1
+  r2 <6+ 5 [_+]>
+  <[5+]>2 <6 [_!]>4 r16 <_+>8.
+  <_+>2 <6 _+> %60
+  r <4+ 2>
+  r4 <6> <6\\>2
+  r4 <_+> <4+ 2>2
+  r1
+  <6> %65
+  r2 <4+ 2>
+  r4 <_+>2.
+  <6!>1
+  <6 5->
+  r2 <7-> %70
+  <6>2 <6 5>
+  <6 4! 2>1
+  <7- 5>
+  r2 <_->
+  <_->4 <4! 2>2 r16 <_!>8. %75
+  <6 5->1
+  r2 <4 2>
+  <6-> <6!>
+  <6> <6\\ 5->
+  r1 %80
+  <_->
+  r2 <6>
+  r <[4 2]>4. <_->8
+  <7- 5->2. r16 <_!>8.
+  <6->1 %85
+  \bo <[6-] 5->2 \bc <[6-] 4 2->
+  r <7- _!>
+  r1
+  r
+  <6>2 <7- 5> %90
+  r <6>
+  r <6->
+  <6- 5->1
+  \bo <[5-]>4 \bc q2.
+  <6 5>2 <7-> %95
+  <6 5> <_->
+  r1
+  r2 <6 5->
+  r1
+  r %100
+  <6>2 <5->
+  r1
+  r2. <_!>4
+  <7->1
+  r %105
+  <4! 2>
+  r2 <6 5>
+  <_->1
+  <6>4 <6\\>2.
+  <_+>2 <6 5!> %110
+  r <_->
+  <[4! 2]> <6>4 <7->8 <6>
+  \bo <[_-]>2 \bc q
+  <6-> <6!>
+  r1 %115
+  r
+  <7->
+  <_->2 <6\\ [5-]>
+  <_+>1 %119 finis
+}
