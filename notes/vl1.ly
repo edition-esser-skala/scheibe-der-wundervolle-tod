@@ -560,3 +560,33 @@ DuHerrscherViolinoI = {
     d4 r8 \markDaCapo \bar "||" %271 finis
   }
 }
+
+WieLiebensViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoWieLiebens
+    R1*17 %17
+    \tempoWieLiebensB r16 \mvTr b'\p-\markup \remark "con sordino" b( des) des( b ges f) e!8-! r r4
+    R1
+    r16 f f( as) as( f des c) h!8-! r r4 %20
+    R1
+    r16 c' c( es) es( c as g) fis8-! r r4
+    R1
+    d'\pp
+    c2 r8 b16(\pocoF b) b8 d16( d) %25
+    es2\pp b~
+    b as
+    r4 r8 as16(\f as) g2~\pp
+    g as
+    a1 %30
+    des~
+    des2 r4 r8 b16(\f b)
+    as8. as'16 as f d c h2~\pp
+    h1
+    c %35
+    des2 d~
+    d es~
+    es r4 d\prall\f
+    c16 c c( es) es(\p c as f) \appoggiatura f4 e2\fermata \bar "||" %39 finis
+  }
+}

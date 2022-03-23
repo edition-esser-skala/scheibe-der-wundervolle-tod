@@ -1274,3 +1274,90 @@ DuHerrscherLazarusLyrics = \lyricmode {
   dir %270
   bin! %271 finis
 }
+
+WieLiebensSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoWieLiebens
+    r8 h! h d d g, f'8. es16
+    c8 c r es c8. c16 c8 d
+    es es f c d d r d
+    f8. b,16 b8 d es es c b
+    g4 r r8 c c es %5
+    es8. a,!16 a8 c es d d a
+    b b r16 b b d g,4 r8 f!
+    as as as8. g16 es8 es r16 c' c es
+    es8. as,16 as8 c fis, fis g a
+    g4 r8 g c g e'8. c16 %10
+    c4 r8 f b, b b8. a!16
+    a8 c r f, c'8. c16 c8. des16
+    des4 r8 f, b f f8. e!16
+    e8 g r c a! a r4
+    c8. c16 c8 es a, a c8. des16 %15
+    b4 r16 b b des b8. b16 b8 des
+    ges, ges es'8. des16 b4 r
+    \tempoWieLiebensB r2 r8 g des'4~
+    des8. g,16 g8 g'~ g b,16 b des8. c16
+    as8 as r f d'! f, as8. g16 %20
+    f4 d' f,8 f as g
+    es4 r r8 c' c8. es16
+    es8. c16 c8 es es d d8. a!16
+    b8 b r16 b b d d8. g,16 g8 es'
+    fis, a c8. b16 g8 g r4 %25
+    r8 b b es es8. b16 b8 es
+    r c4 c16 c c8 f, as g
+    es4 r r8 es b'4~
+    b8 des des8. c16 as8 as r c
+    a8. a16 a8 c es4 r8 c %30
+    des des des8. f16 f8 b, r b
+    des e,! e8. as16 \appoggiatura g8 f4 r
+    r2 f'4 h,!8. d!16
+    d8. f,16 f8 f as as as g
+    es4 r8 g c c c es %35
+    des des des8. f16 h,!4 r8 d
+    h h d g, r es'4 c8
+    c c h!8. es16 \appoggiatura d8 c4 r
+    R1\fermata \bar "||" %39 finis
+  }
+}
+
+WieLiebensSoliLyrics = \lyricmode {
+  Wie lie -- bens -- wür -- dig ſind die
+  Trie -- be der gött -- li -- chen, der
+  heil -- gen Je -- ſus -- lie -- be, die
+  euch und mich zu die -- ſem Kreu -- ze
+  zieht! In die -- ſer %5
+  Fin -- ſter -- niß, da Al -- les ſeufzt und
+  wei -- net, da uns kein Troſt, kein
+  Hoff -- nungs -- licht er -- ſchei -- net, da auch dem
+  Au -- ge ſelbſt der Hoff -- nungs -- quell ent --
+  flieht: Wer wollt’ um den Ver -- %10
+  luſt nicht kläg -- lich wim -- mernd
+  za -- gen? Wer woll -- te nicht, mein
+  Heil! um dich mit Jam -- mer
+  kla -- gen? Mit Jam -- mer!
+  der ſo -- gar die Wut der Feind’ er -- %15
+  ſtickt, in -- dem die To -- des -- nacht ihr
+  Ra -- ſen un -- ter -- drückt.
+  O grau --
+  ſa -- me, o __ fürch -- ter -- li -- che
+  Schat -- ten! Ent -- zieht den Au -- gen %20
+  nicht das, was den Geiſt er --
+  quickt! Ent -- zieht den
+  Au -- gen nicht den Ur -- quell mei -- ner
+  Lie -- be, den heil -- gen Ge -- gen -- ſtand der
+  un -- durch -- forſch -- ten Trie -- be! %25
+  Stärkt nur ein ein -- zig -- mal mich
+  Mat -- ten mit ei -- nem dun -- klen
+  Licht. Denn ach! __
+  das größ -- te Lei -- den, das
+  Schreck -- lich -- ſte iſt dies: den %30
+  heil -- gen Blick zu mei -- den, von
+  dem mein Le -- ben ſtammt.
+  O! flöſ -- ſe
+  die -- ſer nur in das ge -- preß -- te
+  Herz: O! ſo er -- trug es %35
+  wil -- lig ſei -- nen Schmerz! So
+  a -- ber iſt es, Gott! zum
+  ſchwärz -- ſten Gram ver -- dammt. %38 finis
+}

@@ -1305,3 +1305,91 @@ DuHerrscherBassFigures = \figuremode {
   <5! _+> %270
   r %271 finis
 }
+
+WieLiebensFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoWieLiebens
+    f1\pE
+    es2 a,~
+    a b~
+    b c
+    r4 d es2~ %5
+    es fis,
+    g h!~
+    h c~
+    c1
+    b %10
+    as2 ges
+    f1
+    b2 des
+    c4 r es2~
+    es1 %15
+    des2 ges
+    es r4 f
+    \tempoWieLiebensB b,16 b'-\unisono b( des) des( b ges f) e8-! r r4
+    R1
+    r16 f-\unisono f( as) as( f des c) h!8-\parenthesize-! r r4 %20
+    R1
+    r16 c' c( es) es( c as g) fis8-! r r4
+    R1
+    g1\pp~
+    g2 r8 g16(\pocoF g) g8 g16( g) %25
+    g1\pp
+    as
+    r4 r8 b16(\f b) des,2~\pp
+    des c
+    c1 %30
+    b~
+    b2 r4 r8 c16(\f c)
+    des4 r d2~\pp
+    d1
+    c %35
+    f~
+    f2 fis~
+    fis r4 g
+    c, r c2\p\fermata \bar "||" %39 finis
+  }
+}
+
+WieLiebensBassFigures = \figuremode {
+  <4! 2>1
+  <6>2 <6 5->
+  r1
+  r2 <_->
+  r4 <_+> <6>2 %5
+  <4 2> <[7]>8 <6>4.
+  <_->2 <6>
+  <6 5> <_->
+  <6- [_-]> <[6!] 4+ 2>
+  <6> <4! 2> %10
+  <6> <6- [_-]>
+  <_!>1
+  <_->2 <6->
+  <_!> <4! 2>
+  r1 %15
+  <6->2 <5- [_-]>
+  <[5-] _->2. <_!>4
+  <_->1
+  r
+  r %20
+  r
+  r
+  r
+  <_->
+  <7+ 4 2>2 <5 _-> %25
+  <6- [_-]>1
+  <9- 5- 3>2 <8 6 \t>
+  r2 <[6-] 4 2->
+  r <6- [_-]>
+  <6! 5- _->1 %30
+  <_->
+  <6! 4! _->2.. <7- 5 _!>8
+  <[5-]>2 <6! 5->
+  r1
+  <_-> %35
+  <6- _->2 <6! 4! _->
+  r <7- 5 _!>
+  r2. <_!>4
+  <_->2 <9 4>4 <8 _!> %39 finis
+}

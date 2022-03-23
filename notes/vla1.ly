@@ -562,3 +562,33 @@ DuHerrscherViola = {
     d,4 r8 \markDaCapo \bar "||" %271 finis
   }
 }
+
+WieLiebensViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoWieLiebens
+    R1*17 %17
+    \tempoWieLiebensB r16 \mvTr b'\p-\markup \remark "con sordino" b( des) des( b ges f) e!8-! r r4
+    R1
+    r16 f f( as) as( f des c) h!8-! r r4 %20
+    R1
+    r16 c' c( es) es( c as g) fis8-! r r4
+    R1
+    g1\pp
+    fis2 r8 d16(\pocoF d) d8 g16( g) %25
+    es1\pp
+    c
+    r4 r8 d16(\f d) b2~\pp
+    b c
+    es1 %30
+    b
+    g!2 r4 r8 e'!16(\f e)
+    des4 r d2\pp
+    f1
+    es2 g, %35
+    f h!~
+    h c~
+    c r4 g'\f
+    es r g,2\p\fermata \bar "||" %39 finis
+  }
+}
