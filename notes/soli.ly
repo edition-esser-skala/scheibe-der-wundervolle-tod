@@ -577,3 +577,700 @@ AchHeilandSoliLyrics = \lyricmode {
   tha, Herr! dei -- nen Tod zu
   ſe -- hen? %119 finis
 }
+
+DuHerrscherEidli = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \autoBeamOff \tempoDuHerrscher
+    R4.*28 %28
+    \mvTr d'8\pE^\soloE a b
+    c c4 %30
+    b8([ g')] b,
+    b a r
+    c b a
+    b([ es)] d~
+    d c b %35
+    b a r
+    d a b
+    c c4
+    b8([ es)] d
+    d([ c)] r %40
+    f c d
+    es es4
+    d16([ f)] es([ d c b)]
+    b8([ a)] b
+    es c4 %45
+    b r8
+    R4.*11 %57
+    r8 r d
+    d4.
+    c4 c8 %60
+    c4.~
+    c
+    h4 r8
+    r a h
+    c([ g)] a %65
+    b!4.
+    a4 r8
+    r g a
+    b4.~
+    b8[ a] g %70
+    g([ f)] d'
+    d([ cis)] e
+    e([ d)] d
+    d([ cis)] e
+    e([ d)] d %75
+    d([ cis)] d
+    d([ cis)] d
+    d4( cis8)
+    R4.*2 %80
+    r8 r c!
+    c4.
+    h4 r8
+    b4.
+    a!4 r8 %85
+    as4.
+    g4 r8
+    c g as
+    b! b4
+    as4.~ %90
+    as~
+    as8 g c
+    des4.
+    c
+    c %95
+    h
+    c4 r8
+    R4.*12 %109
+    b!4. %110
+    a!4 c8
+    c4.
+    b4 r8
+    es b c
+    des des4 %115
+    c8([ f)] es
+    d!16[( c)] b8 r
+    g' d es
+    f f4~
+    f8 es16([ d)] es8 %120
+    es d r
+    c g as
+    b! b4
+    as8([ f')] as,
+    as([ g)] r %125
+    R4.*11 %136
+    r8 r a
+    a4.
+    g4 g8
+    g4.~ %140
+    g
+    fis4 r8
+    R4.*2
+    r8 a h %145
+    c ([ g)] a
+    b!4.
+    a8 d4~
+    d8[ cis] g
+    g([ f)] d' %150
+    d([ cis)] d
+    d([ cis)] r
+    r r d
+    d([ cis)] b!
+    b([ a)] r %155
+    r r g
+    g([ fis)] a
+    a([ g)] g
+    g([ fis)] g
+    g([ fis)] g %160
+    g4( fis8)
+    R4.
+    b8 es! d
+    d([ cis)] r
+    R4.*2 %166
+    r8 r b
+    as4 g8
+    r r c
+    c4. %170
+    b4 r8
+    d a b
+    c4 c8
+    c4.~
+    c8 b b %175
+    as4.
+    g
+    g
+    fis
+    g4 r8 %180
+    R4.*19 %199
+    R4.\fermata %200
+    c8 g a
+    b b4
+    a8 c f~
+    f16[ as g f] es([ d)]
+    es([ d)] c8 r16 g %205
+    c4 r16 c
+    c8([ h)] d
+    d([ c)] es
+    es d g,
+    c([ d)] es %210
+    \appoggiatura b! a!4 b8
+    \tuplet 3/2 8 { c16([ d es)] } \appoggiatura es8 d4
+    c8 f, b~
+    b16[ a] b8.([ c32 d)]
+    \appoggiatura as8 g4 g8 %215
+    c c8.([ h32 c)]
+    d4 r8
+    R4.*17 %234
+    d8 a h %235
+    c g c~
+    c16[ a] b!4~
+    b16[ g] a8. d16
+    h8 c16([ b)] a([ g)]
+    a8 b8.([ c32 d)] %240
+    g,4 c8~
+    c c8.([^\critnote d32)] es!
+    d4 d8
+    d([ c)] c
+    c([ b)] b %245
+    a a8.([ b32 c)]
+    b4 r8
+    r c8.([ d32 es)]
+    d4 r8
+    R4. %250
+    f8 c d
+    es es4
+    d e8
+    f f4
+    es!8([ d)] c~ %255
+    c f! es
+    d d8.([ es32 f)]
+    es4 r8
+    r g,8.([ a!32 b!)]
+    a4 r8 %260
+    b g e
+    f([ b)] a
+    g d e
+    f([ b)] a
+    g([ f)] e %265
+    d4 d'8
+    b([ a)] g
+    f([ e)] d
+    f4.
+    e! %270
+    d4 r8 \markDaCapo \bar "||" %271 finis
+  }
+}
+
+DuHerrscherEidliLyrics = \lyricmode {
+  Du Herr -- ſcher %29
+  ü -- ber %30
+  Tod und
+  Le -- ben!
+  Nimm hin das,
+  was du __
+  mir ge -- %35
+  ge -- ben.
+  Stirb oh -- ne
+  dei -- ne
+  Eid -- li
+  nicht! %40
+  ſtirb oh -- ne
+  dei -- ne,
+  oh -- ne __
+  dei -- ne
+  Eid -- li %45
+  nicht!
+
+  O %58
+  Je --
+  ſu! o %60
+  Je --
+
+  ſu!
+  Je -- ſu
+  Freund, dieß %65
+  Le --
+  ben,
+  Je -- ſu
+  Freund, __
+  dieß %70
+  Le -- ben
+  ſchenkſt du
+  mir: Nimm
+  dein Ge --
+  ſchenk im %75
+  To -- de
+  doch zu
+  dir! __
+
+  O %81
+  Je --
+  ſu!
+  Je --
+  ſu! %85
+  Je --
+  ſu!
+  Nimm dein Ge --
+  ſchenk im
+  To -- %90
+
+  de, im
+  To --
+  de
+  doch %95
+  zu
+  dir!
+
+  Je -- %110
+  ſu! o
+  Je --
+  ſu!
+  Du Herr -- ſcher
+  ü -- ber %115
+  Tod und
+  Le -- ben!
+  Nimm hin das,
+  was du __
+  mir ge -- %120
+  ge -- ben.
+  Stirb oh -- ne
+  dei -- ne
+  Eid -- li
+  nicht! %125
+
+  O %137
+  Je --
+  ſu! o
+  Je -- %140
+
+  ſu!
+
+  Je -- ſu %145
+  Freund, dieß
+  Le --
+  ben, Freund, __
+  dieß
+  Le -- ben %150
+  ſchenkſt du
+  mir:
+  Nimm
+  dein Ge --
+  ſchenk! %155
+  Nimm
+  dein Ge --
+  ſchenk im
+  To -- de
+  doch zu %160
+  dir! __
+
+  Nimm dein Ge --
+  ſchenk!
+
+  o %167
+  Je -- ſu!
+  o
+  Je -- %170
+  ſu!
+  Nimm dein Ge --
+  ſchenk im
+  To --
+  de, im %175
+  To --
+  de
+  doch
+  zu
+  dir! %180
+
+  Zwar, Freund! bindt %201
+  uns das
+  Band der rein --
+  ſten
+  Lie -- be; doch %205
+  wie? ver --
+  gnü -- gen
+  irrd -- ſche
+  Trie -- be, wenn
+  mir mein %210
+  Heil, mein
+  Je -- ſus,
+  ſtirbt, wenn mir __
+  mein __
+  Heil, mein %215
+  Je -- ſus, __
+  ſtirbt?
+
+  Ja, Herr! nimm %235
+  Nei -- gung, Le --
+  ben, __
+  al -- les
+  hin! Herr! nimm
+  Nei -- gung, __ %240
+  Le -- ben, __
+  al -- les
+  hin, nimm
+  al -- les,
+  al -- les %245
+  hin! Wohl __
+  mir!
+  Wohl __
+  mir!
+  %250
+  wenn ich im
+  To -- de
+  bey dir
+  bin, im
+  To -- de __ %255
+  bey dir
+  bin! Wohl __
+  mir!
+  Wohl __
+  mir! %260
+  wenn ich im
+  To -- de,
+  wenn ich im
+  To -- de
+  bey dir %265
+  bin, wenn
+  ich im
+  To -- de
+  bey
+  dir %270
+  bin! %271 finis
+}
+
+DuHerrscherLazarus = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 3/8 \autoBeamOff \tempoDuHerrscher
+    R4.*46 %46
+    \mvTr c8\pE^\soloE g as
+    b b4
+    as8([ f')] as,
+    as g r %50
+    b a g
+    a([ es'!)] d~
+    d16[ g] f([ es)] d([ c)]
+    d([ c)] b8 r
+    g' d es %55
+    f f4~
+    f8 es16([ d)] es8
+    es([ d)] f
+    f4.
+    es4 es8 %60
+    es4.~
+    es
+    d4 r8
+    R4.*2 %65
+    r8 d e
+    f([ c)] d
+    es!4.
+    d8 d4~
+    d8[ cis] e %70
+    e([ d)] f
+    f([ e)] g
+    g([ f)] f
+    f([ e)] g
+    g([ f)] f %75
+    f([ e)] f
+    f([ e)] f
+    f4( e8)
+    R4.*3 %81
+    r8 r d
+    f!4.
+    e4 r8
+    es4. %85
+    d4 r8
+    f4.
+    es!4 r8
+    g d es
+    f f4 %90
+    f4.~
+    f8 es c
+    as'([ g)] f
+    es d! c
+    es4. %95
+    d
+    c4 r8
+    R4.*12 %109
+    g'4. %110
+    f4 es!8
+    es4.
+    d4 r8
+    R4.*12 %125
+    f8 c des
+    es! es4~
+    es8 des16([ c)] des8
+    des c r
+    es d c %130
+    d([ g)] f~
+    f16[ g] f([ es)] d[( c)]
+    d([ c)] b8 r
+    d a b
+    c c4~ %135
+    c8 b16([ a)] b8
+    b([ a)] c
+    c4.
+    b4 b8
+    b4.~ %140
+    b
+    a4 r8
+    r e' fis
+    g([ d)] e
+    f!4. %145
+    e4 r8
+    r d e
+    f4.~
+    f8[ e] e
+    e([ d)] f %150
+    f([ e)] f
+    f([ e)] r
+    r r f
+    f([ e)] g
+    g([ fis)] r %155
+    r r b,
+    b([ a)] c
+    c([ b)] b
+    b([ a)] b
+    b([ a)] b %160
+    b4( a8)
+    R4.*2
+    r8 r d
+    b([ es!)] d %165
+    d([ cis)] d
+    c4 b8
+    r r g'
+    es4.
+    d4 r8 %170
+    g d e
+    f!4 f8
+    es!4.~
+    es~
+    es8 d g %175
+    es([ d)] c
+    b a! g
+    b4.
+    a
+    g4 r8 %180
+    R4.*19 %199
+    R4.\fermata %200
+    R4.*17 %217
+    c8 g a!
+    b! b4
+    a8 c es!~ %220
+    es[ d] c
+    b16([ a)] g8 b
+    b([ a)] c
+    c([ b)] d
+    d([ c)] es %225
+    es d c
+    c([ h)] f'!
+    f([ e)] b
+    b([ a)] es'
+    es([ d)] g~ %230
+    g f e
+    \appoggiatura e f4 a,8
+    d d8.([ cis32 d)]
+    e4 r8
+    R4.*2 %236
+    g8 d e
+    f c f~
+    f16[ d] es!4~
+    es16[ c] d8. g16 %240
+    f8([ e)] \tuplet 3/2 8 { e16([ f g)] }
+    f4.~
+    f8 \tuplet 3/2 8 { es!16([ d c } b8])
+    b([ a)] es'!
+    es([ d)] d %245
+    c c8.([ d32 es)]
+    d4 r8
+    r a8.([ b32 c)]
+    b4 r8
+    b f g %250
+    as as4
+    g a8
+    b b4
+    a!4 h8
+    c([ f)] es!~ %255
+    es d c
+    h h8.[( c32 d)]
+    c4 r8
+    r e8.([ f32 g)]
+    f4 r8 %260
+    d b b
+    a([ d)] c
+    b b b
+    a([ d)] c
+    b([ a)] g %265
+    f4 d'8
+    es!4.
+    d
+    d
+    cis %270
+    d4 r8 \markDaCapo \bar "||" %271 finis
+  }
+}
+
+DuHerrscherLazarusLyrics = \lyricmode {
+  Zu mei -- ner %47
+  Gruft, der
+  Freun -- de
+  Schre -- cken, %50
+  kamſt du, mein
+  Heil, mich __
+  auf -- zu --
+  we -- cken,
+  zu ſehn, wie %55
+  itzt dein __
+  Au -- ge
+  bricht. O
+  Je --
+  ſu! o %60
+  Je --
+
+  ſu!
+
+  Je -- ſu %66
+  Freund, dieß
+  Le --
+  ben, Freund, __
+  dieß %70
+  Le -- ben
+  ſchenkſt du
+  mir: Nimm
+  dein Ge --
+  ſchenk im %75
+  To -- de
+  doch zu
+  dir! __
+
+  O %82
+  Je --
+  ſu!
+  Je -- %85
+  ſu!
+  Je --
+  ſu!
+  Nimm dein Ge --
+  ſchenk im %90
+  To --
+  de, o
+  Je -- ſu!
+  nimm dein Ge --
+  ſchenk %95
+  zu
+  dir!
+
+  Je -- %110
+  ſu! o
+  Je --
+  ſu!
+
+  Zu mei -- ner %126
+  Gruft, der __
+  Freun -- de
+  Schre -- cken,
+  kamſt du, mein %130
+  Heil, mich __
+  auf -- zu --
+  we -- cken,
+  zu ſehn, wie
+  itzt dein __ %135
+  Au -- ge
+  bricht. O
+  Je --
+  ſu! o
+  Je -- %140
+
+  ſu!
+  Je -- ſu
+  Freund, dieß
+  Le -- %145
+  ben,
+  Je -- ſu
+  Freund, __
+  dieß
+  Le -- ben %150
+  ſchenkſt du
+  mir:
+  Nimm
+  dein Ge --
+  ſchenk! %155
+  Nimm
+  dein Ge --
+  ſchenk im
+  To -- de
+  doch zu %160
+  dir! __
+
+  Nimm %164
+  dein Ge -- %165
+  ſchenk, o
+  Je -- ſu!
+  o
+  Je --
+  ſu! %170
+  Nimm dein Ge --
+  ſchenk im
+  To --
+
+  de, o %75
+  Je -- ſu,
+  nimm dein Ge --
+  ſchenk
+  zu
+  dir! %180
+
+  Zwar, Freun -- dinn! %218
+  fand in
+  dei -- nem from -- %220
+  men
+  Bli -- cke eh --
+  mals mein
+  Aug’ ein
+  ed -- les %225
+  Glü -- cke; doch
+  was iſt
+  das, wenn
+  Je -- ſus
+  ſtirbt? doch __ %230
+  was iſt
+  das, wenn
+  Je -- ſus __
+  ſtirbt?
+
+  Ja, Herr! nimm %237
+  Nei -- gung, Le --
+  ben, __
+  al -- les %240
+  hin! nimm
+  al --
+  les __
+  hin, nimm
+  al -- les %245
+  hin! Wohl __
+  mir!
+  Wohl __
+  mir!
+  wenn ich im %250
+  To -- de
+  bey dir
+  bin, wenn
+  ich im
+  To -- de __ %255
+  bey dir
+  bin! Wohl __
+  mir!
+  Wohl __
+  mir! %260
+  wenn ich im
+  To -- de,
+  wenn ich im
+  To -- de
+  bey dir %265
+  bin, im
+  To --
+  de
+  bey
+  dir %270
+  bin! %271 finis
+}

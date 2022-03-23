@@ -284,3 +284,279 @@ AchHeilandViolinoI = {
     R1\fermata \bar "||" %119 finis
   }
 }
+
+DuHerrscherViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoDuHerrscher
+    \mvTr d8\fE-\markup \remark "con sordino" a b
+    c c4
+    b8( g') b,
+    \once \slurDashed b( a) r
+    c b a %5
+    b es d~
+    d c b
+    b( a) r
+    f'( c) d
+    es es4 %10
+    \once \slurDashed d8( a) b
+    c c4
+    b8 fis'( g)
+    r16 es( d c b a)
+    g8 fis'(\p g) %15
+    r16 es( d c b a)
+    b8 es(\f d)
+    r cis( d)
+    r c(\p b)
+    r as( g) %20
+    R4.
+    r8 fis'(\f g)
+    r16 es( d c b a)
+    b8( es d)
+    c16( a) a4\prall %25
+    g16 es'( d c b a)
+    g8 b d
+    g4 r8
+    d\pp a b
+    c c4 %30
+    b8( g') b,
+    b a r
+    c b a
+    b es d~
+    d c b %35
+    b a r
+    d a b
+    c c4
+    b8( es) d
+    d( c) r %40
+    f c d
+    es es4
+    d16 f( es d c b)
+    b8( a) b
+    es c4 %45
+    b r8
+    c g as
+    b b4
+    as8( f') as,
+    as( g) r %50
+    b( a g)
+    a es'! d~
+    d16 g f es d c
+    d c b8 r
+    g' d es %55
+    f f4~
+    f8 es16( d es8)
+    es([ d)] d'
+    d( d d)
+    c( c c) %60
+    c( c c)
+    c( c c)
+    h4 r8
+    r a h
+    c( g) a %65
+    b!4.
+    a4 r8
+    r g a
+    b b4~
+    b8 a g %70
+    g( f) d'
+    d( cis) e
+    e( d) d
+    d( cis) e
+    e( d) d %75
+    d( cis d)
+    d( cis d)
+    d4( cis8)
+    R4.*2 %80
+    r8 r c!
+    c( c c)
+    h( h h)
+    b( b b)
+    a!( a a) %85
+    as( as as)
+    g( g g)
+    r g( as)
+    b! b4
+    as8( as as) %90
+    as( as as)
+    as( g) c
+    des4.
+    c
+    c %95
+    h
+    c16 as(\f g f es d)
+    es8 as( g)
+    r fis( g)
+    r f(\p es) %100
+    r des( c)
+    R4.
+    r8 \once \slurDashed h'(\f c)
+    r16 as( g f es d)
+    es8( as g) %105
+    f16( d) d4\prall
+    c16 as'( g f es d)
+    c8 es g
+    c4 r8
+    b!(\pp b b) %110
+    a!( a a)
+    c( c c)
+    b4 r8
+    es,( b c)
+    des des4 %115
+    c8( f es)
+    d!16 c b8 r
+    g'( d) es
+    f f4~
+    f8 es16( d es8) %120
+    es d r
+    c g as
+    b! b4
+    as8( f') as,
+    as( g) r %125
+    f'( c des)
+    es! es4~
+    es8 des16( c des8)
+    des c r
+    es( d c) %130
+    d( g f)~
+    f16 g( f es d c)
+    d c b8 r
+    d( a b)
+    c c4~ %135
+    c8 b16( a b8)
+    b([ a)] a'
+    a( a a)
+    g( g g)
+    g( g g) %140
+    g( g g)
+    fis4 r8
+    R4.*2
+    r8 a h %145
+    c g( a)
+    b!4.
+    a8 d4~
+    d8( cis) e
+    e( d) d %150
+    d( cis d)
+    r16 b( a g f e)
+    f8 cis'( d)
+    d( cis) b!
+    r16 es,!( d c! b a) %155
+    b8 fis'( g)
+    g( fis) a
+    a( g) g
+    g( fis g)
+    g( fis g) %160
+    g4( fis8)
+    R4.
+    b8 es!( d)
+    d( cis d)
+    b, es( d) %165
+    d( cis d)
+    c4( b8)
+    as4( g8)
+    r r c'
+    c( c c) %170
+    b4 r8
+    d a b
+    c( c c)
+    c( c c)
+    c( b) b %175
+    as4.
+    g~
+    g
+    fis
+    g8 b,16(\f c d e) %180
+    f8 c d
+    es! es4
+    d8 a( b)
+    c c4
+    b8 fis'( g) %185
+    r16 es( d c b a)
+    g8 fis'(\p g)
+    r16 es( d c b a)
+    b8 es(\f d)
+    r cis( d) %190
+    r c(\p b)
+    r as( g)
+    R4.
+    r8 fis'(\f g)
+    r16 es( d c b a) %195
+    b8( es d)
+    c16( a) a4\prall
+    g16 es'( d c b a)
+    g8 b d
+    g4\fermata r8 %200
+    c(\pp g a)
+    b b4
+    a8 c f~
+    f16 as( g f es d)
+    es d c8 r16 g %205
+    c8 c8.([\prall h32 c)]
+    c8( h) d
+    d( c) es
+    es d g,
+    c( d es) %210
+    \appoggiatura b! a!4 b8
+    \tuplet 3/2 8 { c16( d es) } \appoggiatura es8 d4
+    c8 f, b~
+    b16( a) b8.([ c32 d)]
+    \appoggiatura as8 g4 g8 %215
+    c c8.([\prall h32 c)]
+    d4 r8
+    c( g) a!
+    b! b4
+    a8 c es!~ %220
+    es d c
+    b16 a g8 b
+    b( a) c
+    c( b) d
+    d( c) es %225
+    es( d) c
+    c( h) f'!
+    f( e) b
+    b( a) es'
+    es( d) g~ %230
+    g f e
+    \appoggiatura e f4 a,8
+    d d8.([\prall cis32 d)]
+    e4 r8
+    d a h %235
+    c g c~
+    c16 a b!4~
+    b16[ g] a8. d16
+    h8 c16( b) a( g)
+    a8 b8.([ c32 d)] %240
+    g,4 c8~
+    c c8.([ d32 es)]
+    d4 d8
+    d( c) c
+    c( b) b %245
+    r16 g( f es d c)
+    d8 a'( b)
+    r16 g( f es d c)
+    d8 a'( b)
+    R4. %250
+    f'8( c d)
+    es( es es)
+    d d e
+    f f f
+    es! d c~ %255
+    c f!( es)
+    r16 as,( g f es d)
+    es8 h'( c)
+    r16 d( c b a! g)
+    a8 e'( f) %260
+    b,( b b)
+    a d( c)
+    b( b b)
+    a d( c)
+    b( a g) %265
+    f16([ g a8)] d
+    es!4.
+    d~
+    d
+    cis %270
+    d4 r8 \markDaCapo \bar "||" %271 finis
+  }
+}

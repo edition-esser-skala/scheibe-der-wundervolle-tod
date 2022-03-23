@@ -95,3 +95,178 @@ WoSindWirFlautoI = {
     a8. a,16 a8. a16 \appoggiatura a \extendLV #8 f'2 \laissezVibrer \bar "S-S" %89 finis
   }
 }
+
+DuHerrscherFlautoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoDuHerrscher
+    d'8\fE a b
+    c c4
+    b8( g') b,
+    \once \slurDashed b( a) r
+    c b a %5
+    b es d~
+    d c b
+    \once \slurDashed b( a) r
+    \once \slurDashed f'( c) d
+    es es4 %10
+    \once \slurDashed d8( a) b
+    c c4
+    b8 fis'( g)
+    r16 es( d c b a)
+    g8 fis'(\p g) %15
+    r16 es( d c b a)
+    b8 es(\f d)
+    r cis( d)
+    r c(\p b)
+    r as( g) %20
+    R4.
+    r8 fis'(\f g)
+    r16 es( d c b a)
+    b8( es d)
+    c16( a) a4\prall %25
+    g4.~
+    g16 es'( d c b a)
+    g4 r8
+    d'\pp a b
+    c c4 %30
+    b8( g') b,
+    b a r
+    c b a
+    b es d~
+    d c b %35
+    b a r
+    d a b
+    c c4
+    b8( es) d
+    d( c) r %40
+    f c d
+    es es4
+    d16 f( es d c b)
+    b8( a) b
+    es c4 %45
+    b r8
+    c g as
+    b b4
+    as8( f') as,
+    as( g) r %50
+    b( a g)
+    a es'! d~
+    d16 g f es d c
+    d c b8 r
+    g' d es %55
+    f f4~
+    f8 es16( d es8)
+    es([ d)] r
+    R4.*4 %62
+    g8 d es
+    f f4
+    es r8 %65
+    R4.*14 %79
+    d8 a( h) %80
+    c4.~
+    c
+    h4 r8
+    R4.*13 %96
+    r16 as'(\fE g f es d)
+    es8 as( g)
+    r fis( g)
+    r f(\p es) %100
+    r des( c)
+    R4.
+    r8 h'(\f c)
+    r16 as( g f es d)
+    es8( as g) %105
+    f16( d) d4\prall
+    c4.~
+    c16 as'( g f es d)
+    c4 r8
+    R4.*4 %113
+    es8(\ppE b c)
+    des des4 %115
+    c8( f es)
+    d!16 c b8 r
+    g'( d) es
+    f f4~
+    f8 es16( d es8) %120
+    es d r
+    c g as
+    b! b4
+    as8( f') as,
+    as( g) r %125
+    f'( c des)
+    es! es4~
+    es8 des16( c des8)
+    des c r
+    es( d c) %130
+    d( g f)~
+    f16 g( f es d c)
+    d c b8 r
+    d( a b)
+    c c4~ %135
+    c8 b16( a b8)
+    b([ a)] r
+    R4.*4 %141
+    d8 a b
+    c c4
+    b r8
+    R4.*7 %151
+    r16 b'( a g f e)
+    f8 cis'( d)
+    R4.
+    r16 es,!( d c! b a) %155
+    b8 fis'( g)
+    R4.*6 %162
+    r8 es!( d)
+    r cis( d)
+    r es( d) %165
+    r cis( d)
+    r c( b)
+    r as( g)
+    R4.*11 %179
+    g16(\f a b c d e) %180
+    f8 c d
+    es! es4
+    d8 a( b)
+    c c4
+    b8 fis'( g) %185
+    r16 es( d c b a)
+    g8 fis'(\p g)
+    r16 es( d c b a)
+    b8 es(\f d)
+    r cis( d) %190
+    r c(\p b)
+    r as( g)
+    R4.
+    r8 fis'(\f g)
+    r16 es( d c b a) %195
+    b8( es d)
+    c16( a) a4\prall
+    g4.~
+    g16 es'( d c b a)
+    g4\fermata r8 %200
+    R4.*45 %245
+    r16 g'(\ppE f es d c)
+    d8 a'( b)
+    r16 g( f es d c)
+    d8 a'( b)
+    R4. %250
+    f8( c d)
+    es4 r8
+    r d e
+    f4.
+    es!8 r r %255
+    R4.
+    r16 as( g f es d)
+    es8 h'( c)
+    r16 d,( c b a! g)
+    a8 e'( f) %260
+    b4.
+    a8 d( c)
+    b4.
+    a8 d( c)
+    b( a g) %265
+    f16([ g a8)] r
+    R4.*5 \markDaCapo \bar "||" %271 finis
+  }
+}

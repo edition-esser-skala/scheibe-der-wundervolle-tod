@@ -275,51 +275,124 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Accompagnato" "Ach! Heiland! Sohn! ach tröſte mich!"
+  %   \addTocLabel "achheiland"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchHeilandViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchHeilandViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AchHeilandViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \AchHeilandSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AchHeilandSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \AchHeilandFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchHeilandBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Accompagnato" "Ach! Heiland! Sohn! ach tröſte mich!"
-    \addTocLabel "achheiland"
+    \section "5" "Duetto" "Du Herrſcher über Tod und Leben!"
+    \addTocLabel "duherrscher"
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
       systems-per-page = #2
+      indent = 1.5\cm
     }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+      \new StaffGroup <<
+        \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+          \set GrandStaff.instrumentName = "fl"
+          \new Staff {
+            \set Staff.instrumentName = "1"
+            \DuHerrscherFlautoI
+          }
+          \new Staff {
+            \set Staff.instrumentName = "2"
+            \DuHerrscherFlautoII
+          }
+        >>
+      >>
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AchHeilandViolinoI
+              \DuHerrscherViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AchHeilandViolinoII
+              \DuHerrscherViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AchHeilandViola
+            \DuHerrscherViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \AchHeilandSoli }
+            \set Staff.instrumentName = "Eidli"
+            \new Voice = "Eidli" { \dynamicUp \DuHerrscherEidli }
           }
-          \new Lyrics \lyricsto Soli \AchHeilandSoliLyrics
+          \new Lyrics \lyricsto Eidli \DuHerrscherEidliLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Lazarus"
+            \new Voice = "Lazarus" { \dynamicUp \DuHerrscherLazarus }
+          }
+          \new Lyrics \lyricsto Lazarus \DuHerrscherLazarusLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \AchHeilandFondamento
+            \DuHerrscherFondamento
           }
         >>
-        \new FiguredBass { \AchHeilandBassFigures }
+        \new FiguredBass { \DuHerrscherBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4. = 50 }
     }
   }
 }

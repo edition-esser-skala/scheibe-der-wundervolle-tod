@@ -284,3 +284,281 @@ AchHeilandViola = {
     R1\fermata \bar "||" %119 finis
   }
 }
+
+DuHerrscherViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/8 \tempoDuHerrscher
+    \mvTr d8\fE-\markup \remark "con sordino" a b
+    c c4
+    b8( g') g,
+    g( fis) r
+    a g fis %5
+    g c b~
+    b g4
+    f8( a b)
+    c4 d8
+    es es4 %10
+    d8( a) b
+    c c4
+    b8( fis' g)
+    r16 es( d c b a)
+    g8 fis'(\p g) %15
+    r16 es( d c b a)
+    b4(\f a8)
+    g4( fis8)
+    g4(\p f8)
+    es4( d8) %20
+    R4.
+    r8 fis'(\f g)
+    r16 es( d c b a)
+    b8( es d)
+    c16( a) a4\prall %25
+    g16 es'( d c b a)
+    g8 b d
+    g4 r8
+    d\pp a b
+    c c4 %30
+    b g8
+    g fis r
+    a g fis
+    g c b~
+    b g4 %35
+    f r8
+    a4 g8
+    a g( a)
+    g( c) b
+    b a b %40
+    c4 r8
+    g( b c)
+    b4 g8
+    f4 f8
+    g a4 %45
+    b16( as) g8 f
+    e4 f8
+    g d e
+    f4 f8
+    f( e) r %50
+    g( f e)
+    f c'^\critnote b~
+    b16 g a4\prall
+    b8 f( es)
+    d d'( c) %55
+    d c d~
+    d c16( h c8)
+    c8([ h)] g
+    g( g g)
+    g( g g) %60
+    as( as as)
+    a( a a)
+    g d'( es)
+    f f4
+    es c8 %65
+    g4 g8
+    f4 b8
+    g4 f8
+    f4 g8
+    e4 a8 %70
+    a4.~
+    a~
+    a4 a8
+    a4.~
+    a4 a8 %75
+    b4 r8
+    gis4 r8
+    a4 r8
+    R4.
+    d8 a( h) %80
+    c4 e8
+    d( d d)
+    f!( f f)
+    e( e e)
+    es( es es) %85
+    d( d d)
+    d( d d)
+    c4 c8
+    g4 c8
+    c( c c) %90
+    h( h h)
+    c c es,
+    f( f f)
+    a!( a a)
+    g( g g) %95
+    g( g g)
+    c,4 r8
+    c'4\fE d8
+    c4 h8
+    c4\p b8 %100
+    as4 g8
+    R4.
+    r8 h'(\f c)
+    r16 as( g f es d)
+    \once \slurDashed es8( as g) %105
+    f16( d) d4\prall
+    c16 as'( g f es d)
+    c8 es g
+    c4 r8
+    c,(\pp c c) %110
+    c( c c)
+    es( es es)
+    d b( as)
+    g4 as8
+    b as( b) %115
+    as4 c8
+    f, f' es
+    d4 es8
+    f c d~
+    d c16( h c8) %120
+    c h r
+    g4 as8
+    b! f( g)
+    f4 f8
+    f( e) r %125
+    c'4 des8
+    es! b c~
+    c b16( a! b8)
+    b a r
+    c( b) a %130
+    b4 b8~
+    b16 es( d c b a)
+    b8 f'( es)
+    d( a b)
+    c g( a)~ %135
+    a g16( fis g8)
+    g([ fis)] d
+    d( d d)
+    d( d d)
+    es( es es) %140
+    cis( cis cis)
+    d a'( b)
+    c! c4
+    b4.
+    a4 g8 %145
+    g4 f8
+    d( g) g
+    f4 a8
+    a4.~
+    a~ %150
+    a~
+    a4 r8
+    d4 f8
+    f( e) g
+    g( fis) r %155
+    g,4 r8
+    d4 d8
+    d4 d8
+    es!4 r8
+    cis4 r8 %160
+    d4 r8
+    R4.
+    g'4( f!8)
+    es4( d8)
+    g,4( a8) %165
+    g4( fis8)
+    g4( f8)
+    es4( d8)
+    g( g g)
+    a( d d) %170
+    d4 c8
+    a( d) g,
+    g( g g)
+    a( a a)
+    g( g g) %175
+    c,( c c)
+    e( e e)
+    d( d d)
+    d( d d)
+    g4 r8 %180
+    c4\fE d8
+    es! es4
+    d8 a( b)
+    c c4
+    b8 fis'( g) %185
+    r16 es( d c b a)
+    g8 fis'(\p g)
+    r16 es( d c b a)
+    b4 a8\f
+    g4( fis8) %190
+    g4(\p f8)
+    es4( d8)
+    R4.
+    r8 fis'(\f g)
+    r16 es( d c b a) %195
+    b8( es d)
+    c16( a) a4\prall
+    g16 es'( d c b a)
+    g8 b d
+    g,4\fermata r8 %200
+    g'4\pp f!8
+    d f( g)
+    c,4 c'8~
+    c4 h8
+    c c, d %205
+    es( as,) as
+    d4 g,8
+    g g' g
+    g4 h,8
+    c4 c8 %210
+    c4 f8
+    f( f f)
+    f( f f)
+    \once \slurDashed es( f) b,!
+    b4 b8 %215
+    as4 as8
+    g g'( f!)
+    e( c) c
+    g' f( g)
+    c,4 c'8 %220
+    a4 fis8
+    d d d
+    d4 d8
+    d4 a'8
+    g4 g8 %225
+    a4 d,8
+    d4 h'8
+    g4 e8
+    c4 a'8
+    f4 g8 %230
+    a4 a,8
+    a4 a8
+    b4 b8
+    a a( g)
+    fis( d') d %235
+    a( g) a
+    g4 g8
+    f!4 a8
+    g g c
+    c b b %240
+    c c c
+    c f, a
+    b b g
+    f( f') f,
+    f4 e8 %245
+    f4 r8
+    f4 r8
+    f4 r8
+    f4 r8
+    f'4 es8 %250
+    c4 b8
+    b4 c8
+    f,4 g8
+    c4 g8
+    g g g %255
+    a!4 a8
+    g4 r8
+    g4 r8
+    c4 r8
+    f,4 r8 %260
+    d'( g,) g
+    f4 r8
+    d'( g,) g
+    f4 r8
+    cis'4 r8 %265
+    d4 r8
+    g,( g g)
+    h?( h h)
+    a( a a)
+    a( a a) %270
+    d,4 r8 \markDaCapo \bar "||" %271 finis
+  }
+}

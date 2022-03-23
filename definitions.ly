@@ -38,6 +38,7 @@ tempoAchHeiland = \tempoMarkup "Accompagnato"
   tempoAchHeilandB = \tempoMarkup "[Recitativo]"
   tempoAchHeilandC = \tempoMarkup "Accompagnato"
   tempoAchHeilandD = \tempoMarkup "[Recitativo]"
+tempoDuHerrscher = \tempoMarkup "Lento ed affettuoso"
 
 
 \include "notes/fl1.ly"
