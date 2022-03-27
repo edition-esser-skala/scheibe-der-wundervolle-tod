@@ -1510,3 +1510,65 @@ FliesstZitterndeSoliLyrics = \lyricmode {
   töd -- tet doch Hoff -- nung und %85
   Al -- les die Nacht. %86 finis
 }
+
+DochHerzSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoDochHerz
+    r8 f, b4 r8 b b des
+    g, g as b as4 r16 es' es c
+    as4 r8 as es' ges, ges8. as16
+    f4 r8 as des des des f
+    es4 r8 es es as, des c %5
+    as4 r c r8 c16 c
+    c8. g16 g8 r16 g as8 r16 c c8. h!16
+    d4 r f f8. b,16
+    b8 b b8. d16 g,8 g a!8. d16
+    b4 r r8 b b8. a!16 %10
+    c4 r8 f, c' c d!8. es16
+    d4 f f8 as, as8. b16
+    g4 r8 g es' g, as b
+    as4 r8 c as as as8. g16
+    es4 r es' es8. as,16 %15
+    as4 es' r es8 ges,
+    ges ges ges8. as16 f4 r8 f
+    b8. b16 b8 des b8 b r b16 g!
+    e!8 e r16 c' h c c8 f, b as
+    f4 r r8 as des4 %20
+    r8 des des f as, as b ces
+    b4 r16 b b des des8. b16 b8 b
+    es b c!8. des16 c8 c r16 c c es
+    des4 r8 as des des des8. f16
+    h,!4 r16 h h d d8. g,16 g8 d' %25
+    c c f es c4 r \bar "||" %26 finis
+  }
+}
+
+DochHerzSoliLyrics = \lyricmode {
+  Doch Herz! von man -- chen
+  Wie -- der -- ſprü -- chen voll! Ver -- zweif -- le
+  nicht! bald, bald ver -- geht die
+  Nacht; bald, bald er -- ſcheint die
+  Zeit, da Je -- ſus dir er -- %5
+  wacht! Wie? hab ich
+  nicht zu -- vor, ich ſelbſt? da -- ran ge --
+  dacht? Ja, die -- ſer
+  Troſt hat ſchon mein Herz er -- hellt ge --
+  macht. Was pochſt du %10
+  Herz? Sein Wort be -- ſtimmt ge --
+  wiß das, was ge -- ſche -- hen
+  ſoll, und bald ent -- wei -- cheſt
+  du, grau -- ſa -- me Fin -- ſter --
+  niß! Doch, bis dieß %15
+  Wort, Herr! zur Er --
+  fül -- lung wird ge -- bracht, ſo
+  lan -- ge will ich, Freun -- de, mit euch
+  wei -- nen; denn kei -- ne Thrä -- nen ſind zu
+  viel. Ge -- troſt! %20
+  der Schmerz währt ei -- ne kur -- ze
+  Zeit: ſein lieb -- reich An -- ge -- ſicht wird
+  glän -- zend bald er -- ſchei -- nen, zer -- theilt die
+  Angſt, ſo wie die Dun -- kel --
+  heit, und ſetzt dem kur -- zen Gram ein %25
+  froh -- er -- reich -- tes Ziel. %26 finis
+}

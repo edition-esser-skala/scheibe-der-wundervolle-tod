@@ -443,49 +443,80 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "7" "Aria" "Fließt, zitternde Thränen"
+  %   \addTocLabel "fliesstzitternde"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     indent = 1.5\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FliesstZitterndeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FliesstZitterndeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \FliesstZitterndeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Johannes"
+  %           \new Voice = "Soli" { \dynamicUp \FliesstZitterndeSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \FliesstZitterndeSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \FliesstZitterndeFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \FliesstZitterndeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "7" "Aria" "Fließt, zitternde Thränen"
-    \addTocLabel "fliesstzitternde"
+    \section "8" "Recitativo" "Doch Herz! von manchen Wiederſprüchen voll!"
+    \addTocLabel "dochherz"
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #4
       indent = 1.5\cm
     }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \FliesstZitterndeViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \FliesstZitterndeViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \FliesstZitterndeViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Johannes"
-            \new Voice = "Soli" { \dynamicUp \FliesstZitterndeSoli }
+            \new Voice = "Soli" { \dynamicUp \DochHerzSoli }
           }
-          \new Lyrics \lyricsto Soli \FliesstZitterndeSoliLyrics
+          \new Lyrics \lyricsto Soli \DochHerzSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \FliesstZitterndeFondamento
+            \DochHerzFondamento
           }
         >>
-        \new FiguredBass { \FliesstZitterndeBassFigures }
+        \new FiguredBass { \DochHerzBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

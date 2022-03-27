@@ -1575,3 +1575,65 @@ FliesstZitterndeBassFigures = \figuremode {
   r %85
   r %86 finis
 }
+
+DochHerzFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoDochHerz
+    des1~
+    des2 c~
+    c~ c
+    des1~
+    des2 c4 des %5
+    r es e2~
+    e f4 as
+    g r d2~
+    d es
+    r4 f ges2 %10
+    f4 r a,!2
+    b1
+    es
+    c
+    r4 b ces2~ %15
+    ces c~
+    c des~
+    des1
+    c4 r as b
+    r c des2~ %20
+    des1
+    ges2 g~
+    g as
+    f1~
+    f %25
+    es4 f r g \bar "||" %26 finis
+  }
+}
+
+DochHerzBassFigures = \figuremode {
+  <6->1
+  <[6-] 4 2->2 <6- [_-]>
+  r <6- 5- [_-]>
+  <[5-]>1
+  <[6!] 4! 2->2 <6- [_-]>4 <[5-]> %5
+  r q <6>2
+  r <_->4 <6>
+  <_!>2 <6->
+  r <[5-]>
+  r4 <_!> \bo <5- [_-]> \bc <6- [\t]> %10
+  <_!>2 <6 5->
+  <_!>2 <7->
+  <[5-]>1
+  <6- [_-]>
+  r4 <_!> \bo <5- [_-]> \bc <6- [\t]> %15
+  r2 <6 5- [_-]>
+  r <[5-]>
+  <[6-]>1
+  <_!>2 <6>4 <_->
+  r <_!> <5->2 %20
+  r1
+  <5- [_-]>2 <6- 5- [_-]>
+  r <[5-]>
+  <6- [_-]>1
+  <6! 4! 2> %25
+  <6>4 <_->2 <_!>4 %26 finis
+}
