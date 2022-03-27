@@ -590,3 +590,96 @@ WieLiebensViolinoI = {
     c16 c c( es) es(\p c as f) \appoggiatura f4 e2\fermata \bar "||" %39 finis
   }
 }
+
+FliesstZitterndeViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \minor \time 2/2 \tempoFliesstZitternde
+    \partial 8 c'8\fE c des4( c8) f16( des c8) r c
+    c des4( c8) f16( des c8) r f
+    f16( g,) g4 f'8 e16( c) c4 b8
+    as8. des16 c( b as g) \once \slurDashed as( g f8) r des'
+    h c4 b8 a16( ges') ges4 f16( es) %5
+    d8 es4 des8 c16( b') b4 as16( ges)
+    f32( e f8.) f32( e f8.) f des16 c( b) as( g)
+    f32(\p e f8.) f32( e f8.) f des'16 c( b) as( g)
+    f'(\f h,) h( h) h( h) h( h) h( c) e(\p g) b( g) as( f)
+    \appoggiatura { b,16[ c] } des4\f \tuplet 3/2 8 { c16^[( b as] g\p f e) } f(\f des' c8) r16 des(\p\cresc c8) %10
+    r16 des( c8) r16 des( c8) r16 f\f f( e) r g\p g( f)
+    \appoggiatura { b,16[ c] } des4\ff \tuplet 3/2 8 { c16^[( b as] g f e) } f4 r8 c'\pp
+    c des4( c8) f16( des c8) r c
+    c \once \slurDashed des4( c8) f16( des c8) r f
+    f16( g,) g4 f'8 e16( c) c4 b8 %15
+    as8.( des16) c( b) as( g) \once \slurDashed as( g f8) r des'
+    h c4 b8 a16( ges') ges4 f16( es)
+    d8 es4 des8 c16( b') b4 as16( ges)
+    f( f) f( f) f( f) f( f) f( f) f( f) es( des) c( h)
+    c( c) c( c) des( c) b( a) b( c b8) r16 des( c b) %20
+    as( as) as( as) as( as) as( as) as8.( f'16) es( des) c( b)
+    as( as) as( as) as( as) as( as) as8.( f'16) es( des) c( b)
+    as( g) as4 \tuplet 3/2 8 { b16( c des) } c( b) c4 \tuplet 3/2 8 { des16( es f) }
+    es4 \tuplet 3/2 8 { f16( es des c[ b as]) } \appoggiatura as8 g4 r8 es
+    des16(\f des') des(\pp des) c( c) h( h) c( c,) c( c) c( c) es( es) %25
+    des(\f des') des(\pp des) c( c) h( h) c( c,) c( c) c( c) c( c)
+    f8 f4 g16( as) c,4( h8) c
+    \appoggiatura { f16[ g] } as4 \tuplet 3/2 8 { g16( f es d[ c h]) } c( as' g8) r16 as( g8)
+    f f4 g16( as) c,4( h8) c
+    \appoggiatura { f16[ g] } as4 \tuplet 3/2 8 { g16( f es d[ c h]) } c( as' g8) r16 as( g8) %30
+    c16(\f fis,) fis( fis) fis( fis) fis( fis) fis( g) h(\p d) f( d) es( c)
+    \appoggiatura { f,16[ g] } as4\ff \tuplet 3/2 8 { g16( f es d[\p c h]) } c(\f as' g8) r16 as(\p\cresc g8)
+    r16 as( g8) r16 as( g8) r16 c\f c( h) r d\p d( c)
+    \appoggiatura { f,16[ g] } as4\ff \tuplet 3/2 8 { g16( f es d[ c h]) } c4 r8 g'\pp
+    g \once \slurDashed as4( g8) c16( as g8) r c %35
+    c \once \slurDashed des!4( c8) f16( des c8) r f
+    f16( g,) g4 f'8 e16( c) c4 b8
+    as8.( des16) c( b) as( g) as( g) f8 r16 as'( as as)
+    as( b,) b4 as'8 g16( es) es4 des8
+    c8.( f16) es( des) c( b) c( b) as( as) as( as) as( as) %40
+    r a( a a) a( a) a( a) r b( b b) b( b) b( b)
+    r h( h h) h( h) h( h) r c( c c) c( c) c( c)
+    r des!( des des) des( des) des( des) r e( e e) e( e) e( e)
+    f4 r r r8 f,
+    b b4 c16( des) f,4 e8 f %45
+    \appoggiatura { b16[ c] } des4 \tuplet 3/2 8 { c16(^[ b as] g[ f e]) } f( des' c8) r16 des( c8)
+    b b4 c16( des) f,4 e8 f
+    \appoggiatura { b16[ c] } des4 \tuplet 3/2 8 { c16(^[ b as] g[ f e)] } f(\f des' c8) r16 des(\p\cresc c8)
+    r16 des( c8) r16 des( c8) r16 f,\f f( e) r g\p g( f)
+    ges\f( ges) ges(\pp ges) f( f) e( e) f( c) c( c) c( as') as( as) %50
+    ges(\f ges) ges(\pp ges) f( f) e( e) f( c) c( c) c( f') f( f)
+    des( des) des( des) des( des) des( des) des( des) des( des) c( b) a( g)
+    a( ges') ges4 f16( es) des( ges f8) r16 ges( f8)
+    b,16( b) b( b) b( b) b( b) b8.( ges'16) f( es des c)
+    b( b) b( b) b( b) b( b) b8.( ges'16) f( es des c) %55
+    b( a) b4 \tuplet 3/2 8 { c16( des es) } des( c) des4 \tuplet 3/2 8 { es16( f ges) }
+    f4 \tuplet 3/2 8 { ges16( f es des[ c b]) } \appoggiatura b8 a4 r8 f'
+    f16( h,) h( h) h( h) h( h) h16( c) e( g) b( g) as( f)
+    f16( h,) h( h) h( h) h( h) h16( c) e( g) b( g) as( f)
+    \appoggiatura { b,16[ c] } des4 \tuplet 3/2 8 { c16(^[ b as] g[ f e]) } f( des' c8) r16 des( c8) %60
+    \appoggiatura { b16[ c] } des4 \tuplet 3/2 8 { c16(^[ b as] g[ f e]) } f4 r
+    r2 r4 r8 des'\f
+    h c4 b8 a16( ges') ges4 f16( es)
+    d8 es4 des8 c16( b') b4 as16( ges)
+    f32( e f8.) f32( e f8.) \once \slurDashed f( des16) c( b as g) %65
+    f32(\p e f8.) f32( e f8.) \once \slurDashed f( des'16) c( b as g)
+    f'(\f h,) h( h) h( h) h( h) h( c) e(\p g) b( g) as( f)
+    \appoggiatura { b,16[ c] } des4\ff \tuplet 3/2 8 { c16(^[ b as] g[ f e]) } f4\fermata r8 f\pp
+    b b4 c16( des) des4 c8 b
+    a16( ges') ges4 f16( es) des( c b8) r des16( b) %70
+    ges8 ges4 ges8 ges16( e f8) r f
+    b b4 \tuplet 3/2 8 { des16( c b) } b8 a r f
+    b b4 as8 as4( g!8) fis
+    g16( f') f4 es16( des!) c( b as8) r e'
+    f8.( e16) f4 b,16( a b8) r des! %75
+    f, f4 \tuplet 3/2 8 { f16( g as) } \once \slurDashed g( f es8) r g
+    c c4 d16( es) es4( d8) c
+    h16( as') as4 g16( f) f8( es) r g,
+    c16( h c8) r c c16( h c8) r c
+    \appoggiatura { f16[ g] } as4 \tuplet 3/2 8 { g16( f es d[ c h)] } c( g) g( g) g( g) b( b) %80
+    a8 b4 c16( des) des4 c8 b
+    a16( ges') ges4 f16( es) es8( des) r f,
+    b16( a) b8 r b b16( a) b8 r b
+    \appoggiatura { es16[ f] } ges4 \tuplet 3/2 8 { f16([ es des] c b a) } b4 r8 f
+    des'16 c b8 r b b16 as ges8 r ges %85
+    ges16 f es8 r a b4 r \markDaCapo \bar "||" %86 finis
+  }
+}

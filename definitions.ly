@@ -41,6 +41,7 @@ tempoAchHeiland = \tempoMarkup "Accompagnato"
 tempoDuHerrscher = \tempoMarkup "Lento ed affettuoso"
 tempoWieLiebens = \tempoMarkup "Recitativo"
   tempoWieLiebensB = \tempoMarkup "Accompagnato · Lento"
+tempoFliesstZitternde = \tempoMarkup "Poco lento e languido"
 
 
 \include "notes/fl1.ly"

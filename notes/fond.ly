@@ -1393,3 +1393,185 @@ WieLiebensBassFigures = \figuremode {
   r2. <_!>4
   <_->2 <9 4>4 <8 _!> %39 finis
 }
+
+FliesstZitterndeFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \minor \time 2/2 \tempoFliesstZitternde
+    \partial 8 \mvTr e8\fE-\soloE f f f f f f f e
+    f f f f f f f f
+    b, b b b c c c c
+    f b, c c, f f' r f
+    f e e e f f a a %5
+    as g g g as as c, c
+    des des as as b b c c
+    des\p des as as b b c c
+    des\f des des des c4 r8 f\p
+    r b\f c c,\p \mvTr f\f-\tasto f f\p\cresc f %10
+    f f f f f f f f
+    r b,\ff c c, f4 r8 \mvTrr e'\pp-\tasto
+    f f f f f f f e
+    f f f f f f f f
+    b, b b b c c c c %15
+    f b, c c, f' f, r f'
+    f e e e f f a a
+    as g g g as as c, c
+    des des des des es es es es
+    as, as as as es' es es es %20
+    f f c c des des es es
+    f f c c des des es es
+    f f f g as as as, b
+    c c des des es4 r8 c
+    f\f f\pp f f es es c c %25
+    f\f f\pp f f es es es es
+    r as g f r g f es
+    r f g g, c4 r
+    r8 as' g f r g f es
+    r f g g, c4 r %30
+    as8\f as as as g4 r8 c\p
+    r f\ff g g,\p \mvTr c\f-\tasto c c\p\cresc c
+    c c c c c c c c
+    r f\ff g g, c4 r8 \mvTrr h\pp-\tasto
+    c c c c c c c e %35
+    f f f f f f f f
+    b, b b b c c c c
+    f b, c c, f f' f f
+    des des des des es es es es
+    as des, es es, as as' as ges %40
+    f es es es des des des des
+    des des des des c c c c
+    f f f f f f f f
+    f4 r r2
+    r8 des c b r c b as %45
+    r b c c, f4 r
+    r8 des' c b r c b as
+    r b c c, \mvTr f\f-\tasto f' f\p\cresc f
+    f f f f f4 r
+    b,8\fE b\ppE b b as as f f %50
+    b\fE b\ppE b b as as f f
+    b b b b c c c c
+    f f a, a b4 r
+    ges'8 ges des des es es f f
+    ges ges des des es es f f %55
+    ges ges ges a, b b b c
+    des des es es f f, f' es
+    des des des des c4 r8 f
+    des des des des c4 r8 f
+    r b, c c, f4 r8 f' %60
+    r b, c c, des'4 as8 b
+    c2 f,4 r8 f'\f
+    f e e e f f a a
+    as g! g g as as c, c
+    des des as as b b c c %65
+    des\p des as as b b c c
+    des\f des des des c4 r8 f\p
+    r b,\ff c c, f4\fermata r
+    r8 \mvTrr des'\pp-\tasto c b es es es es
+    f f a, a b b b b %70
+    b b b b as as as as
+    ges ges ges ges f f' f es!
+    d d d d es es es es
+    es es g, g as as as as
+    des! des des des des des des des %75
+    d d d d es es, r4
+    r8 es' d c f f f f
+    g g g g c,4 r8 c
+    as as as as es' es es es
+    f f g g c, c c e %80
+    f des! c b es es es es
+    f f f f b, b b b
+    ges' ges ges ges des des des des
+    es es f f, b4 r8 f'-\unisono
+    des'16 c b8 r b b16 as! ges8 r ges %85
+    ges16 f es8 r f b,4 r \markDaCapo \bar "||" %86 finis
+  }
+}
+
+FliesstZitterndeBassFigures = \figuremode {
+  <6>8 <5 3> <6 4> <\t \t> <5 3>2 <6>8
+  <[5 3]> <6 4> <\t \t> <5 3> r2
+  <6 5> <_!>4. <7- [_!]>8
+  r4 <6 4>8 <5 _!> r4. <6->8
+  <6! 4! 2> <6> <\t> <6 5-> <_!>4 <7->8 <6>16 <5-> %5
+  <4! 2>8 <6>4 <6 5->8 r4 <7 5->
+  <5>4 <6> <_-> <6 4>8 <5 _!>
+  r4 <6>2 <6 4>8 <5 _!>
+  <6!>2 <_!>
+  r4 <6 4>8 <5 _!> r2 %10
+  r1
+  r8 <5 3> <6 4> <5 _!> r2
+  r1
+  r
+  r %15
+  r
+  r
+  r
+  r
+  r %20
+  r
+  r
+  r
+  r2.. <5 3>8
+  <6->4 <5>8 <4! 3> <6>2 %25
+  <6->4 <5>8 <4! 3> <6>2
+  r8 <6>4. <5! 4>8 <\t \t> <4! 2> <6>
+  r <5> <6 4> <5! _!> r2
+  r8 <6>4. <5! 4>8 <\t \t> <4! 2> <6>
+  r <5> <6 4> <5! _!> r2 %30
+  <6\\>2 <5! _!>
+  r4 <6 4>8 <5! _!> r2
+  r1
+  r4 <6 4>8 <5! _!> r2
+  r1 %35
+  r
+  r
+  r
+  r
+  r2. <5 3>8 <4 2> %40
+  <_!> <4! 2>4. <6>2
+  <6!> <_!>
+  <6- _-> <7! 4 2>
+  <5 3>1
+  r8 <6>4. <5 4>8 <\t \t> <4! 2> <6> %45
+  r4 <6 4>8 <5 _!> r2
+  r8 <6>4. <5 4>8 <\t \t> <4! 2> <6>
+  r4 <6 4>8 <5 _!> r2
+  r1
+  r %50
+  r
+  r
+  r
+  r
+  r %55
+  r
+  r
+  r
+  r
+  r %60
+  r
+  r2.. <6->8
+  <6! 4! 2> <6>4 <6 5->8 <_!>4 <7->8 <6>16 <5->
+  <4! 2>8 <6>4 <6 5->8 r4 <[7] 5->
+  <5> <6>2 <6 4>8 <5 _!> %65
+  <5>4 <6>2 <6 4>8 <5 _!>
+  <6!>2 <_!>
+  r4 <6 4>8 <5 _!> r2
+  r1
+  r %70
+  r
+  r
+  r
+  r
+  r %75
+  r
+  r
+  r
+  r
+  r %80
+  r
+  r
+  r
+  r
+  r %85
+  r %86 finis
+}

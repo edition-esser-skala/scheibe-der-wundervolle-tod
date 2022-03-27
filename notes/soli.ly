@@ -1361,3 +1361,152 @@ WieLiebensSoliLyrics = \lyricmode {
   a -- ber iſt es, Gott! zum
   ſchwärz -- ſten Gram ver -- dammt. %38 finis
 }
+
+FliesstZitterndeSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \minor \time 2/2 \autoBeamOff \tempoFliesstZitternde
+    \partial 8 r8 R1*11 %11
+    r2 r4 r8 \mvTr c\pE^\soloE
+    c des4 c8 f16([ des)] c8 r c
+    c des4 c8 f16([ des)] c8 r f
+    f16([ g,)] g4 f'8 e16([ c)] c4 b8 %15
+    as8.([ des16)] c([ b)] as([ g)] as([ g)] f8 r des'
+    h c4 b8 a16([ ges')] ges4 f16([ es)]
+    d8 es4 des8 c16([ b)] c8 r es
+    f4 f8 f f4 es16([ des)] c([ h)]
+    c4 des16([ c)] b([ a)] b4 r8 es, %20
+    as4 as8 as as8.([ f'16)] es([ des)] c([ b)]
+    as4 as8 as as8.([ f'16)] es([ des)] c([ b)]
+    as([ g)] as4 \tuplet 3/2 8 { b16([ c des)] } c([ b)] c4 \tuplet 3/2 8 { des16([ es f)] }
+    es4 \tuplet 3/2 8 { f16([ es des)] c([ b as)] } \appoggiatura as8 g4 r8 es'
+    des!4 c8 h c16([ h)] c8 r es %25
+    des!4 c8 h c4 r8 c
+    f f4 g16([ as)] c,4 h8 c
+    as'4 \tuplet 3/2 8 { g16([ f es)] d([ c h)] } c4 r8 c
+    f f4 g16([ as)] c,4 h8 c
+    as4 g8. d'16 c4 r %30
+    R1*3
+    r2 r4 r8 g
+    g as4 g8 c16([ as)] g8 r c %35
+    c des!4 c8 f16([ des)] c8 r f
+    f16([ g,]) g4 f'8 e16([ c)] c4 b8
+    as8.([ des16)] c([ b)] as([ g)] as([ g)] f8 r f'
+    f16([ b,)] b4 f'8 g16([ es)] es4 des8
+    c8.([ f16)] es([ des)] c([ b)] c([ b)] as8 r4 %40
+    a r b16([ a)] b8 r4
+    h4 h8 h c16([ h)] c8 r c
+    des!16([ c)] des8 r4 e r
+    f8.([ es32 des)] c4 r r8 f,
+    b b4 c16([ des)] f,4 e8 f %45
+    des'4 \tuplet 3/2 8 { c16([ b as)] g([ f e)] } f4 r8 f
+    b b4 c16([ des)] f,4 e8 f
+    des'4 \tuplet 3/2 8 { c16([ b as)] g([ f e)] } f4 r
+    r2 r4 r8 f
+    ges4 f8 e f16([ e)] f8 r f %50
+    ges4 f8 e f4 r8 f
+    des'4 des8 des des4 c16([ b)] a([ g)]
+    a([ ges')] ges4 f16([ es)] des4 r8 f,
+    b4 b8 b b8.([ ges'16)] f([ es)] des([ c)]
+    b4 b8 b b8.([ ges'16)] f([ es)] des([ c)] %55
+    b([ a)] b4 \tuplet 3/2 8 { c16([ des es)] } des([ c)] des4 \tuplet 3/2 8 { es16([ f ges)] }
+    f4 \tuplet 3/2 8 { ges16([ f es)] des([ c b)] } \appoggiatura b8 a4 r8 f'
+    f16([ h,)] h4 h8 h16([ c)] c8 r f,
+    f16([ h)] h4 h8 h16([ c)] c8 r f,
+    des'4 \tuplet 3/2 8 { c16([ b as)] g([ f e)] } f([ des')] c8 r f, %60
+    des'4 \tuplet 3/2 8 { c16([ b as)] g([ f e)] } f'4 f,8 des'16([ b)]
+    as4.( b16[ g)] f4 r
+    R1*5 %67
+    r2 r4\fermata r8 f
+    b b4 c16([ des)] des4 c8 b
+    a16([ ges')] ges4 f16([ es)] des([ c)] b8 r des16([ b)] %70
+    ges8^\critnote ges4 ges8 ges16([ e)] f8 r f
+    b b4 \tuplet 3/2 8 { des16([ c b)] } b8 a r f
+    b b4 as8 as4 g!8 fis
+    g16([ f')] f4 es16([ des!)] c([ b)] as8 r e'
+    f8. e16 f4 b,16([ a)] b8 r des! %75
+    f, f4 \tuplet 3/2 8 { f16([ g as)] } g([ f)] es8 r g
+    c c4 d16([ es)] es4 d8 c
+    h16([ f')] f4 es16([ d)] d8([ es)] r g,
+    c16([ h)] c8 r c c16([ h)] c8 r c
+    f4 \tuplet 3/2 8 { es16([ d c)] d([ c h)] } c4 r8 b %80
+    a b4 c16([ des)] des4 c8 b
+    a16([ ges')] ges4 f16([ es)] es8([ des)] r f,
+    b16([ a)] b8 r b b16([ a)] b8 r b
+    es4 \tuplet 3/2 8 { des16([ c b)] c([ b a)] } b4 r8 f
+    des'16([ c)] b8 r b b16([ as)] ges8 r ges %85
+    ges16([ f)] es8 r a b4 r \markDaCapo \bar "||" %86 finis
+  }
+}
+
+FliesstZitterndeSoliLyrics = \lyricmode {
+  Fließt, %12
+  zit -- tern -- de Thrä -- nen, ent --
+  de -- cket mein Lei -- den! Dich
+  ſoll ich, o zärt -- lich -- ſter %15
+  Ge -- gen -- ſtand, mei -- den. Fließt,
+  zit -- tern -- de Thrä -- nen! Fließt,
+  zit -- tern -- de Thrä -- nen! Es
+  hat mich dieß töd -- ten -- de
+  Dun -- kel der Nacht auch %20
+  um dei -- ne Bli -- cke, auch
+  um dei -- ne Bli -- cke, mein
+  Lieb -- ſter, mein Lieb -- ſter, mein
+  Lieb -- ſter! ge -- bracht. Dieß
+  töd -- ten -- de Dun -- kel, dieß %25
+  Dun -- kel der Nacht, es
+  hat mich, dieß töd -- ten -- de
+  Dun -- kel der Nacht auch
+  um dei -- ne Bli -- cke, mein
+  Lieb -- ſter, ge -- bracht! %30
+
+  Fließt, %34
+  zit -- tern -- de Thrä -- nen, ent -- %35
+  de -- cket mein Lei -- den. Dich
+  ſoll ich, o zärt -- lich -- ſter
+  Ge -- gen -- ſtand, mei -- den, dich
+  ſoll ich, o zärt -- lich -- ſter
+  Ge -- gen -- ſtand, mei -- den. %40
+  Fließt, Thrä -- nen!
+  zit -- tern -- de Thrä -- nen! mein
+  Lieb -- ſter! Fließt,
+  Thrä -- nen! Es
+  hat mich dieß töd -- ten -- de %45
+  Dun -- kel der Nacht auch
+  um dei -- ne Bli -- cke, mein
+  Lieb -- ſter, ge -- bracht.
+  Dieß
+  töd -- ten -- de Dun -- kel, dieß %50
+  Dun -- kel der Nacht! Es
+  hat mich dieß töd -- ten -- de
+  Dun -- kel der Nacht auch
+  um dei -- ne Bli -- cke, auch
+  um dei -- ne Bli -- cke, mein %55
+  Lieb -- ſter, mein Lieb -- ſter, mein
+  Lieb -- ſter ge -- bracht! Fließt,
+  zit -- tern -- de Thrä -- nen! Fließt,
+  zit -- tern -- de Thrä -- nen! ent --
+  de -- cket mein Lei -- den, ent -- %60
+  de -- cket, ent -- de -- cket mein
+  Lei -- den.
+
+  Und %68
+  ob -- ſchon die Hoff -- nung, zwar
+  dunk -- ler, als Näch -- te, mich %70
+  Wei -- nen -- den trö -- ſtend zu
+  ſtär -- ken ge -- däch -- te, und
+  ob -- ſchon die Hoff -- nung, zwar
+  dunk -- ler, als Näch -- te, mich
+  Wei -- nen -- den trö -- ſtend zu %75
+  ſtär -- ken ge -- däch -- te; und
+  ob -- ſchon ein Fünk -- chen des
+  Lich -- tes er -- wacht: So
+  töd -- tet doch Hoff -- nung und
+  Al -- les die Nacht. Und %80
+  ob -- ſchon ein Fünk -- chen des
+  Lich -- tes er -- wacht: So
+  töd -- tet doch Hoff -- nung und
+  Al -- les die Nacht. So
+  töd -- tet doch Hoff -- nung und %85
+  Al -- les die Nacht. %86 finis
+}

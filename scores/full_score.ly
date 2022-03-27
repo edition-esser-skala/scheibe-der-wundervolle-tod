@@ -395,9 +395,57 @@
   %     \midi { \tempo 4. = 50 }
   %   }
   % }
+  % \bookpart {
+  %   \section "6" "Accompagnato" "Wie liebenswürdig ſind die Triebe"
+  %   \addTocLabel "wieliebens"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     indent = 1.5\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WieLiebensViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WieLiebensViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WieLiebensViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Johannes"
+  %           \new Voice = "Soli" { \dynamicUp \WieLiebensSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WieLiebensSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WieLiebensFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \WieLiebensBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "6" "Accompagnato" "Wie liebenswürdig ſind die Triebe"
-    \addTocLabel "wieliebens"
+    \section "7" "Aria" "Fließt, zitternde Thränen"
+    \addTocLabel "fliesstzitternde"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -411,33 +459,33 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WieLiebensViolinoI
+              \FliesstZitterndeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WieLiebensViolinoII
+              \FliesstZitterndeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WieLiebensViola
+            \FliesstZitterndeViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Johannes"
-            \new Voice = "Soli" { \dynamicUp \WieLiebensSoli }
+            \new Voice = "Soli" { \dynamicUp \FliesstZitterndeSoli }
           }
-          \new Lyrics \lyricsto Soli \WieLiebensSoliLyrics
+          \new Lyrics \lyricsto Soli \FliesstZitterndeSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WieLiebensFondamento
+            \FliesstZitterndeFondamento
           }
         >>
-        \new FiguredBass { \WieLiebensBassFigures }
+        \new FiguredBass { \FliesstZitterndeBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

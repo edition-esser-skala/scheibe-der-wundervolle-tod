@@ -592,3 +592,96 @@ WieLiebensViola = {
     es r g,2\p\fermata \bar "||" %39 finis
   }
 }
+
+FliesstZitterndeViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key f \minor \time 2/2 \tempoFliesstZitternde
+    \partial 8 c8\fE f16( f) f( f) f( f) f( f) f( f) f( f) f( f) e( e)
+    f( f) f( f) f( f) f( f) f( f) f( f) f( f) as( as)
+    g( g) g( g) g( g) g( g) g( e) e( e) e( e) e( e)
+    c8 b c c c16( b as8) r f'
+    d16( d) c( c) c( c) c( c) c( c) c( c) f( f) f( f) %5
+    f( f) es!( es) es( es) es( es) es( es) es( es) as( as) as( as)
+    as( as) as( as) as( as) as( as) f( f) f( f) c( c) c( c)
+    as(\p as) as( as) as( as) as( as) b( b) b( b) c( c) c( c)
+    des(\f des) des( des) des( des) des( des) c4 r8 f\p
+    r f\f c c\p f,16\f f'( f f) f(\p\cresc f) f( f) %10
+    f( f) f( f) f( f) f( f) f(\f f) f( f) f(\p f) f( f)
+    r8 f\ff c c as4 r8 c\pp
+    f16( f) f( f) f( f) f( f) f( f) f( f) f( f) e( e)
+    f( f) f( f) f( f) f( f) f( f) f( f) f( f) as( as)
+    g( g) g( g) g( g) g( g) g( e) e( e) e( e) e( e) %15
+    f( f) f( f) c( c) c( c) c( b as8) r f'
+    d16( d) c( c) c( c) c( c) c( c) c( c) es!( es) f( ges)
+    f( f) es( es) es( es) es( es) es( es) es( es) as( as) as( as)
+    as( as) as( as) as( as) as( as) g( g) g( g) es( es) es( es)
+    es( es) es( es) es( es) es( es) es( es) es( es) es( es) es( des) %20
+    c( c) c( c) c( c) c( c) des( des) des( des) es( es) es( es)
+    c( c) c( c) c( c) c( c) des( des) des( des) es( es) es( es)
+    c8 c c es es es es b
+    es es des des b4 r8 c
+    as\f as\pp as as g g es g %25
+    as\f as\pp as as g g g g
+    r as g f r g f es
+    r f g g c16( c) c( c) c( c) c( c)
+    r8 as g f r g f es
+    r f g g c,16 c'( c c) c( c) c( c) %30
+    as(\f as) as( as) as( as) as( as) g4 r8 g'\p
+    r f,\ff g g\p c,16\f c'( c c) c(\p\cresc c) c( c)
+    c( c) c( c) c( c) c( c) c(\fE c) c( c) c(\pE c) c( c)
+    r8 c\ff g g es4 r8 g\pp
+    c16( c) c( c) c( c) c( c) c( c) c( c) c( c) c( c) %35
+    f( f) f( f) f( f) f( f) f( f) f( f) f( f) as( as)
+    g( g) g( g) g( g) g( g) g( e) e( e) e( e) e( e)
+    f( f) f( f) c( c) c( c) c( as') as( as) as( f) f( f)
+    f( f) f( f) f( f) f( f) es( g) g( g) g( g) g( g)
+    as( as) as( as) es( es) es( es) es( des) c( c) c( c) c( c) %40
+    r c( c c) c( c) c( c) r des( des des) des( des) des( des)
+    r f,( f f) f( f) f( f) r g( g g) g( g) g( g)
+    r f'( f f) f( f) f( f) r g( g g) g( g) g( g)
+    c,4 r r2
+    r8 des c b r c b as %45
+    r b c c f16( f) f( f) f( f) f( f)
+    r8 des c b r c b as
+    r b c c f,16\f f'( f f) f(\p\cresc f) f( f)
+    f( f) f( f) f( f,) f( f) f(\f f) f( f) f(\p f) f( f)
+    des'(\f des) des(\p des) des( des) des( des) c( c) c( c) c( f) f( f) %50
+    des(\f des) des(\p des) des( des) des( des) c( c) c( c) c( as') as( as)
+    f( f) f( f) f( f) f( f) e( e) e( e) f( c) c( c)
+    c( c) c( c) c( a) a( a) b( b') b( b) b( b) b( b)
+    des,( des) des( des) des( des) des( des) es( es) es( es) f( f) f( f)
+    des( des) des( des) des( des) des( des) es( es) es( es) f( f) f( f) %55
+    des8 des des f f f f a,
+    b b es es c4 r8 c
+    des16( f,) f( f) f( f) f( f) g4 r8 f
+    des'16( f,) f( f) f( f) f( f) g4 r8 c
+    r b c c f,16 f'( f f) f( f) f( f) %60
+    r8 b, c c des4 r
+    r2 r4 r8 f\f
+    d16( d) c( c) c( c) c( c) c( c) c( c) c( c) f( f)
+    f( f) es!( es) es( es) es( es) es( es) es( es) es( es) as( as)
+    as( as) as( as) as( as) as( as) f( f) f( f) f( c) c( c) %65
+    as(\p as) as( as) as( as) as( as) b( b) b( b) c( c) c( c)
+    des(\f des) des( des) des( des) des( des) c4 r8 f\p
+    r b,\ff c c f,4\fermata r
+    r8 b\pp b b b b c c
+    c c c f f16( es) des( des) des( des) des( des) %70
+    b( b) b( b) b( b) b( b) as!( as) as( as) as( as) as( as)
+    ges( ges) ges( ges) ges( ges) ges( ges) c( c) c( c) a( a) a( a)
+    b( b) b( b) b( b) b( b) b( b) b( b) b( b) b( b)
+    b( b) b( b) b( b) es( es) es( c) c( c) c( as') as( as)
+    f( des) des( des) des( des) des( des) des( des) des( des) des( des) des( des) %75
+    b( b) b( b) b( b) b( b) b( as g8) r4
+    r8 c c c c c d d
+    d h h h g4 r8 es'
+    es16( es) es( es) es( es) es( es) es( es) es( es) es( es) es( es)
+    f( f) f( f) g( g) g( g) es( c) c( c) c( c) c( c) %80
+    c8 b b b b b c c
+    c a a a f4 r8 des'
+    des16( des) des( des) des( des) des( des) des( des) des( des) des( des) des( des)
+    es( es) es( es) f( f) f( f) b,4 r8 f'
+    des'16 c b8 r b b16 as! ges8 r ges %85
+    ges16 f es8 r c des4 r \markDaCapo \bar "||" %86 finis
+  }
+}
