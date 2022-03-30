@@ -1572,3 +1572,182 @@ DochHerzSoliLyrics = \lyricmode {
   heit, und ſetzt dem kur -- zen Gram ein %25
   froh -- er -- reich -- tes Ziel. %26 finis
 }
+
+OMatterSoli = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoOMatter
+    R2.*13 %13
+    r4^\markup \remark "Maria" r c'
+    \appoggiatura b a2 r4 %15
+    R2.*3
+    r4 r f
+    \appoggiatura es d!2 r4 %20
+    b'2 r4
+    R2.*9 %30
+    r4 r g
+    \appoggiatura f e2 r4
+    R2.*18 %50
+    r4 r g
+    \time 2/2 \tempoOMatterB \appoggiatura f8 e4 r8 c' \appoggiatura b a4 r8 c
+    c8. es,16 es8 es ges ges ges8. f16
+    \partial 2 des4 r %54
+    \time 3/4 \tempoOMatterC R2.*19 %73
+    r4 r r8 g
+    \time 2/2 \tempoOMatterD c4 r8 es, as!8. as16 as8 c %75
+    fis,8 fis g a g4 r8 des'
+    des e, e8. f16 f8 c r4
+    r2 r8 b' g4
+    r8 b des8. c16 des4 r8 g,
+    b b des8. c16 as8 as r f %80
+    b8. f16 f8 f h h f8. e16
+    g4 r r2
+    r4 r8 g b b des8. c16
+    c4 r8 g as4 r16 a a f
+    b8 b r4 r2 %85
+    r4 r8 c fis, fis c'8. h16
+    h8 r16 g h8 d d8. g,16 g8 g
+    cis8. cis16 cis4 r8 g b8. a16
+    f!8 f r16 f f a a8 d, d'4~
+    d8 g, fis8. g16 g8 d r4 %90
+    \fC \key c \major r8^\markup \remark "Eidli" d g g d'8. h16 g8 a
+    f f f8. g16 e4 r
+    R1
+    r2 r4 e'
+    gis,8. gis16 gis8. a16 h4 r8 e, %95
+    d' d f8. e16 cis8 cis16 cis cis8 e
+    a, a e'8. f16 d8 d r a
+    d d d8. f16 h,4 r8 d
+    gis, gis gis8. a16 a8 e r4
+    r8 fis fis a r c4 h8 %100
+    ais4 r8 cis cis e, g!8. fis16
+    fis4 r8 fis his4 r
+    r8 gis gis h h4 r8 d
+    d h h8. gis16 a4 \clef "treble_8" r8^\markup \remark "Lazarus" fis
+    fis8. a,16 a8 h cis4 r8 cis %105
+    d d h a fis4 r
+    r2 r8 dis' dis8. his16
+    gis4 r8 a! fis fis a gis8
+    e4 r8 e a4 r8 e'
+    e8. cis16 a4 r e' %110
+    ais,8 ais h cis d! d r4
+    fis r fis8 fis fis8. d16
+    h4 r8 d g,4 r
+    eis' h8. ais16 ais8 cis r4
+    R1*5 %119
+    r2 \tempoOMatterE r %120
+    \fC r8^\markup \remark "Johannes" h e4 r8 gis, gis8. h16
+    e,4 r8 e cis' cis cis8. e16
+    e8 a, r a d d g8. fis16
+    d4 r r2
+    r4 r8 g, d' d d8. h16 %125
+    g4 r8 g f'! f f8. g16
+    e4 c a8 a c8. h16
+    g4 r r2
+    r8 h h d d8. h16 h8 h
+    f'! e e h c4 r %130
+    r8 a a a d8. a16 a8 h
+    c c c a h4 d
+    g8 h, h c d4 r8 g,
+    c c h8. c16 c8 g r4
+    \clef treble r2^\markup \remark "Maria" r8 a' a e %135
+    r4 b'8. a16 f4 r8 a
+    b g g f d4 r
+    r r8 a' d8. a16 a8 d
+    b4 r8 f b b b8. d16
+    b4 r8 f b b r4 %140
+    g8 g b8. a16 fis4 r8 a
+    a d, a'8. b16 g4 r8 d'
+    e, e e8. f16 f8 c r4
+    r2 r8 f f b
+    r4 b8. f16 f4 r8 d' %145
+    g, g a8. d16 b4 r
+    R1*4 \bar "||" %150 finis
+  }
+}
+
+OMatterSoliLyrics = \lyricmode {
+  Mein %14
+  Sohn!
+
+  Mein %19
+  Sohn!
+  hör_—
+
+  Mein %31
+  Sohn!
+
+  Mein %51
+  Sohn! mein Sohn! hör
+  dei -- nes Volks be -- trüb -- tes Seuf -- zen
+  an!
+
+  Mein %74
+  Sohn! hör dei -- nes Volks be -- %75
+  trüb -- tes Seuf -- zen an! Ver --
+  laſ -- ſen ſtehn die Dei -- nen.
+  Mein Sohn!
+  er -- barmt dich nicht der
+  Mut -- ter ängſt -- lich Wei -- nen? Biſt %80
+  du nicht mehr zu unſ -- rer Ret -- tung
+  nah?
+  Ein je -- der ſteht und
+  harrt, auf was? nur aufs Ver --
+  der -- ben. %85
+  Ein je -- der ſeufzt und
+  hofft, all -- hier auf Gol -- ga -- tha zum
+  we -- nig -- ſten mit dir zu
+  ſter -- ben. Kein einz -- ger wün -- ſchet, dich __
+  zu ü -- ber -- le -- ben. %90
+  Mein Wunſch, mein gan -- zer Wunſch ſtimmt
+  da -- mit ü -- ber -- ein.
+
+  Das,
+  was er mir ſonſt gab, mein %95
+  wun -- der -- vol -- les Le -- ben, ver -- lang ich
+  nicht mehr zu ge -- nieſ -- ſen. Es
+  konn -- te blos aus ihm die
+  Luft des Le -- bens flieſ -- ſen.
+  Was Le -- ben! o Ver -- %100
+  luſt! der Ret -- ter ſelbſt iſt
+  todt_— ach todt_—
+  ohn -- fehl -- bar iſt ſein
+  Au -- gen -- licht er -- blaßt_— Ohn --
+  fehl -- bar iſt mein Heil, mein %105
+  Auf -- er -- we -- cker todt.
+  Nun fühl ich
+  erſt des Le -- bens ſchwe -- re
+  Laſt._— Doch Herr!_— und
+  lebſt du noch?_— Du?_— %110
+  Quell von mei -- nem Le -- ben_—
+  Wie?_— o -- der haſt du
+  ſchon den Geiſt_—
+  ach! auf -- ge -- ge -- ben?_—
+
+  Ge -- troſt! ver -- za -- get %121
+  nicht! Er -- war -- tet größ -- re
+  Tha -- ten! Schon hab ichs euch ge --
+  ſagt.
+  Ich bin noch mehr be -- %125
+  wegt, in -- dem ein höh -- rer
+  Trieb des Tro -- ſtes mich er --
+  regt._—
+  Weiſ -- ſa -- gend ruf ich euch in
+  ſel -- ger Hoff -- nung zu: %130
+  Es ei -- let im Tri -- umph der
+  Held nun -- mehr zur Ruh. Ihm
+  ſoll zum Wohl der Welt der
+  größ -- te Sieg ge -- ra -- then!
+  Ich weiß nicht, %135
+  wel -- cher Trieb dem
+  Aus -- ſpruch Bey -- fall giebt.
+  Mein theur -- ſter Sohn, mein
+  Gott, der mich ſo ſehr ge --
+  liebt, wird Mar -- ter, %140
+  Kreuz und Tod und Grab zu
+  Quel -- len ei -- nes Heils, das
+  uns ver -- ew -- get, ma -- chen.
+  Ihr Gläu -- bgen!
+  ſeyd ge -- troſt! legt %145
+  Furcht und Trau -- ren ab! %146 finis
+}

@@ -683,3 +683,159 @@ FliesstZitterndeViolinoI = {
     ges16 f es8 r a b4 r \markDaCapo \bar "||" %86 finis
   }
 }
+
+OMatterViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 3/4 \tempoOMatter
+    r8 \mvTrr es'\mfE-\markup \remark "con sordino" r d r d
+    r c r es r as
+    r as r g r d
+    r es r g r c
+    des,16( des) des( des) c( c) c( c) b!( b) b( b) %5
+    as( as) as( as) g( g) g( g) f( f) f( f)
+    r8 c' r h r es
+    r es r d r f
+    r es r es r des
+    r c r b r as %10
+    r b b4( c8.) des16
+    c8.( des16) es8 r r as
+    r f r des r des
+    r c r es\pp r as
+    R2. %15
+    r8 b,\mf r c r des
+    r des r c r b
+    r as r c r b
+    r as r c\pp r f
+    R2.*2 %21
+    r8 des\mf r c r c
+    r b r es r ges
+    r ges r f r c
+    r des r f r b %25
+    r ces, r b r a
+    r b r as r f'
+    r g, r b r des
+    r c r f r es
+    r c r as r as %30
+    r g r b\pp r es
+    R2.
+    f,16(\f\calando f) f( f) f( f) f( f) f( f) f( f)
+    ges( ges) ges( ges) ges( ges) ges( ges) ges( ges) ges( ges)
+    r8 a\mf r ges' r a, %35
+    r b r c r des
+    r des r c r f
+    h,16(\f\calando h) h( h) h( h) h( h) h( h) h( h)
+    c( c) c( c) c( c) c( c) c( c) c( c)
+    r8 des\mf r des r des %40
+    r es r des r c
+    r c r h r d
+    c16(\ff c) c( c) c( c) c( c) c( c) c( c)
+    cis( cis) cis( cis) cis( cis) cis( cis) cis( cis) cis( cis)
+    cis(\calando cis) cis( cis) g( g) g( g) g( g) g( g) %45
+    g( g) g( g) fis( fis) fis( fis) a( a) a( a)
+    b( b) b( b) b( b) b( b) d( d) d( d)
+    es( es) es( es) es( es) es( es) fis,( fis) fis( fis)
+    r8 g\p r c r b
+    r b r c r c %50
+    r b r d\pp r g
+    \time 2/2 \tempoOMatterB \grace s8 c,4 r c r
+    c1
+    \partial 2 b4 r
+    \time 3/4 \tempoOMatterC des16(\f\calando des) des( des) c( c) c( c) b( b) b( b) %55
+    as( as) as( as) g( g) g( g) f( f) f( f)
+    es( es) es( es) d!( d) d( d) c( c) c( c)
+    des( des) des( des) des( des) des( des) f(\p f) f( f)
+    b( b) b( b) b( b) b( b) b(\pp b) b( b)
+    h( h) h( h) h( h) h( h) h( h) h( h) %60
+    c( c) c( c) b( b) b( b) as( as) as( as)
+    as( as) as( as) g( g) g( g) c(\f c) c( c)
+    as( as) as( as) g( g) g( g) f( f) f( f)
+    h(\p\cresc h) h( h) h( h) h( h) c( c) c( c)
+    c( c) c( c) c( c) c( c) c( c) c( c) %65
+    c( c) c( c) c( c) c( c) c( c) c( c)
+    c( c) c( c) h( h) h( h) g'(\f\calando g) g( g)
+    as,!( as) as( as) g( g) g( g) f!( f) f( f)
+    es( es) es( es) d( d) d( d) c( c) c( c)
+    fis8(\p\cresc fis) fis( fis) fis( fis) %70
+    g( g) r g r g\pp
+    r c r c r c
+    r c r c r c
+    r4 c( h)
+    \time 2/2 \tempoOMatterD r2 as!\pp %75
+    es' d4( des)~
+    des2 r4 g,\pocoF
+    r16 f r as r des r f es2~\pp
+    es2 des~
+    des c %80
+    f1
+    e4 r \tuplet 3/2 8 { b!16(-.\pocoF b-. b-.) des([-. des-. des-.)] ges,(-. ges-. ges-.) b([-. b-. b-.)] }
+    \tuplet 3/2 8 { e,([-. e-. e-.)] e(-. e-. e-.) } e8 r r2
+    r \tuplet 3/2 8 { as16([-.\pp as-. as-.)] as([-. as-. as-.)] } a8 r
+    b-! r r4 \tuplet 3/2 8 { es,16([-.\pocoF es-. es-.)] ges(-. ges-. ges-.) ces,([-. ces-. ces-.)] es([-. es-. es-.)] } %85
+    \tuplet 3/2 8 { a,([-. a-. a-.)] a([-. a-. a-.)] } a8 r r2
+    h'1\pp
+    cis
+    d~
+    d4 es! r a,\f %90
+    \key c \major g1~\pp
+    g2~ g4 r
+    a r r2
+    d2 e4 r
+    r2 d~ %95
+    d cis~
+    cis \once \tieDashed d~
+    d1~
+    d4 r \tuplet 3/2 8 { a16[(-.\pocoF a-. a-.)] c(-. c-. c-.) f,!([-. f-. f-.)] a(-. a-. a-.) }
+    c2.\pp r4 %100
+    r8 ais16( ais) ais4~ ais2
+    r8 h16( h) h4( his2)
+    h1~
+    h2 a~
+    a1 %105
+    d2 r4 gis,\prall\pocoF
+    \tuplet 3/2 8 { fis16([-. fis-. fis-.)] a(-. a-. a-.) d,![(-. d-. d-.)] fis(-. fis-. fis-.) his,([-. his-. his-.)] his([-. his-. his-.)] } his8 r
+    R1
+    gis'4\pp r e'2~
+    e1~ %110
+    e2 d~
+    d1~
+    d
+    eis2 fis4 r
+    \tuplet 3/2 8 { h,16([-.\pocoF h-. h-.)] d(-. d-. d-.) g,!([-. g-. g-.)] h(-. h-. h-.) eis,([-. eis-. eis-.)] eis([-. eis-. eis-.)] } eis8 r %115
+    r4 r8 d'16(\p d) d4. d16( d)
+    d2 r8 cis16( cis) cis4~
+    cis2 r8 h16( h) h4~
+    h r r ais\f
+    h r \tempoOMatterE r16 \mvTr d,-!\f-\markup \remark "senza sordino" fis-! a-! d-! a-! fis-! d-! %120
+    gis,4 r r2
+    r e''~\pE
+    e d4 g!
+    r e\prall\f \once \slurDashed d32( fis16.) fis32( a16.) a16-! a( h c!)
+    c4( h) r2 %125
+    f!1\pp
+    e2 fis
+    r4 fis\prall\f g32( d16.) d32( f16.) h,16-! h( c d)
+    d1~\pp
+    d2 r16 a-!\f c-! e-! a-! e-! c-! a-! %130
+    fis4 r r2
+    r d'~\pp
+    d1
+    c4 f! r d\prall\f
+    c32( e16.) e32( g16.) g16-! g( a b) a2~\pp %135
+    a1
+    g2 r4 e\f
+    f1~\pp
+    f~
+    f2 e~ %140
+    e fis~
+    fis g~
+    g r4 g\f
+    f32( a16.) a,32( c16.) c16-! c( d es) es4( d)
+    R1 %145
+    g4\p r r c,\prall\f
+    b16-! d-! b-! a-! g f e! d cis4 r
+    r2 d'~\p
+    d r4 d-!\f
+    c-! r r2 \bar "||" %150 finis
+  }
+}

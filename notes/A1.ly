@@ -214,3 +214,187 @@ WerDuAuchAltoALyrics = \lyricmode {
   ver -- flucht! ver -- flucht ſey Gol -- ga -- %60
   tha! %61 finis
 }
+
+OMatterAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoOMatter
+    \mvTrr c'4\mfE^\tuttiE as f
+    es2 r4
+    f es g
+    g g r
+    des' c b! %5
+    as( g) f
+    g2 c4
+    c h r
+    c b b
+    as( g) f %10
+    r8 f g4( as8.) b16
+    as8.([ b16)] c4 r
+    r b g
+    as2 r4
+    R2. %15
+    f4 a b
+    b( g) g
+    r f e
+    f c r
+    R2.*2 %21
+    b'4 ges es
+    des2 r4
+    es des f
+    f f r %25
+    ces' b a
+    b f r
+    es g!( as8.) b16
+    as4( f) es
+    r f d %30
+    es2 r4
+    R2.
+    f4 f f
+    ges8.([ f16)] ges4 r
+    ges ges r %35
+    f( ges) g
+    f f r
+    as! as as
+    as g r
+    as as r %40
+    b( as) a
+    g g r8 g
+    g2 r8 g
+    g4 g r
+    r cis, cis %45
+    d d r8 d
+    b'2 r8 g
+    es'2 r8 es,
+    d8. d16 fis4 g
+    r a fis %50
+    g2 r4
+    \time 2/2 \tempoOMatterB \grace s8 R1*2
+    \partial 2 R2
+    \time 3/4 \tempoOMatterC des'4 c b %55
+    as( g) f
+    es( d!) c
+    des8.([ c16)] des4 r8 f
+    f2 r8 f
+    f4 f r %60
+    r g f
+    f e r
+    as g f
+    g2 g4
+    r as as %65
+    r a a
+    g2 r4
+    as! g f!
+    es( d) c
+    es2 r4 %70
+    d2 r4
+    r as'! as
+    r a a
+    r g2
+    \time 2/2 \tempoOMatterD R1*16 %90
+    \key c \major R1
+    r2 r4 r8 e\ppE
+    f f f8. a16 f4 r8 f
+    a a a8. h16 gis4 r
+    R1*20 %114
+    r2 r4 h %115
+    h8. gis16 gis4 r gis
+    r8 gis16 gis h8. gis16 fis4 r8 fis
+    ais ais ais8. h16 h4 r8 h
+    h h ais8. h16 h4 r
+    r2 \tempoOMatterE r %120
+    R1*26 %146
+    r2 r4 g
+    g8 g b8. a16 a4 a
+    h8 h h8. c16 c8 g r4
+    R1 \bar "||" %150 finis
+  }
+}
+
+OMatterAltoLyrics = \lyricmode {
+  O mat -- ter
+  Troſt
+  bey ſo viel
+  Kum -- mer!
+  Er liegt ja %5
+  ſchon __ im
+  To -- des --
+  ſchlum -- mer,
+  nicht ei -- nen
+  Seuf -- zer, %10
+  nicht ei -- nen
+  Seuf -- zer
+  hö -- ret
+  man.
+  %15
+  O mat -- ter
+  Troſt bey
+  ſo viel
+  Kum -- mer!
+
+  Er liegt ja %22
+  ſchon
+  im To -- des --
+  ſchlum -- mer, %25
+  nicht ei -- nen
+  Seuf -- zer,
+  nicht ei -- nen
+  Seuf -- zer
+  hö -- ret %30
+  man.
+
+  Sein Aug iſt
+  dunk -- ler,
+  dunk -- ler, %35
+  als __ die
+  Lüf -- te,
+  ſein Aug iſt
+  dunk -- ler,
+  dunk -- ler, %40
+  als __ die
+  Lüf -- te. O
+  Tod! er --
+  öff -- ne
+  dei -- ne %45
+  Grüf -- te! Ver --
+  ſchling ein
+  Volk, ein
+  Volk, das nicht mehr
+  le -- ben %50
+  kann.
+
+  O Tod! er -- %55
+  öff -- ne
+  dei -- ne
+  Grüf -- te! o
+  Tod! er --
+  öff -- ne %60
+  dei -- ne
+  Grüf -- te!
+  Ver -- ſchling ein
+  Volk! das
+  nicht mehr %65
+  le -- ben
+  kann!
+  Ver -- ſchling ein
+  Volk! __ ein
+  Volk! %70
+  das
+  nicht mehr
+  le -- ben
+  kann!
+
+  Kann %92
+  wohl ein and -- rer Wunſch uns
+  Ar -- men mög -- lich ſeyn?
+
+  Ach! %114
+  er iſt todt!_— Ja!_— %115
+  die -- ſe Schre -- ckens -- nacht hat
+  uns um un -- ſern Herrn, um
+  al -- le Ruh ge -- bracht!
+
+  Ach! %147
+  wä -- re dieß ge -- wiß! ach!
+  mögt er bald er -- wa -- chen! %149 finis
+}

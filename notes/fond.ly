@@ -1637,3 +1637,313 @@ DochHerzBassFigures = \figuremode {
   <6! 4! 2> %25
   <6>4 <_->2 <_!>4 %26 finis
 }
+
+OMatterFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 3/4 \tempoOMatter
+    \mvTrr c4\mfE-\tuttiE-\markup \remark "con sordino" f g
+    as as, as'
+    f g g,
+    c c' c,
+    des'-\unisono c b! %5
+    as( g) f
+    es! d! c
+    g' g, g'
+    c, g' es
+    as es f %10
+    des es es,
+    as as' as,
+    des b es
+    as, \mvTrr as'\pp-\soloE ges
+    r f( es) %15
+    \mvTrr des\mf-\tuttiE c b
+    e e, e'
+    f c' c,
+    f f, r
+    r \mvTrr b(\pp-\soloE as!) %20
+    ges2 r4
+    \mvTrr b\mf-\tuttiE es f
+    ges ges, ges'
+    es f f,
+    b b' b %25
+    ces b a
+    b d,! b
+    es es, es'
+    as d,! es
+    as, f b %30
+    es, \mvTrr es'\pp-\soloE des
+    r c b
+    \mvTr as!\f-\tuttiE\calando as as
+    b b b
+    c\mf c c %35
+    des es e
+    f f, es'
+    d!\f\calando d d
+    es es es
+    f\mfE f f %40
+    g f fis
+    g g, f'
+    es16(\ff es) es( es) es( es) es( es) es( es) es( es)
+    es( es) es( es) es( es) es( es) es( es) es( es)
+    es(\calando es) es( es) es( es) es( es) es( es) es( es) %45
+    d( d) d( d) d( d) d( d) d( d) d( d)
+    g,( g) g( g) g( g) g( g) g( g) g( g)
+    c( c) c( c) c( c) c( c) c( c) c( c)
+    b4\p a g
+    es' c d %50
+    g, \mvTrr g'\pp-\soloE g,
+    \time 2/2 \tempoOMatterB \grace s8 b4 r es! r
+    a,1
+    \partial 2 b4 r
+    \time 3/4 \tempoOMatterC des'16(\f\calando^\unisono des) des( des) c( c) c( c) b( b) b( b) %55
+    as( as) as( as) g( g) g( g) f( f) f( f)
+    es( es) es( es) d!( d) d( d) c( c) c( c)
+    des( des) des( des) des( des) des( des) des(\p des) des( des)
+    des( des) des( des) des( des) des( des) des(\ppE des) des( des)
+    des( des) des( des) des( des) des( des) des( des) des( des) %60
+    c( c) c( c) e( e) e( e) f( f) f( f)
+    c'( c) c( c) c,( c) c( c) c(\f c) c( c)
+    as'(^\unisonoE as) as( as) g( g) g( g) f( f) f( f)
+    f(\p\cresc f) f( f) f( f) f( f) es!( es) es( es)
+    as( as) as( as) as( as) as( as) as( as) as( as) %65
+    fis( fis) fis( fis) fis( fis) fis( fis) fis( fis) fis( fis)
+    g( g) g( g) g( g) g( g) g(\f\calando g) g( g)
+    as!(-\unisono as) as( as) g( g) g( g) f!( f) f( f)
+    es( es) es( es) d( d) d( d) c( c) c( c)
+    c8(\p\cresc c) c( c) c( c) %70
+    b!4 b b\pp
+    as! as' as
+    fis fis fis
+    g2 r4
+    \time 2/2 \tempoOMatterD r2 \mvTrr c,~\pp-\soloE %75
+    c b~
+    b r4 c\pocoF
+    des8 des des des des2~\pp
+    des e,~
+    e f %80
+    des'1
+    c4 r \tuplet 3/2 8 { b'!16(-.\pocoF^\unisono b-. b-.) des([-. des-. des-.)] ges,(-. ges-. ges-.) b([-. b-. b-.)] }
+    \tuplet 3/2 8 { e,([-. e-. e-.)] e(-. e-. e-.) } e8 r r2
+    r \tuplet 3/2 8 { f16([-.\pp f-. f-.)] f([-. f-. f-.)] } es8 r
+    des r r4 \tuplet 3/2 8 { es16([-.\pocoF^\unisono es-. es-.)] ges(-. ges-. ges-.) ces,([-. ces-. ces-.)] es([-. es-. es-.)] } %85
+    \tuplet 3/2 8 { a,([-. a-. a-.)] a([-. a-. a-.)] } a8 r r2
+    f'!1\pp
+    e
+    d2 c!
+    b!4 c r d\f %90
+    \key c \major h1~\pp
+    h2 c4 r
+    f r r2
+    f2 e4 r
+    r2 gis~ %95
+    gis g~
+    g f~
+    f1~
+    f4 r \tuplet 3/2 8 { a16[(-.\pocoF^\unisono a-. a-.)] c(-. c-. c-.) f,!([-. f-. f-.)] a(-. a-. a-.) }
+    dis,2.\pp r4 %100
+    r8 e16( e) e4~ e2
+    r8 d!16( d) d4~ d2
+    eis,1~
+    eis2 fis~
+    fis1 %105
+    h2 r4 cis\pocoF
+    \tuplet 3/2 8 { fis16([-.^\unisono fis-. fis-.)] a(-. a-. a-.) d,![(-. d-. d-.)] fis(-. fis-. fis-.) his,([-. his-. his-.)] his([-. his-. his-.)] } his8 r
+    R1
+    cis4\pp r cis2~
+    cis1~ %110
+    cis2 h~
+    h1
+    g'~
+    g2 fis4 r
+    \tuplet 3/2 8 { h16([-.\pocoF^\unisono h-. h-.)] d(-. d-. d-.) g,!([-. g-. g-.)] h(-. h-. h-.) eis,([-. eis-. eis-.)] eis([-. eis-. eis-.)] } eis8 r %115
+    r4 r8 eis16(\p eis) eis4. eis16( eis)
+    eis2 r8 fis16( fis) fis4~
+    fis2 g!
+    eis r4 fis\f
+    h, r \tempoOMatterE r16 \mvTr d-!\fE-\unisono-\markup \remark "senza sordino" fis-! a!-! d-! a-! fis-! d-! %120
+    gis,4-! r r2
+    r g'!2\p~
+    g fis4 g
+    r a\f d,8 d d d
+    g2 r %125
+    h,1\pp
+    c
+    r4 d\f g,8 g' g g
+    gis1~\pp
+    gis2 a4 r %130
+    fis\f r r2
+    r f2~\pp
+    f1
+    e4 f r g\f
+    c,8 c c c cis2~\ppE %135
+    cis d
+    g r4 a\fE
+    d,1~\ppE
+    d~
+    d~ %140
+    d2 c!~
+    c b~
+    b r4 c\f
+    f,8 f' f f b,2
+    R1 %145
+    es4\p r r f\f
+    b,8 b'16-!-\unisono a-! g f e! d cis4 r
+    r2 d\p
+    f r4 g-!\fE
+    c,4-! r r8 c16 d c b a g \bar "||" %150 finis
+  }
+}
+
+OMatterBassFigures = \figuremode {
+  r4 <6> <[7] _!>
+  <5>2.
+  r4 <6 4> <5 _!>
+  r2.
+  r %5
+  r
+  <6>4 <6! 4 3> <3>
+  <6 4> <5 _!> <7 \t>
+  r <6 _-> <7- 5>
+  r <7- 5> <5> %10
+  <6>2 <6 4>8. <7- 5 3>16
+  r2.
+  r4 <_-> <7->
+  r2 <4 2>4
+  r <_!> <\t> %15
+  <6> <6! 4 _-> <_->
+  <7- 5> <6 \t> <[5] \t>
+  r <6 4> <5 _!>
+  r2.
+  r4 <_!> <4 2> %20
+  <6>2.
+  r4 <6 _-> <7 _!>
+  <[5-]>2.
+  <_->4 <6- 4> <5 _!>
+  <_->2. %25
+  r
+  <5 _!>4 <6 5-> <7->
+  r2 <6 4>8. <7- 5 3>16
+  r4 <6 5->2
+  r2 <7->4 %30
+  r2 <[2]>4
+  r <5 _!> <\t \t>
+  <6>2.
+  <6- _->
+  <6! 5- _-> %35
+  <6>4 <6 _-> <7- 5- [_!]>
+  <6- 4> <5 _!> <4 2>
+  <6! 5- 3>2.
+  <6 4>4 <\t 3>2
+  <6- 3>2. %40
+  <6->4 <6- _-> <7- 5 [_!]>
+  <6 4> <5 _!> <4! 2>
+  <6>2.
+  <6\\>
+  <6\\>4 <6\\ 5>2 %45
+  <6 4>4 <5! _+>2
+  r2.
+  r2 <6! 4+ 3>4
+  <6> <6\\>2
+  r4 <6!> <[5!] _+> %50
+  r2.
+  <4! 2>2 q
+  <7->1
+  <_->2
+  r2. %55
+  r
+  r
+  r
+  <6>
+  <6!> %60
+  <_!>4 <6 5->2
+  <6 4>4 <5 _!>2
+  r2.
+  <6 4! 2>2 <6>4
+  <5>2. %65
+  <7- 5 [_!]>
+  <6 4>4  <5 _!>2
+  r2.
+  r
+  <6! 4+ 3> %70
+  <6>
+  <5>
+  <5 [_!]>
+  <6 4>2 <5 _!>4
+  r2 <6-> %75
+  <6! 4+ 3>2 <6 3>4 <\t _->
+  <6 4! _->2. <[_!]>4
+  r2 <4 2>
+  r <7->
+  r <_-> %80
+  <6> <6!>
+  <5 _!>1
+  r2 <5->
+  <6> <_->4 <4! 2>
+  <6>1 %85
+  r2 <6\\>
+  <4! 2>1
+  <6\\ 5->
+  <5! _!>2 <6! 4+ 2>
+  <6>4 <6! 4+ _->2 <5! _+>4 %90
+  <6 5!>1
+  r2 <_!>
+  r1
+  <6>2 <_+>
+  r <6 5> %95
+  r <4+ 2>
+  r <6>
+  r <[6 4 2+]>
+  r1
+  <7 5 [_+]> %100
+  r8 <6+ 4+ _!>2..
+  r8 <6 _+>4. <6\\ _+>2
+  <7! 5! [_+]>1
+  r2 <5+ 3>
+  r1 %105
+  <5+ 3>2. <[5+] _+>4
+  r1
+  r
+  <5+>2 <6>
+  r <6\\> %110
+  r <5+ 3>
+  r1
+  <5>2 <6\\>
+  r <5+ _+>
+  r2. <7! 5 [_+]>4 %115
+  r4. <7 5 [_+]>8 r2
+  r r8 <5+ 3>4.
+  <7! 5+ _+>2 <5>
+  <7 5 [_+]>2. <5+ _+>4
+  <[5+]>1 %120
+  <6>
+  r2 <4+ 2>
+  r <6>4 <5>
+  r <_+> q2
+  <9 4!>4 <8 3>2. %125
+  <6 5!>1
+  <5 3>2 <6 4+ 2>
+  r4 <_+>2.
+  <6 5>1
+  r2 <_!> %130
+  <6>1
+  r2 <4 2>
+  r1
+  <6>4 <6 4 2>2.
+  r4. <7->8 <6 5>2 %135
+  r1
+  <_->2. <_+>4
+  r1
+  <6->
+  r2 <7+ 6- 4 2> %140
+  r <6 4+ 2>
+  r <6>
+  <4 2>2. <7->4
+  r4. <7->8 <9 4->4 <8 3>
+  r1 %145
+  <[5-]>
+  r
+  <6 5>2 <3>
+  <4! 2>1
+  r %150 finis
+}

@@ -21,6 +21,12 @@ markFineE = {
   \mark \markup { \remarkE "fine" }
 }
 
+calando = #(make-music
+  'DecrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "calando")))
+
 
 tempoWoSindWir = \tempoMarkup "Adagio e pomposo"
 tempoWerDuAuch = \tempoMarkup "Recitativo"
@@ -43,6 +49,11 @@ tempoWieLiebens = \tempoMarkup "Recitativo"
   tempoWieLiebensB = \tempoMarkup "Accompagnato · Lento"
 tempoFliesstZitternde = \tempoMarkup "Poco lento e languido"
 tempoDochHerz = \tempoMarkup "Recitativo"
+tempoOMatter = \tempoMarkup "Lento e mesto"
+  tempoOMatterB = \tempoMarkup "Accompagnato"
+  tempoOMatterC = \tempoMarkup "Coro"
+  tempoOMatterD = \tempoMarkup "Accompagnato"
+  tempoOMatterE = \tempoMarkup "Poco allegro"
 
 
 \include "notes/fl1.ly"
