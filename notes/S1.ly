@@ -398,3 +398,96 @@ OMatterSopranoLyrics = \lyricmode {
   wä -- re dieß ge -- wiß! ach!
   mögt er bald er -- wa -- chen! %149 finis
 }
+
+SelgeSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 2/4 \autoBeamOff \tempoSelge
+    R2*126 %126
+    \tempoSelgeB \once \override TextScript.X-offset = #5 f4\pocoFE^\tuttiE ^\markup \remark "Die Weiber und die Gläubigen" a32([ g f8.)]
+    f8.([ e32 f] g8) f
+    f16([ e)] d([ c)] g'([ a)] b8
+    a16([ g)] f8 r4 %130
+    b d32([ c b8.)]
+    b8.([ a32 b] c8) b
+    b16([ a)] g([ f)] c'([ d)] es8
+    d16([ c)] b8 r4
+    c32([ b a8.)] c4 %135
+    b8.([\prall a32 b] c8) b
+    a4 r8 \tuplet 3/2 8 { g16([ a b)] }
+    b16([ a)] g([ f)] r8 \tuplet 3/2 8 { g16([ a b)] }
+    b16([ a)] g([ f)] c'4~
+    c8[ b] b([ a)] %140
+    a g r \tuplet 3/2 8 { g16([ a b)] }
+    b8([ a)] a([ g)]
+    f'4~ f16[ c] d([ b)]
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall
+    f r8 \tuplet 3/2 8 { g16([ a b)] } %145
+    b8([ a)] a([ g)]
+    f'4~ f16[ c] d([ b)]
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall
+    f r
+    d' r8 \tuplet 3/2 8 { f16([ e d)] } %150
+    d8([ c)] r4
+    c r8 \tuplet 3/2 8 { c16([ b a)] }
+    a8([ g)] c b
+    a4 c32([ b a8.)]
+    a8([ g)] r b %155
+    a4( b8) g
+    e16([ d)] c8 r4
+    f a32([ g f8.)]
+    f8.([ e32 f] g8) f
+    f16([ e)] d([ c)] c'8 b %160
+    a16([ b] c4) b8
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall
+    f b16([ a)] g([ f)]
+    f'4~ f16[ c] d([ b)]
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall %165
+    f r
+    R2*5 %171
+    R2\fermata \bar "|." %172 finis
+  }
+}
+
+SelgeSopranoLyrics = \lyricmode {
+  Held! ja, __ %127
+  dir __ wird
+  bald der Sieg ge --
+  ra -- then. %130
+  Held! ja, __
+  dir __ wird
+  bald der Sieg ge --
+  ra -- then.
+  Uns __ be -- %135
+  le -- ben
+  ſchon die __
+  Früch -- te, die __
+  Früch -- te dei --
+  ner %140
+  Tha -- ten, die __
+  Früch -- te __
+  dei -- ner
+  Tha --
+  ten, die __ %145
+  Früch -- te __
+  dei -- ner
+  Tha --
+  ten.
+  Held! ja, __ %150
+  dir,
+  Held! ja, __
+  dir, dir wird
+  bald der __
+  Sieg, der %155
+  Sieg __ ge --
+  ra -- then.
+  Uns be --
+  le -- ben
+  ſchon die Früch -- te %160
+  dei -- ner
+  Tha --
+  ten, dei -- ner
+  dei -- ner
+  Tha -- %165
+  ten. %166 finis
+}

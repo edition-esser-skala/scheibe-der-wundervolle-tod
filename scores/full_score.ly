@@ -522,71 +522,155 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "9" "Coro" "O matter Troſt bey ſo viel Kummer!"
+  %   \addTocLabel "omatter"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OMatterViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OMatterViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OMatterViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \OMatterSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \OMatterSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \OMatterAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \OMatterAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \OMatterTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \OMatterTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \OMatterBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \OMatterBassoLyrics
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \OMatterSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \OMatterSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OMatterFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \OMatterBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "9" "Coro" "O matter Troſt bey ſo viel Kummer!"
-    \addTocLabel "omatter"
+    \section "10" "Aria" "Selge Hoffnung! wie ſtärkſt du die Glieder!"
+    \addTocLabel "selge"
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SelgeFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SelgeFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SelgeOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SelgeOboeII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OMatterViolinoI
+              \SelgeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OMatterViolinoII
+              \SelgeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OMatterViola
+            \SelgeViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \OMatterSoprano }
+            \new Voice = "Soprano" { \dynamicUp \SelgeSoprano }
           }
-          \new Lyrics \lyricsto Soprano \OMatterSopranoLyrics
+          \new Lyrics \lyricsto Soprano \SelgeSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \OMatterAlto }
+            \set Staff.instrumentName = \markup \center-column { "Maria" "A" }
+            \new Voice = "Alto" { \dynamicUp \SelgeAlto }
           }
-          \new Lyrics \lyricsto Alto \OMatterAltoLyrics
+          \new Lyrics \lyricsto Alto \SelgeAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \OMatterTenore }
+            \new Voice = "Tenore" { \dynamicUp \SelgeTenore }
           }
-          \new Lyrics \lyricsto Tenore \OMatterTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SelgeTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \OMatterBasso }
+            \new Voice = "Basso" { \dynamicUp \SelgeBasso }
           }
-          \new Lyrics \lyricsto Basso \OMatterBassoLyrics
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \OMatterSoli }
-          }
-          \new Lyrics \lyricsto Soli \OMatterSoliLyrics
+          \new Lyrics \lyricsto Basso \SelgeBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \OMatterFondamento
+            \SelgeFondamento
           }
         >>
-        \new FiguredBass { \OMatterBassFigures }
+        \new FiguredBass { \SelgeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 72 }
     }
   }
 }

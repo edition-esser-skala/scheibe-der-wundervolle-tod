@@ -54,6 +54,8 @@ tempoOMatter = \tempoMarkup "Lento e mesto"
   tempoOMatterC = \tempoMarkup "Coro"
   tempoOMatterD = \tempoMarkup "Accompagnato"
   tempoOMatterE = \tempoMarkup "Poco allegro"
+tempoSelge = \tempoMarkup "Andante e dolce"
+  tempoSelgeB = \tempoMarkup "Coro"
 
 
 \include "notes/fl1.ly"

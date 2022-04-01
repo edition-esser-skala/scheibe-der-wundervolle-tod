@@ -839,3 +839,182 @@ OMatterViolinoI = {
     c-! r r2 \bar "||" %150 finis
   }
 }
+
+SelgeViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSelge
+    \once \slurDashed a'32(\ppE g f8.) f4
+    f16( a) g8 r b
+    \appoggiatura b a4 \appoggiatura c16 b8 \appoggiatura a16 g8
+    \appoggiatura f16 e8 f r4
+    b a %5
+    d( c8) f,
+    \appoggiatura f e4 f8.( g32 a)
+    \appoggiatura a8 g4 h(\f
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 h'(\p %10
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e8. c16\f g'8.( a32 b!)
+    a8. f16 c'8.( d32 es)
+    d16-! d( e f) e-! e( f g)
+    f4~ f16 c d b %15
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f'~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f8.[ c16 c8. b16]
+    b4( a) %20
+    a'32(\pp g f8.) f4
+    f16( a) g8 r b
+    \appoggiatura b a4 \appoggiatura c16 b8 \appoggiatura a16 g8
+    \appoggiatura f16 e8 f r4
+    d'16( c) b( a) g( f) e( f) %25
+    f8\prall e r c
+    c c c c
+    c c c c
+    c c c c
+    c4 r8 b' %30
+    a4 c32( h16.) a32( g16.)
+    c16 h c8 r a
+    g16( d' c4) b8
+    a16 g f8 r4
+    b a %35
+    d( c8) es,
+    \appoggiatura es d4 b'
+    a8( g) r4
+    g f\prall
+    e8( b'!) a( f) %40
+    e4( f8) d
+    c8. g'16\f g8.( a32 b!)
+    a16-! a( h c) h-! h( c d)
+    c4~ c16 g a f
+    f8.( \tuplet 3/2 32 { e32 d c) } d4\prall %45
+    c'~ c16 g a f
+    f8.( \tuplet 3/2 32 { e32 d c) } d4\prall
+    c8.[ g'16 g8. f16]
+    f4( e)
+    r8 c'16(\pp a) f8 es %50
+    es4( d)
+    r8 d'16( h) g8 f
+    f4( e!)
+    a32( g f8.) f4
+    f16( a) g8 r b %55
+    \appoggiatura b a4 \appoggiatura c16 b8 \appoggiatura a16 g8
+    \appoggiatura f16 e8 f r4
+    b a
+    d( c8) f,
+    \appoggiatura f e4 f8.( g32 a) %60
+    a8 g h4(
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 h'(\f
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e8. c16\pp g'8.( a32 b!) %65
+    a8. f16 c'8.( d32 es)
+    d16( c b a g f e! f)
+    f8 e c' a
+    fis8.( g32 a) g4
+    r es( %70
+    d) r8 g
+    g4( f!16) \once \slurDashed f( g a)
+    a4( g16) g( a b)
+    b8( a) a( g)
+    g( f) d' h %75
+    gis8.( a32 h) a4
+    r b(
+    a) r8 cis
+    d4~ d16 a b g
+    g8.( \tuplet 3/2 16 { f32 e d) } e4\prall %80
+    d cis'(
+    d8) b \appoggiatura a g4
+    \appoggiatura g8 f4 cis'(\f
+    d8) b \appoggiatura a g4
+    \appoggiatura g8 f4 r8 a\pp %85
+    d4~ d16 a b g
+    g8.( \tuplet 3/2 16 { f32 e d) } e4\prall
+    d8. a'16\f d8.( e32 f)
+    f4( e8) a,\p
+    a a a a %90
+    a a a a
+    a a a a
+    d,8. a'16\f d8.( e32 f)
+    f4( e8) c,\p
+    g' g g g %95
+    g g g g
+    c,8. c16\f g'8.( a32 b!)
+    a8. f16 c'8.( d32 es)
+    d16-! d( e f) e-! e( f g)
+    f4~ f16 c d b %100
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f4\pp a32( g f8.)
+    f8.( e32 f) g8 f
+    f16( e) d( c) g'( a) b!8
+    a16 g f8 f16-!\f es-! d-! c-! %105
+    b'4\pp d32( c b8.)
+    b8.(\prall a32 b) c8 b
+    b16( a) g( f) c'( d) es8
+    d16 c b8 r4
+    c32( b a8.) c4 %110
+    b8.(\prall a32 b) c8 b
+    a16\f c f a a f c a
+    a32(\pp g f8.) a4
+    g8.\prall( f32 g) a8 g
+    f16\f a d f f8 \tuplet 3/2 8 { e,16([\pp f g]) } %115
+    g( f) e( d) r8 \tuplet 3/2 8 { e16( f g) }
+    g( f) e( d) a'4~
+    a8( g) g( f16 e)
+    f d e f g a h cis
+    d8 d, d' c %120
+    b!8.(\prall a32 b) c8 b
+    a16\f c f a a8 \tuplet 3/2 8 { g,16([\pp a b]) }
+    b16( a) g( f) r8 \tuplet 3/2 8 { g16( a b) }
+    b( a) g( f) c'4~
+    c8( b) b( a) %125
+    a g r4
+    \tempoSelgeB f4\pocoF a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) g'( a) b8
+    a16( g) f8 f16-!\f es-! d-! c-! %130
+    b'4\pocoF d32( c b8.)
+    b8.( a32 b) c8 b
+    b16( a) g( f) c'( d) es8
+    d16 c b8 r4
+    c32( b a8.) c4 %135
+    b8.(\prall a32 b) c8 b
+    a16 c f a a8 \tuplet 3/2 8 { g,16([ a b)] }
+    b16( a) g( f) r8 \tuplet 3/2 8 { g16( a b) }
+    b16( a) g( f) c'4~
+    c8( b) b( a) %140
+    a g r \tuplet 3/2 8 { g16( a b) }
+    b8( a) a( g)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f16 a c f f8 \tuplet 3/2 8 { g,16([ a b]) } %145
+    b8( a) a( g)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    a16 c f a a f c a
+    d b' \once \tieDashed b8~ b \tuplet 3/2 8 { f16( e d) } %150
+    d8( c16) a' a8 c,
+    c16 a' a8~ a \tuplet 3/2 8 { c,16( b a) }
+    a8( g16) c c8 b
+    a16 c f a a f c a
+    a8( g) g32( a b8.) %155
+    a4( b8) g
+    e16 d c8 c'16-! b-! a-! g-!
+    f4 a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) c'8 b %160
+    a16( b) c4 b8
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f b16( a) g( f)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall %165
+    f8. f16 c'8.( d32 es)
+    d8. b16 d8.( e32 f)
+    e8. c16 g8.( a32 b!)
+    a16 b c4 b8
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall %170
+    f8.[ c'16 c8. b16]
+    b4( a)\fermata \bar "|." %172 finis
+  }
+}

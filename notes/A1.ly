@@ -398,3 +398,291 @@ OMatterAltoLyrics = \lyricmode {
   wä -- re dieß ge -- wiß! ach!
   mögt er bald er -- wa -- chen! %149 finis
 }
+
+SelgeAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 2/4 \autoBeamOff \tempoSelge
+    \key f \major \time 2/4 \autoBeamOff \tempoSelge
+    \mvTr a'32([\pE^\markup \remark "Maria" g f8.]) f4
+    f16([ a)] g8 r b
+    \appoggiatura b a4 \appoggiatura c16 b8 \appoggiatura a16 g8
+    \appoggiatura f16 e8 f r4
+    b a %5
+    d( c8) f,
+    \appoggiatura f e4 f8.([ g32 a)]
+    \appoggiatura a8 g4 r
+    R2*12 %20
+    a32([ g f8.]) f4
+    f16([ a)] g8 r b
+    \appoggiatura b a4 \appoggiatura c16 b8 \appoggiatura a16 g8
+    \appoggiatura f16 e8 f r4
+    d'16([ c b a] g[ f)] e([ f)] %25
+    f8 e r4
+    c'2~
+    c4 c,8 r
+    b'4( a16) a([ b c)]
+    a8 g r b %30
+    a4 c32([ h16.)] a32([ g16.)]
+    c16([ h)] c8 r a
+    g16([ d')] c4 b8
+    a16([ g)] f8 r4
+    b a %35
+    d( c8) es,
+    \appoggiatura es d4 b'
+    a8([ g)] r4
+    g f
+    e8([ b'!)] a([ f)] %40
+    e4( f8) d
+    c4 r
+    R2*7 %49
+    c'4. es,8 %50
+    es4 d
+    d'4. f,8
+    f4 e!
+    a32([ g f8.)] f4
+    f16([ a)] g8 r b %55
+    \appoggiatura b a4 \appoggiatura c16 b8 \appoggiatura a16 g8
+    \appoggiatura f16 e8 f r4
+    b a
+    d( c8) f,
+    \appoggiatura f e4 f8.([ g32 a)] %60
+    a8 g h4(
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 r
+    R2
+    r8. c16 g'8.([ a32 b!)] %65
+    a8. f16 c'8.([ d32 es)]
+    d16([ c b a] g[ f)] e!([ f)]
+    f8 e c' a
+    fis8.([ g32 a)] g4
+    r es( %70
+    d) r8 g
+    g4( f!16) f([ g a)]
+    a4( g16) g([ a b)]
+    b8([ a)] a([ g)]
+    g([ f)] d' h %75
+    gis8.([ a32 h)] a4
+    r b(
+    a) r8 cis
+    d4~ d16[ a] b([ g)]
+    g8.([ \tuplet 3/2 16 { f32 e d)] } e4\prall %80
+    d cis'(
+    d8) b \appoggiatura a g4
+    \appoggiatura g8 f4 r
+    R2
+    r4 r8 a %85
+    d4~ d16[ a] b([ g)]
+    g8.([ \tuplet 3/2 16 { f32 e d)] } e4\prall
+    d r
+    R2*13 %101
+    f4 a32([ g f8.)]
+    f8.([ e32 f] g8) f
+    f16([ e)] d([ c)] g'([ a)] b!8
+    a16([ g)] f8 r4 %105
+    b d32([ c b8.)]
+    b8.([ a32 b] c8) b
+    b16([ a)] g([ f)] c'([ d)] es8
+    d16([ c)] b8 r4
+    c32([ b a8.)] c4 %110
+    b8.([\prall a32 b] c8) b
+    a4 r
+    a32([ g f8.)] a4
+    g8.([\prall f32 g] a8) g
+    f4 r8 \tuplet 3/2 8 { e16([ f g)] } %115
+    g([ f)] e([ d)] r8 \tuplet 3/2 8 { e16([ f g)] }
+    g([ f)] e([ d)] a'4~
+    a8[ g] g([ f16 e)]
+    f[ d e f] g[ a h cis]
+    d8 d, d' c %120
+    b!8.([\prall a32 b] c8) b
+    a4 r8 \tuplet 3/2 8 { g16([ a b)] }
+    b16([ a)] g([ f)] r8 \tuplet 3/2 8 { g16([ a b)] }
+    b([ a)] g([ f)] c'4~
+    c8[ b] b([ a)] %125
+    a g r4
+    \tempoSelgeB \once \override TextScript.X-offset = #5 f4\pocoFE^\markup \remark "A tutti" a32([ g f8.)]
+    f8.([ e32 f] g8) f
+    f16([ e)] d([ c)] g'([ a)] b8
+    a16([ g)] f8 r4 %130
+    b d32([ c b8.)]
+    b8.([ a32 b] c8) b
+    b16([ a)] g([ f)] c'([ d)] es8
+    d16([ c)] b8 r4
+    c32([ b a8.)] c4 %135
+    b8.([\prall a32 b] c8) b
+    a4 r8 \tuplet 3/2 8 { g16([ a b)] }
+    b16([ a)] g([ f)] r8 \tuplet 3/2 8 { g16([ a b)] }
+    b16([ a)] g([ f)] c'4~
+    c8[ b] b([ a)] %140
+    a g r \tuplet 3/2 8 { g16([ a b)] }
+    b8([ a)] a([ g)]
+    a16([ b] c4) b8
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall
+    f r8 \tuplet 3/2 8 { g16([ a b)] } %145
+    b8([ a)] a([ g)]
+    a16([ b] c4) b8
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall
+    f r
+    b r8 \tuplet 3/2 8 { d16([ c b)] } %150
+    b8([ a)] r4
+    a r8 \tuplet 3/2 8 { a16([ g f)] }
+    f8([ e)] e16([ f)] g8
+    f4 a32([ g f8.)]
+    f8([ e)] r g %155
+    f4. d8
+    c c r4
+    f a32([ g f8.)]
+    f8.([ e32 f] g8) f
+    f16([ e)] d([ c)] c'8 b %160
+    a16([ b] c4) b8
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall
+    f r
+    r8 a16([ b] c8) d16([ b)]
+    b8.([ \tuplet 3/2 16 { a32 g f] } g4)\prall %165
+    f r
+    R2*5 %171
+    R2\fermata \bar "|." %172 finis
+  }
+}
+
+SelgeAltoLyrics = \lyricmode {
+  Sel -- ge
+  Hoff -- nung! wie
+  ſtärkſt du die
+  Glie -- der!
+  Glie -- der! %5
+  ſtarr von
+  Furcht und __
+  Tod.
+
+  Sel -- ge %21
+  Hoff -- nung! wie
+  ſtärkſt du die
+  Glie -- der!
+  Sel -- ge %25
+  Hoff -- nung!
+  Hoff --
+  nung!
+  Sel -- ge __
+  Hoff -- nung! wie %30
+  ſtärkſt du die
+  Glie -- der! wie
+  ſtärkſt du die
+  Glie -- der!
+  Glie -- der %35
+  ſtarr von
+  Furcht und
+  Tod,
+  Glie -- der
+  ſtarr von %40
+  Furcht und
+  Tod.
+
+  Süſ -- ſer %50
+  Je -- ſus!
+  Süſ -- ſer
+  Je -- ſus!
+  Ja, __ wir
+  le -- ben, wir %55
+  le -- _ ben
+  wie -- der!
+  Je -- ſus!
+  Ja, __ wir
+  le -- ben __ %60
+  wie -- der, ſüſ --
+  ſer Je --
+  ſus!
+
+  Wir le -- %65
+  ben, wir le --
+  _ ben
+  wie -- der und er --
+  war -- ten
+  ſtill __ %70
+  das
+  En -- _
+  _ de __
+  die -- ſer
+  Noth, wir er -- %75
+  war -- ten
+  ſtill __
+  das
+  En -- de
+  die -- ſer %80
+  Noth. Süſ -- ſer
+  Je --
+  ſus!
+
+  das %85
+  En -- de
+  die -- ſer
+  Noth.
+
+  Held! ja, __ %102
+  dir __ wird
+  bald der Sieg ge --
+  ra -- then. %105
+  Held! ja, __
+  dir __ wird
+  bald der Sieg ge --
+  ra -- then.
+  Uns __ be -- %110
+  le -- ben
+  ſchon,
+  uns __ be --
+  le -- ben
+  ſchon die __ %115
+  Früch -- te, die __
+  Früch -- te dei --
+  ner __
+  Tha -- _
+  _ ten, uns be -- %120
+  le -- ben
+  ſchon die __
+  Früch -- te, die __
+  Früch -- te dei --
+  ner %125
+  Tha -- ten!
+  Held! ja, __
+  dir __ wird
+  bald der Sieg ge --
+  ra -- then. %130
+  Held! ja, __
+  dir __ wird
+  bald der Sieg ge --
+  ra -- then.
+  Uns __ be -- %135
+  le -- ben
+  ſchon die __
+  Früch -- te, die __
+  Früch -- te dei --
+  ner %140
+  Tha -- ten, die __
+  Früch -- te __
+  dei -- ner
+  Tha --
+  ten, die __ %145
+  Früch -- te __
+  dei -- ner
+  Tha --
+  ten.
+  Held! ja, __ %150
+  dir,
+  Held! ja, __
+  dir, dir wird
+  bald der __
+  Sieg, der %155
+  Sieg __ ge --
+  ra -- then.
+  Uns be --
+  le -- ben
+  ſchon die Früch -- te %160
+  dei -- ner
+  Tha --
+  ten,
+  dei -- ner
+  Tha -- %165
+  ten. %166 finis
+
+}

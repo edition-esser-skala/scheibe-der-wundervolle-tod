@@ -95,3 +95,57 @@ WoSindWirOboeI = {
     c r8. es16 es8. es16 \bar "S-S" %89 finis
   }
 }
+
+SelgeOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSelge
+    R2*126 %126
+    \tempoSelgeB f4\pocoFE a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) g'( a) b8
+    a16( g) f8 r4 %130
+    b d32( c b8.)
+    b8.( a32 b) c8 b
+    b16( a) g( f) c'( d) es8
+    d16 c b8 r4
+    c32( b a8.) c4 %135
+    b8.(\prall a32 b) c8 b
+    a4 r8 \tuplet 3/2 8 { g16([ a b)] }
+    b16( a) g( f) g8 \tuplet 3/2 8 { g16( a b) }
+    b16( a) g( f) c'4~
+    c8( b) b( a) %140
+    a g r \tuplet 3/2 8 { g16( a b) }
+    b8( a) a( g)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4
+    f r8 \tuplet 3/2 8 { g16([ a b]) } %145
+    b8( a) a( g)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4
+    f r
+    d' r8 \tuplet 3/2 8 { f16( e d) } %150
+    d8( c) r4
+    c r8 \tuplet 3/2 8 { c16( b a) }
+    a8( g) c b
+    a4 c32( b a8.)
+    a8( g) r b %155
+    a4( b8) g
+    e16 d c8 r4
+    f a32( g f8.)
+    f8.( e32 f g8) f
+    f16( e) d( c) c'8 b %160
+    a16( b c4) b8
+    b8.( \tuplet 3/2 16 { a32 g f } g4)\prall
+    f b16( a) g( f)
+    f'4~ f16 c d( b)
+    b8.( \tuplet 3/2 16 { a32 g f } g4)\prall %165
+    f8. f16 c'8.( d32 es)
+    d8. b16 d8.( e32 f)
+    e8. c16 g8.( a32 b!)
+    a16 b c4 b8
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall %170
+    f8.[ c'16 c8. b16]
+    b4( a)\fermata \bar "|." %172 finis
+  }
+}

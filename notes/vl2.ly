@@ -839,3 +839,182 @@ OMatterViolinoII = {
     g-! r r2 \bar "||" %150 finis
   }
 }
+
+SelgeViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSelge
+    f4\ppE c
+    c16( f) e8 r g
+    f4 d
+    c8 c r4
+    f f %5
+    f f
+    \appoggiatura f8 e4 f
+    \appoggiatura f8 e4 h'(\f
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 h'(\p %10
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e8. c16\f g'8.( a32 b!)
+    a8. f16 c'8.( d32 es)
+    d16-! d( e f) e-! e( f g)
+    f4~ f16 c d b %15
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f'~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f8.[ c16 c8. b16]
+    b4( a) %20
+    f'\pp c
+    c16( f) e8 r g
+    f4 d
+    c8 c r4
+    b d %25
+    d8\prall c r c
+    c c c c
+    c c c c
+    c c c c
+    c4 r8 g' %30
+    f f g g
+    g4 r8 f
+    e16( b'!) a4 g8
+    f c r4
+    f f %35
+    f f8 es
+    \appoggiatura es d4 g
+    f8( e!) r4
+    r8 d( d d)
+    c4 c %40
+    c h
+    c8. e16\f e8.( f32 g)
+    a16-! a( h c) h-! h( c d)
+    c4~ c16 g a f
+    f8.( \tuplet 3/2 32 { e32 d c) } d4\prall %45
+    c'~ c16 g a f
+    f8.( \tuplet 3/2 32 { e32 d c) } d4\prall
+    c8.[ e16 e8. d16]
+    d4( c)
+    r8 c(\pp c c) %50
+    b!( b) b( b)
+    r d( d d)
+    c( c) c( c)
+    c4 c
+    c16( f) e8 r g %55
+    f4 d
+    c8 c r4
+    f f
+    f f8 f
+    \appoggiatura f e4 f %60
+    f8 e h'4(
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 h'(\f
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e8. c16\pp g'8.( a32 b!) %65
+    a8. f16 c'8.( d32 es)
+    d8 r d, r
+    d c es4
+    d d
+    r b( %70
+    a) r8 cis
+    d4~ d16 d( e f)
+    f4( e16) e( f g)
+    g8( f) f( e)
+    \once \slurDashed e( d) f4 %75
+    e e
+    R2
+    r4 r8 cis'
+    d d,4 d8
+    d4 cis %80
+    d cis'(
+    d8) b \appoggiatura a g4
+    \appoggiatura g8 f4 cis'(\f
+    d8) b \appoggiatura a g4
+    \appoggiatura g8 f4 r8 a\pp %85
+    d d,4 d8
+    d4 cis
+    d8. a'16\f d8.( e32 f)
+    d4( cis8) a\p
+    a a a a %90
+    a a a a
+    a a a a
+    d,8. a'16\f d8.( e32 f)
+    d4( c!8) c,\p
+    g' g g g %95
+    g g g g
+    c,8. c16\f g'8.( a32 b!)
+    a8. f16 c'8.( d32 es)
+    d16-! d( e f) e-! e( f g)
+    f4~ f16 c d b %100
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f\pp f
+    d d
+    c e16( f) g8
+    f8 c f16-!\f es-! d-! c-! %105
+    d4\pp g
+    g g
+    f a16( b) c8
+    b8 f r4
+    a32( g f8.) a4 %110
+    g g
+    f16\f a c f f c a f
+    f32(\pp e d8.) f4
+    e e
+    d16\f f a d d8 \tuplet 3/2 8 { cis,16([\pp d e)] } %115
+    d4 r8 \tuplet 3/2 8 { cis16([ d e)] }
+    d4 r8 \tuplet 3/2 8 { e16([ f g)] }
+    f8( e) \once \slurDashed e( d16 cis)
+    d8 e16 f g a h cis
+    d8 d, a' a %120
+    g4 g
+    f16\f a c f f8 \tuplet 3/2 8 { e,16([\pp f g)] }
+    f4 r8 \tuplet 3/2 8 { e16([ f g)] }
+    f4 r8 \tuplet 3/2 8 { g16([ a b)] }
+    a8( g) g( f) %125
+    f e r4
+    \tempoSelgeB c\pocoF d
+    d d
+    c e16( f) g8
+    f c f16-!\f es-! d-! c-! %130
+    f4\pocoF g
+    g g
+    f a16( b c8)
+    b8 f r4
+    a a %135
+    g g
+    f16 a c f f8 \tuplet 3/2 8 { e,16([ f g)] }
+    f8 c4 \tuplet 3/2 8 { e16( f g) }
+    f8 c4 \tuplet 3/2 8 { g'16( a b) }
+    a8( g) g( f) %140
+    f e r \tuplet 3/2 8 { e16( f g) }
+    g8( f) f( e)
+    a16 b c4 f,8
+    f4 e\prall
+    f16 a c f f8 \tuplet 3/2 8 { e,16([ f g)] } %145
+    g8( f) f( e)
+    a16 b c4 f,8
+    f4 e\prall
+    f16 a c f f c a f
+    d' d d8~ d \tuplet 3/2 8 { d16( c b) } %150
+    b8( a16) f' f8 a,
+    a16 f' f8~ f \tuplet 3/2 8 { a,16( g f) }
+    f8( e16) c' c8 g
+    f16 a c f f c a f
+    f8( e) e32( f g8.) %155
+    f8 f4 d8
+    c4 c'16-! b-! a-! g-!
+    f4 a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) c'8 g %160
+    f f4 f8
+    f4 e\prall
+    f r
+    r8 a16 b c8 b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f8. f16 c'8.( d32 es)
+    d8. b16 d8.( e32 f)
+    e8. c16 g8.( a32 b!)
+    a8 a16 b c8 f,
+    f4 e %170
+    f8.[ a16 a8. g16]
+    g4( f)\fermata \bar "|." %172 finis
+  }
+}

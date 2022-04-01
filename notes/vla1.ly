@@ -841,3 +841,182 @@ OMatterViola = {
     e-! r r2 \bar "||" %150 finis
   }
 }
+
+SelgeViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key f \major \time 2/4 \tempoSelge
+    c4\ppE a
+    c8 c r c
+    c4 b
+    b8 a r4
+    b c %5
+    b c
+    b c
+    c r
+    r8 c4\f h8
+    c4 r %10
+    r8 c4\p h8
+    c4 c\f
+    c f
+    f b,
+    a8 d c f %15
+    f4 e\prall
+    a,8 d c f
+    f4 e\prall
+    f8.[ a,16 a8. g16]
+    g4( f) %20
+    c'\pp a
+    c8 c r c
+    c4 b
+    b8 a r4
+    f g %25
+    g r8 c
+    c c c c
+    c c c c
+    c c c c
+    c4 r8 c %30
+    c c d d
+    c4 r8 c
+    c4 c
+    c8 a r4
+    b c %35
+    b c
+    b d
+    c r
+    r8 g( g g)
+    g4 f8 a %40
+    g4 g
+    e c'\f
+    c f
+    e8 a g c,
+    c4 h %45
+    c8 a g c
+    c4 h
+    c,2~
+    c
+    r8 f(\pp f f) %50
+    f( f) f( f)
+    r g( g g)
+    g( g) g( g)
+    f4 a
+    c8 c r c %55
+    c4 b
+    b8 a r4
+    b c
+    b c
+    b c %60
+    c8 c r4
+    r8 c4 h8
+    c4 r
+    r8 c4\f h8
+    c4 c\pp %65
+    f f
+    f8 r g, r
+    g4 c
+    a d
+    r g,( %70
+    f!) r8 g
+    a( a) a( a)
+    a( a) a( a)
+    \slurDashed a( a) a( a) \slurSolid
+    a4 d %75
+    h e
+    R2
+    r4 r8 g
+    f b,! a g
+    a4 a %80
+    d, r
+    r8 d'4 cis8
+    d4 r
+    r8 d4\f cis8
+    d4 r %85
+    r8 f,16\pp g a8 g
+    a4 a
+    d, a''\f
+    a a8 a,\p
+    a a a a' %90
+    a a a a
+    a a a a
+    d,8. a'16\f g8 h
+    g g g c,\p
+    g' g g g %95
+    g g g g
+    c,4 c\f
+    c f
+    f b
+    a8 d, c f %100
+    f4 e\prall
+    a,\pp a
+    b g
+    g c
+    c8 a f'16-!\f es-! d-! c-! %105
+    b4\pp b
+    es c
+    c f
+    f8 d r4
+    f8 f f f %110
+    d4 e
+    f8 f f f
+    a, d d d
+    h4 cis
+    d r8 a %115
+    a4 r8 a
+    a4 r8 a
+    a4 a
+    a e'
+    a, d8 fis %120
+    d4 e
+    f r8 c
+    c4 r8 c
+    c4 r8 c
+    c4 d %125
+    c r
+    \tempoSelgeB a\pocoF a
+    b g
+    g c
+    c8 a f'16-!\f es-! d-! c-! %130
+    d4\pocoF d
+    es c
+    c f
+    f8 d r4
+    f f %135
+    d e!
+    f r8 c
+    c c c c
+    c c c c
+    c4 d %140
+    c8 c r c
+    c4 c
+    c8 a16 b c8 b
+    c4 c
+    a r8 c %145
+    c4 c
+    c8 a16 b c8 b
+    c4 c
+    c8 c f f
+    f f f f %150
+    f f c f
+    f f f c
+    c c e e
+    c c c c
+    c4 r8 c %155
+    c4 d8 b
+    g c c16-! b-! a-! g-!
+    f'4 a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) c'8 c, %160
+    c a16 b c8 d
+    c4 c
+    a r
+    r8 c c f
+    f4 e %165
+    f f
+    f g
+    g c,
+    c8 f4 d8
+    c4 c %170
+    f,2~
+    f\fermata \bar "|." %172 finis
+  }
+}

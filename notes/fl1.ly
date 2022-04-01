@@ -270,3 +270,127 @@ DuHerrscherFlautoI = {
     R4.*5 \markDaCapo \bar "||" %271 finis
   }
 }
+
+SelgeFlautoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSelge
+    R2*7 %7
+    r4 h'(\fE
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 h''(\pE %10
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e8. c16\fE g'8.( a32 b!)
+    a8. f16 c8.( d32 es)
+    d16-! d( e f) e-! e( f g)
+    f4~ f16 c d b %15
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f'~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f r
+    R2*6 %25
+    r4 g'16-!\ppE g( a b)
+    b4( a16) a( b c)
+    c4( b16) g( a b)
+    b4( a16) f( g a)
+    a8\prall g r4 %30
+    R2
+    r4 r8 a
+    g16( d') c4 b!8
+    a16 g f8 r4
+    R2*7 %41
+    r8. g16\fE g8.( a32 b!)
+    a16-! a( h c) h-! h( c d)
+    c4~ c16 g a f
+    f8.( \tuplet 3/2 16 { e32 d c) } d4\prall %45
+    c'~ c16 g a f
+    f8.( \tuplet 3/2 16 { e32 d c) } d4\prall
+    c r
+    R2*14 %62
+    r4 h'(\fE
+    c8) a \appoggiatura g f4
+    \appoggiatura f8 e4 r
+    R2*17 %82
+    r4 cis'(\fE
+    d8) b \appoggiatura a g4
+    \appoggiatura g8 f4 r %85
+    R2*2
+    r8. a,16\fE d8.( e32 f)
+    f4( e16) e(\pE f g)
+    g4( f16) f( g a) %90
+    a4( g16) g( a b)
+    b8( a) a( g)
+    g( f) d8.(\fE e32 f)
+    f4( e16) e(\pE f g)
+    g4( f16) f( g a) %95
+    a8( g) g( f)
+    f( e) g,8.(\fE a32 b!)
+    a8. f16 c'8.( d32 es)
+    d16-! d( e f) e-! e( f g)
+    f4~ f16 c d b %100
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f r
+    R2*7 %109
+    c'8\ppE a'4 c,8 %110
+    b g'4 b,8
+    a16\fE c f a a f c a
+    a8\ppE f'4 a,8
+    g e'4 g,8
+    f16\fE a d f f8 r %115
+    r d\ppE e \tuplet 3/2 8 { e16( f g) }
+    g( f) e( d) a'4~
+    a8( g) g( f16 e)
+    f4 r
+    R2*3 %122
+    r8 a g \tuplet 3/2 8 { g16( a b) }
+    b( a) g( f) c'4~
+    c8( b) b( a) %125
+    a g r4
+    \tempoSelgeB f4\pocoFE a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) g'( a) b8
+    a16( g) f8 r4 %130
+    b d32( c b8.)
+    b8.( a32 b) c8 b
+    b16( a) g( f) c'( d) es8
+    d16 c b8 r4
+    c32( b a8.) c4 %135
+    b8.(\prall a32 b) c8 b
+    a16 c, f a a8 r
+    r a g \tuplet 3/2 8 { g16( a b) }
+    b16( a) g( f) c'4~
+    c8( b) b( a) %140
+    a g r \tuplet 3/2 8 { g16( a b) }
+    b8( a) a( g)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f8 r r \tuplet 3/2 8 { g16([ a b]) } %145
+    b8( a) a( g)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f r
+    d'8 d4 d8 %150
+    d( c) f c
+    c c4 \tuplet 3/2 8 { c16( b a) }
+    a8( g) c b
+    a4 c32( b a8.)
+    a8( g) g32( a b8.) %155
+    a4( b8) g
+    e16 d c8 r4
+    f4 a32( g f8.)
+    f8.(\prall e32 f) g8 f
+    f16( e) d( c) c'8 b %160
+    a16( b) c4 b8
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall
+    f b16( a) g( f)
+    f'4~ f16 c d b
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall %165
+    f8. f,16 c'8.( d32 es)
+    d8. b16 d8.( e32 f)
+    e8. c16 g'8.( a32 b!)
+    a16 b c4 b8
+    b8.( \tuplet 3/2 16 { a32 g f) } g4\prall %170
+    f8.[ c16 c8. b16]
+    b4( a)\fermata \bar "|." %172 finis
+  }
+}
