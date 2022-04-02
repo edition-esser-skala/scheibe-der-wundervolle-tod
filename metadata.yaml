@@ -4,7 +4,7 @@ composer:
 title: Der wundervolle Tod des Welterlösers
 id: SchW online B2:313
 genre: oratory
-scoring: 3 S, 5 T, 3 B (solo), S, A, T, B (coro 1), S, A, T, B (coro 2), 2 fl, 2 ob, 2 fag, 2 cor, timp, 2 vl, vla, b, bc
+scoring: 3 S, 5 T, 3 B (solo), S, A, T, B (coro 1), S, A, T, B (coro 2), 2 fl, 2 ob, 2 ob grande, 2 fag, 2 cor (D), timp, 2 vl, vla, b, bc
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -24,5 +24,7 @@ sources:
     notes: libretto, Johann Christian & Georg Christopher Berling, Copenhagen
 imslp:
 parts:
-  ob1: Oboe grande I
-  ob2: Oboe grande II
+  ob1: Oboe I\\Oboe grande I
+  ob2: Oboe I\\Oboe grande II
+  cor12: Corno I, II in D
+  vla: Viola I, II

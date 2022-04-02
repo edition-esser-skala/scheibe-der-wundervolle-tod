@@ -673,52 +673,131 @@
   %     \midi { \tempo 4 = 72 }
   %   }
   % }
+  % \bookpart {
+  %   \section "11" "Recitativo" "Was für ein Volk iſt das?"
+  %   \addTocLabel "wasfuer"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WasFuerViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WasFuerViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WasFuerViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Der römiſche" "Hauptmann" }
+  %           \new Voice = "Soli" { \dynamicUp \WasFuerSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WasFuerSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WasFuerFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \WasFuerBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "11" "Recitativo" "Was für ein Volk iſt das?"
-    \addTocLabel "wasfuer"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-      indent = 2\cm
-    }
+    \section "12" "Aria" "Wo bin ich? — Was rühret mich?"
+    \addTocLabel "wobinich"
+    \paper { indent = 2\cm }
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WoBinIchFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WoBinIchFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WoBinIchOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WoBinIchOboeII
+            }
+          >>
+        >>
+        \new Staff <<
+          \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+          % \transpose c d
+          \partCombine \WoBinIchCornoI \WoBinIchCornoII
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WasFuerViolinoI
+              \WoBinIchViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WasFuerViolinoII
+              \WoBinIchViolinoII
             }
           >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \WasFuerViola
-          }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vla"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WoBinIchViolaI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WoBinIchViolaII
+            }
+          >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Der römiſche" "Hauptmann" }
-            \new Voice = "Soli" { \dynamicUp \WasFuerSoli }
+            \new Voice = "Soli" { \dynamicUp \WoBinIchSoli }
           }
-          \new Lyrics \lyricsto Soli \WasFuerSoliLyrics
+          \new Lyrics \lyricsto Soli \WoBinIchSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WasFuerFondamento
+            \WoBinIchFondamento
           }
         >>
-        \new FiguredBass { \WasFuerBassFigures }
+        \new FiguredBass { \WoBinIchBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 115 }
     }
   }
 }

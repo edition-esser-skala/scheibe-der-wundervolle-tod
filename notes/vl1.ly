@@ -1060,3 +1060,78 @@ WasFuerViolinoI = {
     eis-!\pocoF r fis-! r \bar "||" %63 finis
   }
 }
+
+WoBinIchViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoWoBinIch
+    d''16\fE d d d d d d d eis, eis eis eis eis eis eis eis
+    cis' cis cis cis cis cis cis cis e, e e e e e e e
+    c' c c c c c c c dis, dis dis dis dis dis dis dis
+    h' h h h h h h h eis, eis eis eis eis eis eis eis
+    fis8 r r16 cis cis cis d d d d h' h h h %5
+    ais8 r r16 cis, cis cis d d d d h' h h h
+    ais ais ais ais fis fis fis fis cis cis cis cis ais ais ais ais
+    fis fis fis fis h h h h ais4 r \bar "S-S"
+    fis-!\pp r h-! r
+    ais-! r r2 %10
+    cis'16\f cis cis cis cis cis cis cis e,\pp e e e e e e e
+    c'\f c c c c c c c dis,\pp dis dis dis dis dis dis dis
+    h'\f h h h h h h h eis,\pp eis eis eis eis eis eis eis
+    fis8\f r r16 cis cis cis d d d d h' h h h
+    ais8 r r16 cis,\pp cis cis d d d d h' h h h %15
+    ais8 r r4 his,-! r
+    cis-! r r2
+    eis,16\f eis eis eis eis eis eis eis h''\pp h h h h h h h
+    e,,\f e e e e e e e ais'\pp ais ais ais ais ais ais ais
+    dis,,\f dis dis dis dis dis dis dis a''\pp a a a a a a a %20
+    d,,\f d d d d d d d gis'\pp gis gis gis gis gis gis gis
+    a\f a a a a a a a a\pp a a a a a a a
+    a\f a a a a a a a c,\p c c c c c c c
+    h4\pp r ais r
+    h r8. g32\f fis e8 r16 e32 d cis8 r16 fis\mf %25
+    h cis d d d d d d e, fis g g g g g g
+    eis eis eis eis fis fis fis fis h h,\f h h d d fis fis
+    h\mf cis d d d d d d e, fis g g g g g g
+    eis eis eis eis fis fis fis fis h\f h d d fis fis h h
+    ais8 r r16 cis, cis cis d d d d h' h h h %30
+    ais8 r r16 cis, cis cis d d d d h' h h h
+    ais ais ais ais fis fis fis fis cis cis cis cis ais ais ais ais
+    fis fis fis fis h h h h ais4-!\fermata r
+    a-!\pp r g!-! r
+    ais-! r h-! r %35
+    h-! r r2
+    dis,16\f c' c c c\pp c c c c a' c, a' c, a' c, a'
+    h, g' h, g' h,\f g' h, g' g h, g' h, g'\pp h, g' h,
+    eis, d'!\f d d d d d\pp d d h' d, h' d, h' d, h'
+    cis,! a' cis, a' cis, a' cis, a' a fis a fis a fis a fis %40
+    his,\f a' his, a' his,\pp a' his, a' a his, a' his, a' his, a' his,
+    gis' gis gis gis gis gis gis gis eis\f eis eis eis eis eis eis eis
+    fis4\pp r dis r
+    e r e16\f ais, ais ais ais\p ais ais ais
+    h8 r16 dis,32\f e fis8 r16 fis32 gis a8 r16 gis32 a h8 r %45
+    a,4 r r2
+    r8 c'4\pp c c c8
+    c4( h) c,16\f c c c c\p c c c
+    fis'! fis fis fis fis\f fis fis fis g g g g g\pp g g g
+    g g g g g g g g h, h h h h h h h %50
+    cis!\mf g' g g g g g g g g g g g g g g
+    fis! d,\f d d fis fis a a c c fis\pp fis a a fis fis
+    g e,\f e e g g h h e\pp c' e, c' e, c' e, c'
+    e, ais e ais e ais e ais ais e ais e ais e ais e
+    dis\f h' dis, h' dis, h' dis, h' a fis a fis a\pp fis a fis %55
+    g4 r c,16\f c c c c\pp c c c
+    ais ais ais ais h h h h c c c c c\f c c c
+    c a' a a a a a\pp a g h, h h h h h h
+    d! h'\f h h h h h h a cis, cis cis cis\pp cis cis cis
+    d\f d d\pp d d d d d h'\f h h\pp h h h h h %60
+    a\f a a a a a a a d, d d d d d d\pp d
+    his his his his cis cis cis cis d d d d d d d d
+    his his his his cis cis cis cis fis,4 r
+    R1
+    c''16\ff c c c c c c c dis, dis dis dis dis dis dis dis %65
+    h' h h h h h h h eis, eis eis eis eis eis eis eis
+    fis8 r r16 cis cis cis d d d d h' h h h
+    ais ais ais ais eis eis eis eis fis4 r \bar "S-S" %68 finis
+  }
+}

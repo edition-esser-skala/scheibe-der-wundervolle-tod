@@ -394,3 +394,75 @@ SelgeFlautoI = {
     b4( a)\fermata \bar "|." %172 finis
   }
 }
+
+WoBinIchFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoWoBinIch
+    d''2\fE r8. d16[ d8. d16]
+    cis2 r8. cis16[ cis8. cis16]
+    c2 r8. c16[ c8. c16]
+    h2 r8. h16[ h8. h16]
+    ais cis8. cis,16 e8. d16 fis8. h16 d8. %5
+    cis16 e8. cis,16 e8. d16 fis8. h16 d8.
+    cis8 cis4 cis cis cis8
+    cis4 h ais r \bar "S-S"
+    R1*2 %10
+    e'2\fE r8. e16[\ppE e8. e16]
+    dis2\fE r8. dis16[\ppE dis8. dis16]
+    e2\fE r8. h16[\ppE h8. h16]
+    ais\fE cis8. cis,16 e8. d16 fis8. h16 d8.
+    cis16\ppE e8. cis,16 e8. d16 fis8. h16 d8. %15
+    cis4 r r2
+    R1
+    d2\fE r8. d16[\ppE d8. d16]
+    cis2\fE r8. cis16[\ppE cis8. cis16]
+    c2\fE r8. c16[\ppE c8. c16] %20
+    h2\fE r8. h16[\ppE h8. h16]
+    a\fE c8. e,16 a8. c,16\ppE e8. a16 c8.
+    dis,16\fE fis8. fis16 a8. a16\pE c8. dis,16 fis8.
+    e4\ppE r r2
+    R1 %25
+    \appoggiatura { d'16[ cis] } h1~\mfE
+    h4 ais h r
+    \appoggiatura { d16[ cis] } h1~
+    h4 ais h r8 h\fE
+    cis16 e8. cis,16 e8. d16 fis8. h16 d8. %30
+    cis16 e8. cis,16 e8. d16 fis8. h16 d8.
+    cis8 cis4 cis cis cis8
+    cis4 h ais\fermata r
+    R1*3 %36
+    a16\fE c8. r8 c4\ppE c c8
+    h e4 e\fE e e8\ppE
+    h16\fE d!8. r8 d4\ppE d d8
+    cis! a4 a a a8~ %40
+    a a4\fE a\ppE a a8
+    gis gis4 gis gis\fE gis8
+    fis4\ppE r r2
+    r ais8\fE ais4 ais8\pE
+    h4 r r2 %45
+    c,1~\fE
+    c8 a'4\ppE a a a8
+    a4( gis) r2
+    R1
+    g8\ppE g4 g g g8~ %50
+    g cis4\mfE cis cis cis8
+    d a4\fE a a\ppE a8
+    g g4\fE g g\ppE g8
+    ais ais4 ais ais ais8
+    h\fE fis4 fis fis fis8\ppE %55
+    g4 r g2~\fppE
+    g4 fis e r
+    c'32(\fE h a8.) c32( h a8.) g32(\ppE a h8.) r4
+    d!32(\fE cis h8.) d32( cis h8.) a32( h cis8.) r4
+    d2\fppE r8. d16[ d8. d16] %60
+    cis8.[\fE a16 a8. a16] a2~
+    a4\ppE gis fis a~
+    a gis fis r
+    R1
+    c'2\ffE r8. c16[ c8. c16] %65
+    h2 r8. h16[ h8. h16]
+    ais cis8. cis,16 e8. d16 fis8. h16 d8.
+    cis4 h ais r \bar "S-S" %68 finis
+  }
+}

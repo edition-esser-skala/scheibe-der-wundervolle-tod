@@ -1888,3 +1888,128 @@ WasFuerSoliLyrics = \lyricmode {
   Troſt, ein Schutz, und
   ein Er -- ret -- ter ſeyn?_— %63 finis
 }
+
+WoBinIchSoli = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 2/2 \autoBeamOff \tempoWoBinIch
+    R1*7 %7
+    r2 r4 r8 fis \bar "S-S"
+    fis h r4 r8 h h8. ais16
+    cis4 r r2 %10
+    r4 r8 cis cis4 e,
+    r r8 c' c4 dis,
+    r2 h'4 r8 g
+    fis4 r r r8 h
+    ais16([ cis)] cis8 r4 r r8 h %15
+    ais16([ cis)] cis8 r4 r8 fis, fis8. eis16
+    gis4 r r2
+    r4 r8 d' d4 eis,
+    r2 ais4 r
+    r r8 c c4 dis, %20
+    r2 gis4 r
+    r2 a4 c
+    dis, r r2
+    r8 h' h8. ais16 cis4 r8 fis,
+    fis h r4 r r8. fis16 %25
+    h([ cis)] d8 r fis, g16([ fis)] e8 r4
+    eis fis h r8. fis16
+    h([ cis)] d8 r fis, g16([ fis)] e8 r4
+    eis fis h r
+    R1*3 %32
+    r2 r4\fermata r8 fis
+    fis16([ g!)] a!8 r a g16([ a)] h8 r4
+    e,16([ dis)] e8 r e dis fis r h %35
+    g16([ fis)] e8 r4 r2
+    r4 c' a fis
+    g16([ fis)] e8 r4 r2
+    d'!4 r8 d d4 eis,
+    fis r8 fis a16([ gis)] fis8 r4 %40
+    r r8 fis a16([ gis)] fis8 r4
+    r d'! r2
+    fis,4 r8 fis dis16[( fis)] fis8 r fis
+    e16([ h')] h8 r4 r c8. e,16
+    dis4 r r r8 e %45
+    c'8. a16 a4 r r8 a
+    a4. a8 a4 a
+    a( gis) r r8 a
+    fis!4 r r r8 d
+    g4 r8 h e,4 r8 g %50
+    cis!4. g8 g4 g
+    a r r r8 fis!
+    g4 r8 h g4 r8 e
+    ais4. e8 e4. e8
+    fis4 r r r8 fis %55
+    g8. e16 e4 r r8 c'
+    ais4 h c r
+    r r8 dis, e4. e8
+    eis4 r r r8 fis
+    d'4. h8 h4 h %60
+    cis r r r8 d
+    his4 cis d r8 d
+    his4 cis fis, r8 cis'
+    cis4. a8 \appoggiatura gis fis4 r
+    R1*3 %67
+    r2 r4 r8 fis \bar "S-S" %68 finis
+  }
+}
+
+WoBinIchSoliLyrics = \lyricmode {
+  Wo %8
+  bin ich?_— Was rüh -- ret
+  mich?_— %10
+  Ver -- wir -- rung!_—
+  Ent -- ſe -- tzen!_—
+  Nacht und
+  Tod! Wo
+  bin ich? Wo %15
+  bin ich? Was rüh -- ret
+  mich?
+  Ver -- wir -- rung!
+  Was?
+  Ent -- ſe -- tzen! %20
+  Was?
+  Nacht und
+  Tod!
+  Was rüh -- ret mich? Wo
+  bin ich? Ver -- %25
+  wir -- rung! Ent -- ſe -- tzen!
+  Nacht und Tod! Ver --
+  wir -- rung! Ent -- ſe -- tzen!
+  Nacht und Tod!
+
+  Und %33
+  Son -- ne!_— wo biſt du?_—
+  Son -- ne!_— wo biſt du?_— ver -- %35
+  ſchwun -- den_—
+  und was durch --
+  ſchau -- dert,
+  was durch -- ſchau -- dert
+  mich? Sinds Schmer -- zen? %40
+  Sinds Wun -- den?
+  Nein!_—
+  Herz! was bebſt du? was
+  bebſt du? wel -- che
+  Noth! In %45
+  Fin -- ſter -- niß er --
+  bärm -- li -- che Ge --
+  ſtalt! Na --
+  tur! Na --
+  tur! wo -- her ſo %50
+  ſchreck -- li -- che Ge --
+  walt? Na --
+  tur! wo -- her ſo
+  ſchreck -- li -- che Ge --
+  walt? Ge -- %55
+  kreu -- zig -- ter! Viel --
+  leicht durch dich?
+  Ge -- kreu -- zig --
+  ter! die
+  ſchreck -- li -- che Ge -- %60
+  walt! Viel --
+  leicht durch dich! Viel --
+  leicht durch dich! Ge --
+  kreu -- zig -- ter!
+
+  Wo %68 finis
+}

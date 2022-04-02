@@ -27,6 +27,8 @@ calando = #(make-music
   'span-type 'text
   'span-text (markup (#:normal-text #:small "calando")))
 
+fppE  = \dynScript "fpp"  ##t
+
 
 tempoWoSindWir = \tempoMarkup "Adagio e pomposo"
 tempoWerDuAuch = \tempoMarkup "Recitativo"
@@ -58,6 +60,7 @@ tempoSelge = \tempoMarkup "Andante e dolce"
   tempoSelgeB = \tempoMarkup "Coro"
 tempoWasFuer = \tempoMarkup "Recitativo"
   tempoWasFuerB = \tempoMarkup "Accompagnato"
+tempoWoBinIch = \tempoMarkup "Allegro assai"
 
 
 \include "notes/fl1.ly"
@@ -67,8 +70,8 @@ tempoWasFuer = \tempoMarkup "Recitativo"
 % \include "notes/fag1.ly"
 % \include "notes/fag2.ly"
 % \include "notes/clno.ly"
-% \include "notes/cor1.ly"
-% \include "notes/cor2.ly"
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
 % \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

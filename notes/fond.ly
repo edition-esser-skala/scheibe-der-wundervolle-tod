@@ -2428,3 +2428,149 @@ WasFuerBassFigures = \figuremode {
   r <6 _+>
   <6\\ 5> <5+ _+> %63 finis
 }
+
+WoBinIchFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key h \minor \time 2/2 \tempoWoBinIch
+    \mvTr h'16\fE-\soloE h h h h h h h h h h h h h h h
+    ais ais ais ais ais ais ais ais ais ais ais ais ais ais ais ais
+    a a a a a a a a a a a a a a a a
+    g! g g g g g g g g g g g g g g g
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %5
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    fis fis fis fis fis fis fis fis fis4 r \bar "S-S"
+    h,-!\pp r g-! r
+    fis-! r8 r16 g'32\f^\unisono fis e8 r16 e32 d cis8 r16 cis32 h %10
+    ais16 ais ais ais ais ais ais ais ais\pp ais ais ais ais ais ais ais
+    a\f a a a a a a a a\pp a a a a a a a
+    g\f g g g g g g g g\pp g g g g g g g
+    fis\f fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    fis\pp fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %15
+    fis8 r r4 d'4-! r
+    cis-! r8 r16 d'32\f cis h8 r16 h32 a gis8 r16 gis32 fis
+    eis16 eis eis eis eis eis eis eis eis\pp eis eis eis eis eis eis eis
+    e\f e e e e e e e e\pp e e e e e e e
+    dis\f dis dis dis dis dis dis dis dis\pp dis dis dis dis dis dis dis %20
+    d\f d d d d d d d d\pp d d d d d d d
+    c\f c c c c c c c c\pp c c c c c c c
+    h\f h h h h h h h a\pE a a a a a a a
+    g4\pp r fis r
+    h r8. g'32\f fis e8 r16 e32 d cis8 r16 d32\mf cis %25
+    h16 h h h h h h h e e e e e e e e
+    eis eis eis eis fis fis fis fis h h,\f h h d d fis fis
+    h\mf h, h h h h h h e e e e e e e e
+    eis eis eis eis fis fis fis fis h,\f h h h h h h h
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %30
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    fis fis fis fis fis fis fis fis fis4-!\fermata r
+    dis'-!\pp r e-! r
+    c-! r h-! r %35
+    e-! r8 r16 c'32\f h a8 r16 a32 g fis8 r16 fis32 e
+    dis16 dis dis dis dis\pp dis dis dis dis dis dis dis dis dis dis dis
+    e e e e e\f e e e e e e e e\pp e e e
+    eis eis\f eis eis eis eis eis\pp eis eis eis eis eis eis eis eis eis
+    fis fis fis fis fis fis fis fis d d d d d d d d %40
+    his\f his his his his\pp his his his his his his his his his his his
+    h h h h h h h h h\f h h h h h h h
+    a!\pp a a a a a a a a a a a a a a a
+    g! g g g g g g g c\f c c c c\p c c c
+    h8 r16 dis32\f e fis8 r16 fis32 gis a!8 r16 gis32 a h8 r %45
+    a,4 r8 r16 a32 h c8 r16 c32 d e8 r16 d32 e
+    f8 f,\ppE f f f f f f
+    e4 r c'16\f c c c c\p c c c
+    c c c c c\f c c c h h h h h\pp h h h
+    e e e e e e e e e e e e e e e e %50
+    es\mf es es es es es es es es es es es es es es es
+    d d\f d d fis! fis a a dis, dis dis\pp dis dis dis dis dis
+    e e\f e e g g h h c,\pp c c c c c c c
+    c c c c c c c c c c c c c c c c
+    h\f h h h h h h h h h h h h\pp h h h %55
+    e4 r c'16\f c c c c\pp c c c
+    ais ais ais ais h h h h c c c c c\f c c c
+    dis, dis dis dis dis dis dis\pp dis e e e e e e e e
+    eis eis\f eis eis eis eis eis eis fis fis fis fis fis\pp fis fis fis
+    fis\f fis fis\pp fis fis fis fis fis fis\f fis fis\pp fis fis fis fis fis %60
+    fis\f fis fis fis fis fis fis fis d d d d d d d\ppE d
+    his his his his cis cis cis cis d d d d d d d d
+    his his his his cis cis cis cis fis,4 r
+    R1
+    a'16\ff a a a a a a a a a a a a a a a %65
+    g! g g g g g g g g g g g g g g g
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    fis fis fis fis fis fis fis fis fis4 r \bar "S-S" %68 finis
+  }
+}
+
+WoBinIchBassFigures = \figuremode {
+  <5>2 <6+ 4+ _!>
+  <7! 5!>1
+  <6 4+ _!>
+  <6>2 <6\\>
+  <[5] _+>4 <7 \t> <6 4>2 %5
+  <5 _+>4 <7 \t> <6 4>2
+  <5 _+>4 <7 \t>2.
+  <\t \t>4 <7+ 5 4 2+> <8 _+>2
+  r <6\\>
+  <_+>1 %10
+  <7 5>
+  <6 4+ _!>
+  <6>2 <6\\>
+  <[5] _+>4 <7 \t> <6 4>2
+  <5 _+>4 <7 \t> <6 4>2 %15
+  <_+> <6\\>
+  <5+ _+>1
+  <7 5 [_+]>
+  <6 4+ 2>
+  <7! 5!> %20
+  <4+ 2>
+  <6>
+  <7 _+>2 <6 4+ _!>
+  <6> <_+>
+  r1 %25
+  <5 3>2 <6 5>
+  <6 5 [_+]>4 <_+>2.
+  r2 <6 5>
+  <6 5 [_+]>4 <_+>2.
+  <[5] _+>4 <7 \t> <6 4>2 %30
+  <[5] _+>4 <7 \t> <6 4>2
+  <[5] _+>4 <7 \t>2.
+  <\t \t>4 <7+ 6 4 2+> <5 _+>2
+  <6 5!>2 <_!>
+  <6\\> <_+> %35
+  r1
+  <7! 5>
+  <_!>
+  <7! 5 [_+]>
+  <5>2 q %40
+  <7 [_+]>1
+  <6+ 4+ _!>
+  <6>2 <4+ 2>
+  <6> <5>8 <6\\> <\t>4
+  <_+>1 %45
+  <_!>
+  <5!>8 <6\\ 5!>2..
+  <6! 4>4 <5 _+> <6>2
+  <4+ 2> <6>
+  <5>1 %50
+  <6\\ [5-]>
+  <_+>4 <6>8 <6 4> <7! 5>2
+  r4 <6> <5>2
+  <6\\>1
+  <5+ _+>2 <7! \t> %55
+  r <5>
+  <7 5 [_+]>4 <_+> <5>2
+  <7! 5!>1
+  <7 5 [_+]>
+  <7+ 6 4 2+> %60
+  <5 3>2 <5>
+  <7 5 [_+]>4 <5+ _+> <5>2
+  \bo <[7 _+]>4 \bc <[5 _+]>2.
+  r1
+  <6+ 4+ _!> %65
+  <6>2 <6\\>
+  <5 _+>4 <7 \t> <6 4>2
+  <7 _+>4 <7+ 6 4 2+> <5 _+>2 %68 finis
+}

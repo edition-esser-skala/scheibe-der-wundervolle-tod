@@ -1062,3 +1062,78 @@ WasFuerViola = {
     g!-!\pocoF r cis,-! r \bar "||" %63 finis
   }
 }
+
+WoBinIchViolaI = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key h \minor \time 2/2 \tempoWoBinIch
+    h'16\fE h h h h h h h gis gis gis gis gis gis gis gis
+    g g g g g g g g g g g g g g g g
+    fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    e e e e e e e e h h h h h h h h
+    cis e e e e e e e d d d d fis fis fis fis %5
+    fis e e e e e e e d d d d fis fis fis fis
+    e e e e e e e e e e e e e e e e
+    cis cis cis cis eis eis eis eis fis4 r \bar "S-S"
+    h,-!\pp r g-! r
+    cis-! r8. g'32\f fis e8 r16 e32 d cis8 r16 cis32 h %10
+    ais16 g' g g g g g g g\pp g g g g g g g
+    fis\f fis fis fis fis fis fis fis fis\pp fis fis fis fis fis fis fis
+    g\f g g g g g g g h,\pp h h h h h h h
+    cis\f e e e e e e e d d d d fis fis fis fis
+    fis\pp e e e e e e e d d d d fis fis fis fis %15
+    fis8 r r4 d-! r
+    gis,-! r8. d''32\f cis h8 r16 h32 a gis8 r16 gis32 fis
+    eis16\f eis eis eis eis eis eis eis gis\pp gis gis gis gis gis gis gis
+    ais\f ais ais ais ais ais ais ais fis\pp fis fis fis fis fis fis fis
+    c'\f c c c c c c c fis,\pp fis fis fis fis fis fis fis %20
+    h\f h h h h h h h e,\pp e e e e e e e
+    e\f e e e e e e e a\pp a a a a a a a
+    fis\f fis fis fis fis fis fis fis fis\p fis fis fis fis fis fis fis
+    g4\pp r cis, r
+    h r8. g'32\f fis e8 r16 e32 d cis8 r16 d32\mf cis %25
+    h16 cis d d d d d d e fis g g g g g g
+    eis eis eis eis fis fis fis fis h, h\f h h d d fis fis
+    h,\mf cis d d d d d d e fis g g g g g g
+    eis eis eis eis fis fis fis fis h,\f h fis' fis fis fis fis fis
+    fis e e e e e e e d d d d fis fis fis fis %30
+    fis e e e e e e e d d d d fis fis fis fis
+    e e e e e e e e e e e e e e e e
+    cis cis cis cis eis eis eis eis fis4-!\fermata r
+    fis-!\pp r h,-! r
+    c-! r dis-! r %35
+    e-! r8. c'32\f h a8 r16 a32 g fis8 r16 fis32 e
+    dis16 fis fis fis fis\pp fis fis fis fis fis fis fis fis fis fis fis
+    g g g g g\f g g g g g g g g\pp g g g
+    eis gis\f gis gis gis gis gis\pp gis gis gis gis gis gis gis gis gis
+    fis fis fis fis fis fis fis fis a a a a a a a a %40
+    a\f a a a a\pp a a a a a a a a a a a
+    gis gis gis gis gis gis gis gis gis\f gis gis gis gis gis gis gis
+    fis4\pp r fis r
+    g! r e16\f e e e e\p e e e
+    fis8 r16 dis32\f e fis8 r16 fis32 gis a!8 r16 gis32 a h8 r %45
+    a,4 r8. a32 h c8 r16 c32 d e8 r16 d32 e
+    f8 dis4\ppE dis dis dis8
+    e4 r c16\f c c c c\p c c c
+    d d d d d\f d d d d d d d d\pp d d d
+    e e e e e e e e e e e e e e e e %50
+    g\mf g g g g g g g g g g g g g g g
+    a d,\f d d fis! fis a a fis fis fis\pp fis fis fis fis fis
+    e e\f e e g g h h g\pp g g g g g g g
+    e e e e e e e e c c c c c c c c
+    fis\f fis fis fis fis fis fis fis fis fis fis fis fis\pp fis fis fis %55
+    e4 r c16\f c c c c\pp c c c
+    ais ais ais ais h h h h c c c c c\f c c c
+    c fis fis fis fis fis fis\pp fis e e e e e e e e
+    eis gis\f gis gis gis gis gis gis a fis fis fis fis\pp fis fis fis
+    gis\f gis gis\pp gis gis gis gis gis gis\f gis gis\pp gis gis gis gis gis %60
+    a\f a a a a a a a d, d d d d d d\pp d
+    his his his his cis cis cis cis d d d d d d d d
+    his his his his cis cis cis cis fis,4 r
+    R1
+    fis'16\ff fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %65
+    g! g g g g g g g h, h h h h h h h
+    cis e e e e e e e d d d d fis fis fis fis
+    fis fis fis fis gis gis gis gis fis4 r \bar "S-S" %68 finis
+  }
+}

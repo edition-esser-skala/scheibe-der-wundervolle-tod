@@ -149,3 +149,74 @@ SelgeOboeI = {
     b4( a)\fermata \bar "|." %172 finis
   }
 }
+
+WoBinIchOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoWoBinIch
+    r8. d'16[\fE d8. d16] d2
+    r8. e16[ e8. e16] e2
+    r8. fis16[ fis8. fis16] fis2
+    r8. h,16[ h8. h16] h2
+    r8. e16[ e8. e16] d8. fis16 fis4 %5
+    r8. e16[ e8. e16] d8. fis16 fis4
+    r8 e4 e e e8
+    e4-! d-! cis-! r \bar "S-S"
+    R1*2 %10
+    r8. e16[\fE e8. e16] e2\ppE
+    r8. fis16[\fE fis8. fis16] fis2\ppE
+    r8. h,16[\fE h8. h16] h2\ppE
+    r8. e16[\fE e8. e16] d8. fis16 fis4
+    r8. e16[\ppE e8. e16] d8.[ fis16 fis8. d16] %15
+    cis4 r r2
+    R1
+    r8. d16[\fE d8. d16] d2\ppE
+    r8. cis16[\fE cis8. cis16] cis2\ppE
+    r8. c16[\fE c8. c16] c2\ppE %20
+    r8. h16[\fE h8. h16] h2\ppE
+    R1
+    r8. fis'16[\fE fis8. fis16] fis2\pE
+    R1*2 %25
+    d2\mfE cis~
+    cis h4 r
+    d2 cis~
+    cis h4 r
+    r8. e16[\fE e8. e16] d8. fis16 fis4 %30
+    r8. e16[ e8. e16] d8. fis16 fis4
+    r8 e4 e e e8
+    e4 d cis\fermata r
+    R1*3 %36
+    r8. c16[\ppE c8. c16] c4 r
+    r8. h16[\fE h8. h16] h4 r
+    r8. d!16[ d8. d16]\ppE d4 r
+    r8. cis!16[ cis8. cis16] fis4 r %40
+    fis2~\fppE fis4 r
+    r2 r8. eis16[\fE eis8. eis16]
+    fis4\ppE r r2
+    r r8. e16[\pE e8. e16]
+    dis4 r r2 %45
+    R1
+    r8 c4\pp c c c8
+    c4( h) r8. a16[\pE a8. a16]
+    a8.[ d16 d8.\fE d16] d8.[ g16 g8.\ppE g16]
+    g4 g r g %50
+    r g2\mfE g4
+    fis!8.[ a,16\fE a8. a16] a4 r
+    r8. h16[\fE h8. h16] e4\ppE r
+    e1
+    dis8.[\fE fis16 fis8. a!16] a4 r %55
+    r2 e~\fppE
+    e4 dis e r
+    c2\fE h4\ppE r
+    d2\fE cis4\ppE r
+    eis2\fppE r %60
+    r8. fis16[\fE fis8. fis16] \once \tieDashed fis2~
+    fis4\ppE eis fis a,~
+    a gis fis r
+    R1
+    r8. fis'16[\ffE fis8. fis16] fis2 %65
+    r8. h,16[ h8. h16] h2
+    r8. e16[ e8. e16] d8.[ fis16 fis8. fis16]
+    e8.[ e16 d8. d16] cis4 r \bar "S-S" %68 finis
+  }
+}
