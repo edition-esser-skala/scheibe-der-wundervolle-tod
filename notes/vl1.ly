@@ -1018,3 +1018,45 @@ SelgeViolinoI = {
     b4( a)\fermata \bar "|." %172 finis
   }
 }
+
+WasFuerViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoWasFuer
+      \set Staff.timeSignatureFraction = 2/2
+    R1*30 %30
+    r2 \tempoWasFuerB r8. d'32\ff cis h8-! r16 h32 a
+    gis8-! r16 gis32 fis eis8-! r <fis cis' a'>4 r
+    r8. a32 gis fis8-! r16 fis32 e! dis8-! r16 dis32 cis his8-! r
+    r8. eis'16 eis8. eis16 e2\p
+    d!4-! h-! r8. ais16\f ais8. ais16 %35
+    \time 1/2 a8 r16 a!32[ g!] fis8 r16 fis32 e
+    \time 2/2 dis8 r r4 r8 r16 fis32 e dis8 r16 h'32 a
+    g8 r r4 c!\p r
+    r4 fis,\f\prall e8 r16 e32 d! c!8 r16 c32 h
+    a8-! r r4 r2 %40
+    c'!2\pp h4 r
+    r8. cis16\f cis8. cis16 d!4 r
+    r8 c16(\pp c) c4~ c2
+    r8. h16\f h8. h16 h2~\p
+    h8 r16 f!32\f e d8 r16 d32 c h8 r16 h32 a gis8-! r %45
+    r2 c'~\pp
+    c1
+    r8. gis'16\f gis8. gis16 g2~\pp
+    g r8. fis16\f fis8. fis16
+    fis1~\pp %50
+    fis
+    eis
+    r8 e16( e) e4~ e2~
+    e1
+    r8 dis16( dis) dis4~ dis2 %55
+    d r8 r16 a32\f gis fis8 r16 fis32 e
+    dis8 r16 dis32 cis h8 r16 h32 a gis8 r r4
+    R1
+    r2 h'\p
+    a4 r h r %60
+    r8. h16\f h8. h16 ais4 r
+    r2 h4-!\p r
+    eis-!\pocoF r fis-! r \bar "||" %63 finis
+  }
+}

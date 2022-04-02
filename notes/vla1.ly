@@ -1020,3 +1020,45 @@ SelgeViola = {
     f\fermata \bar "|." %172 finis
   }
 }
+
+WasFuerViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 2/2 \tempoWasFuer
+      \set Staff.timeSignatureFraction = 2/2
+    R1*30 %30
+    r2 \tempoWasFuerB r8. d'32\ff cis h8-! r16 h32 a
+    gis8-! r16 gis32 fis eis8-! r fis4 r
+    r8. a32 gis fis8-! r16 fis32 e! dis8-! r16 dis32 cis his8-! r
+    r8. gis'16 gis8. gis16 fis2\p
+    fis4-! h,-! r8. cis16\f cis8. cis16 %35
+    \time 1/2 c8 r16 a'!32[ g!] fis8 r16 fis32 e
+    \time 2/2 dis8 r r4 r8 r16 fis32 e dis8 r16 h'32 a
+    g8 r r4 e\p r
+    r4 h\f e,8 r16 e'32 d! c!8 r16 c32 h
+    a8-! r r4 r2 %40
+    dis2\pp e4 r
+    r8. e16\f e8. e16 d!4 r
+    r8 d16(\pp d) d4~ d2
+    r8. d16\f d8. d16 d2~\p
+    d8 r16 f!32\f e d8 r16 d32 c h8 r16 h32 a gis8-! r %45
+    r2 e'\pp
+    f! fis
+    r8. e16\f e8. e16 e2~\pp
+    e r8. d16\f d8. d16
+    dis1~\pp %50
+    dis
+    cis
+    r8 g'!16( g) g4~ g2
+    fis1
+    r8 fis16( fis) fis4~ fis2 %55
+    eis r8 r16 a32\f gis fis8 r16 fis32 e
+    dis8 r16 dis32 cis h8 r16 h32 a gis8 r r4
+    R1
+    r2 cis\p
+    cis4 r d! r %60
+    r8. gis,16\f gis8. gis16 cis4 r
+    r2 d4-!\p r
+    g!-!\pocoF r cis,-! r \bar "||" %63 finis
+  }
+}

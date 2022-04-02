@@ -1751,3 +1751,140 @@ OMatterSoliLyrics = \lyricmode {
   ſeyd ge -- troſt! legt %145
   Furcht und Trau -- ren ab! %146 finis
 }
+
+WasFuerSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoWasFuer
+      \set Staff.timeSignatureFraction = 2/2
+    r4 r8 b' es,^\critnote es es8. d16
+    f4 r r2
+    r4 r8 b b a a8. e!16
+    e4 r8 e g g b8. a16
+    f8 f r d' d f, f8. e16 %5
+    e8 r16 gis gis8 h! h d,8 d e
+    f d e8. h16 c4 r
+    r8 fis fis a a8. c,16 c8 es
+    es d c' a b b r4
+    r r8 es, es d r4 %10
+    r f8. f16 as8 g g d
+    es r16 es es8 g g8. c,16 c8 c
+    b' b c g as as r16 as as f
+    des'8. b16 b8 f ges ges ges8. b16
+    b8 e,! r16 e e g g8 c, b' g %15
+    e e e8. g16 f4 r8 c
+    f f f8. as16 d,4 r8 f
+    b b b ges es es r4
+    a! c8. f,16 f8 r16 ges ges8 es
+    c c es8. des16 b8 b r16 f' f f %20
+    h!8. f16 f4 r8 as as g!
+    e! r16 g g8 b b cis, r b'16 as
+    f!8 f r16 f f g a8. d,16 d8 d
+    g g g d e e16 g g8 c,
+    b' b c gis a a r a %25
+    a c,! c c a' a c8. h!16
+    ais8 ais r4 e r
+    g8 fis fis cis d! r fis4
+    h8 h h8. ais16 ais8 cis r16 cis cis e,
+    e8. d16 d8 h fis' fis fis8. eis16 %30
+    eis8 gis r4 \tempoWasFuerB r2
+    r4 r8 cis, a' a cis8. a16
+    fis4 r r r8 gis
+    eis4 r8 cis' cis8. fis,16 fis8 fis
+    d'!  h h8. ais16 ais8 cis r4 %35
+    \time 1/2 c r
+    \time 2/2 c8 c c8. fis,16 fis4 r
+    r8 h h e, c'! a fis8. g16
+    e4 r r r8 e
+    c'!8. a16 a4 r8 a a c %40
+    dis, dis e fis e e r4
+    r2 r8 a a d,
+    r4 a'8 a c! c d a
+    h h r4 r8 d d h
+    gis gis r4 r gis8. h16 %45
+    h8 e, d'8. c16 a8 a r16 a a c
+    c8. f,!16 f8 a a dis, c'8. h16
+    gis8 gis r4 b b8 g
+    g8. e16 e4 r2
+    r8 a a c! r4 fis,8. a16 %50
+    a8 dis, r dis fis fis a8. gis16
+    eis4 gis gis8 h, d!8. cis16
+    cis4 r r8 ais' ais8. cis16
+    cis8. fis,16 fis8 g! e e g8. fis16
+    dis4 r r8 dis fis8 r16 h %55
+    h8 eis, d'!8. cis16 a4 r
+    r2 h4 d8. h16
+    h8 r16 e, e8 fis gis8. gis16 gis8 a
+    h4 r8 d h h r cis16 gis
+    a4 r8 fis h fis fis8. eis16 %60
+    gis4 r cis cis8. fis,16
+    fis4 r8 fis h4 r8 fis
+    h h h8. ais16 cis4 r \bar "||" %63 finis
+  }
+}
+
+WasFuerSoliLyrics = \lyricmode {
+  Was für ein Volk iſt
+  das?
+  Itzt, da die Fin -- ſter --
+  niß die Welt ſo furcht -- bar
+  ſchre -- cket, und ei -- ne ſchwar -- ze %5
+  Nacht uns bis aufs Äuſ -- ſer -- ſte der
+  bäng -- ſten Furcht ge -- bracht,_—
+  (O! ei -- ne Fin -- ſter -- niß! die
+  ſelbſt den Tag ver -- de -- cket!)
+  faſt zittr’ ich!_— %10
+  Itzt da die -- ſe Schre -- ckens --
+  nacht auf nie -- er -- hör -- te Art den
+  Him -- mel ganz ver -- dun -- kelt, daß auch kein
+  einz -- ger Stern, kein mat -- tes Wölk -- chen
+  fun -- kelt, daß man nicht Him -- mel, Luft, nicht %15
+  Erd und Men -- ſchen ſieht, nicht
+  ſei -- nen Nach -- bar merkt, nicht
+  Schwerdt und Har -- niſch blin -- ken,
+  da, wenn man fällt, man in den
+  Ab -- grund denkt zu ſin -- ken, da man vor %20
+  Angſt ſich ſelbſt und al -- les
+  flieht, und doch ſich für -- chtet, zu ent --
+  flie -- hen, da auch die Kühn -- ſten ſich dem
+  Schre -- cken nicht ent -- zie -- hen, die Hel -- den
+  ſtill und heim -- lich äch -- zen, von %25
+  tie -- fen Seuf -- zern al -- le Gau -- men
+  lech -- zen: Wie?
+  da er -- ho -- len ſich der
+  ſchwa -- chen Wei -- ber Her -- zen, und ſie -- gen
+  ü -- ber uns und ü -- ber Angſt und %30
+  Schmer -- zen?_—
+  Zer -- thei -- le Ju -- pi --
+  ter!_— doch
+  nein!_— hat Ju -- pi -- ter wohl
+  Theil an ſo viel Wun -- dern?_— %35
+  Wie?_—
+  Nicht ein Ju -- pi -- ter!_—
+  Es muß ein höh -- res We -- ſen
+  ſeyn._— Ein
+  Ster -- ben -- der!_— um den die %40
+  Son -- ne ſelbſt ver -- ſchwin -- det_—
+  Und Wei -- ber_—
+  die im Schre -- cken herz -- haft
+  wer -- den_— furcht -- ſa -- me
+  Män -- ner_— ſonſt die %45
+  feig -- ſten die -- ſer Er -- den, von ei -- nem
+  ſchwa -- chen Strahl der Hoff -- nung ſtark ent --
+  zün -- det_— dort ein Ge --
+  kreu -- zig -- ter_—
+  von Geiſ -- ſeln ganz zer -- %50
+  riſ -- ſen, voll Wun -- den oh -- ne
+  Zahl, matt, kraft -- los, todt und
+  kalt,_— dem vä -- ter --
+  li -- chen Volk zum Scheu -- ſal auf -- ge --
+  ſtellt_— und kurz: ein %55
+  Schimpf, ein Spott der Welt_—
+  der, der flößt
+  noch mit un -- be -- greif -- li -- cher Ge --
+  walt dem Häuf -- lein, das ihn
+  ehrt, Ge -- duld und Hoff -- nung %60
+  ein?_— Der ſoll ein
+  Troſt, ein Schutz, und
+  ein Er -- ret -- ter ſeyn?_— %63 finis
+}

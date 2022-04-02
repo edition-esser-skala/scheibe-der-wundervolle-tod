@@ -2291,3 +2291,140 @@ SelgeBassFigures = \figuremode {
   r2
   r %172 finis
 }
+
+WasFuerFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoWasFuer
+      \set Staff.timeSignatureFraction = 2/2
+    d2\pE c
+    b4 r r8. d'32^\unisono c b8 r16 b32 a
+    g8 r16 g32 f e!8 r16 e32 d cis8 r r4
+    R1
+    r8. d32 c! b8 r16 b32 a gis8 r r4 %5
+    r2 gis~
+    gis r8. a32 g fis8 r16 es'32 d
+    c!4 r fis,2~
+    fis r8. g'32 f es8 r16 es32 d
+    c8 r16 c32 b a8 r16 a32 g fis8 r16 f'32 es d8 r16 d32 c %10
+    h8 r r4 r2
+    c4 r r2
+    e!4 r f r
+    b,1~
+    b~ %15
+    b2 as4 r
+    as1
+    ges
+    es'2 a,!~
+    a b %20
+    des1~
+    des2( cis)
+    d4 r c r
+    h! r c r
+    e r r8. cis32 h a8 r16 a32 g %25
+    fis4 r dis' r
+    cis r r2
+    ais h
+    g! fis
+    h d %30
+    cis4 r \tempoWasFuerB r8. d'32\ff^\unisono cis h8-! r16 h32 a
+    gis8-! r16 gis32 fis eis8-! r fis4 r
+    r8. a32^\unisono gis fis8-! r16 fis32 e! dis8-! r16 dis32 cis his8-! r
+    r8. h16 h8. h16 ais2\p
+    h4 g! r8. e'!16\f e8. e16 %35
+    \time 1/2 dis8 r16 a'!32[^\unisono g!] fis8 r16 fis32 e
+    \time 2/2 dis8 r r4 r8 r16 fis32 e dis8 r16 h'32 a
+    g8 r r4 a\p r
+    r h\f e,8 r16 e32^\unisono d! c!8 r16 c32 h
+    a8-! r r4 r2 %40
+    a2\pp g4 r
+    r8. g16\f g8. g16 fis4 r
+    r8 fis16(\pp fis) fis4~ fis2
+    r8. f16\f f8. f16 f2~\pE
+    f8 r16 f'!32\f^\unisonoE e d8 r16 d32 c h8 r16 h32 a gis8-! r %45
+    r2 a\pp
+    f'! dis
+    r8. d16\f d8. d16 cis2~\pp
+    cis r8. c16\f c8. c16
+    h1\pp %50
+    his
+    h
+    r8 ais16( ais) ais4~ ais2~
+    ais1
+    r8 a16( a) a4~ a2 %55
+    gis r8 r16 a'32\f^\unisono gis fis8 r16 fis32 e
+    dis8 r16 dis32 cis h8 r16 h32 a gis8 r r4
+    R1
+    r2 eis'\p
+    fis4 r d r %60
+    r8. cis16\f cis8. cis16 e!4 r
+    r2 d!4\p r
+    g!\pocoF r fis r \bar "||" %63 finis
+  }
+}
+
+WasFuerBassFigures = \figuremode {
+  <6->2 <7- _->4 <6 \t>
+  r1
+  r4.. <5->16 <7->8 <6>4.
+  r1
+  r4 <5> <5 [_!]>2 %5
+  <6> <6 5>
+  r2. <6 5>4
+  <4+ 2>2 <6 5>
+  r <_->4 <5->
+  <_-> <5-> <7->8 <6> <6!>4 %10
+  <6 5>1
+  <_->
+  <6 5->2 <_->
+  <5 _->2 <6- \t>
+  <6! 4! 2>1 %15
+  r2 <6>
+  <6> <4 2->
+  <6- [_-]>1
+  <4! 2>2 <6>4 <7->8 <5->
+  r2 <_-> %20
+  <6!> <6! 5->
+  <6- 4 2!>2 <7- 5>
+  <5! 3> <4+ 2>
+  <6> <5>
+  <6 5-> r8. <6>16 <_+>4 %25
+  <6 5!>2 <7 5 [_+]>
+  <6\\>1
+  \bo <7 [_+]>4 \bc <6 [\t]> <[5+]>2
+  <7+>4 <6\\> <5+ _+>2
+  \bo <5+ [4]>4 \bc <\t [3]> <6 _+>2 %30
+  <5+ _+>1
+  r2 <5+>
+  r1
+  r8. <6+ 4+ 2+>16 r4 <6 5! [_+]>2
+  <5+>4 <6\\> r8. <6+ 4+ _!>16 r4 %35
+  <7! 5! [_+]>2
+  r1
+  r2 <_!>
+  r4 <5+ _+>2.
+  r1 %40
+  <6+ 4+ _!>2 <6>
+  r8. <6 4+ 2>16 r4 <6>2
+  r8 <6 5!>2..
+  r8. <4 2>16 r4 <4 2+>2
+  r2. <6>4 %45
+  <6 5>1
+  <5 3>2 <7 5 [_+]>
+  r8. <6 4+ 2>16 r4 <7- 5!>2
+  r2 r8. <6 4+ 2>16 r4
+  <7 5+ _+>1 %50
+  <7 5 [_+]>
+  <6+ 4+ 2+>
+  r8 \bo <7! 5 [_+]>2..
+  \bc <6+ \t [\t]>1
+  r8 <6+ 4+ 2>2.. %55
+  <6+ 5! 3>1
+  r2 <6 5!>
+  r1
+  r2 <6 5 [_+]>
+  <5+> <6 _+> %60
+  r8. <7 5+ _+>16 r4 <6+ 4+ 2+>2
+  r <6 _+>
+  <6\\ 5> <5+ _+> %63 finis
+}

@@ -589,88 +589,136 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "10" "Aria" "Selge Hoffnung! wie ſtärkſt du die Glieder!"
+  %   \addTocLabel "selge"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SelgeFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SelgeFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SelgeOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SelgeOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SelgeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SelgeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SelgeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \SelgeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \SelgeSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Maria" "A" }
+  %           \new Voice = "Alto" { \dynamicUp \SelgeAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \SelgeAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \SelgeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \SelgeTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \SelgeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \SelgeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SelgeFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \SelgeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 72 }
+  %   }
+  % }
   \bookpart {
-    \section "10" "Aria" "Selge Hoffnung! wie ſtärkſt du die Glieder!"
-    \addTocLabel "selge"
+    \section "11" "Recitativo" "Was für ein Volk iſt das?"
+    \addTocLabel "wasfuer"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+      indent = 2\cm
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SelgeFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SelgeFlautoII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SelgeOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SelgeOboeII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SelgeViolinoI
+              \WasFuerViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SelgeViolinoII
+              \WasFuerViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SelgeViola
+            \WasFuerViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \SelgeSoprano }
+            \set Staff.instrumentName = \markup \center-column { "Der römiſche" "Hauptmann" }
+            \new Voice = "Soli" { \dynamicUp \WasFuerSoli }
           }
-          \new Lyrics \lyricsto Soprano \SelgeSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Maria" "A" }
-            \new Voice = "Alto" { \dynamicUp \SelgeAlto }
-          }
-          \new Lyrics \lyricsto Alto \SelgeAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SelgeTenore }
-          }
-          \new Lyrics \lyricsto Tenore \SelgeTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \SelgeBasso }
-          }
-          \new Lyrics \lyricsto Basso \SelgeBassoLyrics
+          \new Lyrics \lyricsto Soli \WasFuerSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SelgeFondamento
+            \WasFuerFondamento
           }
         >>
-        \new FiguredBass { \SelgeBassFigures }
+        \new FiguredBass { \WasFuerBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 72 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
