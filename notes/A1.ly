@@ -686,3 +686,58 @@ SelgeAltoLyrics = \lyricmode {
   ten. %166 finis
 
 }
+
+DochTraeumAltoA = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    R1*8 %8
+    r8 a'\fE a a r2
+    R1 %10
+    r2 r8 g h4
+    R1*6 %17
+    r8 d, fis h ais8. cis16 cis4
+    r8 h d d r4 r8 fis,
+    fis fis h8. h16 h8 h r h %20
+    c a fis8. g16 e4 r
+    r2 \tempoDochTraeumB r
+    R1*23 %45
+    r8 fis fis a a4 r8 h
+    g e ais8. h16 h8 h r4
+    R1*27 %74
+    r4 gis gis8. gis16 gis4
+    r8 g g g f f f8. f16
+    f4 r \tempoDochTraeumC r2
+    R1*3 %80
+    r2 r4 r8 g
+    g c r4 c8. c16 c8 a!
+    fis fis fis8. g16 g4 r16 g g h!
+    g8. g16 g8 g a f! d'8. c16
+    c4 r r2 %85
+    R1*3 \bar "||" %88 finis
+  }
+}
+
+DochTraeumAltoALyrics = \lyricmode {
+  O Wun -- der! %9
+
+  Er lebt! %11
+
+  Wir Fei -- gen zit -- ter -- ten! %18
+  wir Fei -- gen! aus
+  blo -- ßem Miß -- ver -- ſtan -- de! die %20
+  Prie -- ſter irr -- ten nicht.
+
+  Ach! ban -- ger Ruf! wer %46
+  kann die Deu -- tung faſ -- ſen?
+
+  Angſt! Schreck -- lich -- ſte! %75
+  bey der die Son -- ne ſelbſt er --
+  blaßt!
+
+  Ver -- %81
+  laſ -- ſen! ach! von Gott biſt
+  du, ge -- rech -- tes Lamm! und doch, er --
+  ret -- teſt du die un -- dank -- ba -- re
+  Welt. %85 finis
+}

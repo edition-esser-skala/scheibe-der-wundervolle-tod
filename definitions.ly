@@ -61,6 +61,9 @@ tempoSelge = \tempoMarkup "Andante e dolce"
 tempoWasFuer = \tempoMarkup "Recitativo"
   tempoWasFuerB = \tempoMarkup "Accompagnato"
 tempoWoBinIch = \tempoMarkup "Allegro assai"
+tempoDochTraeum = \tempoMarkup "Recitativo"
+  tempoDochTraeumB = \tempoMarkup "Accompagnato"
+  tempoDochTraeumC = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

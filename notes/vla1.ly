@@ -1137,3 +1137,68 @@ WoBinIchViolaI = {
     fis fis fis fis gis gis gis gis fis4 r \bar "S-S" %68 finis
   }
 }
+
+DochTraeumViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoDochTraeum
+    R1*21 %21
+    r2 \tempoDochTraeumB r8. h16[\fE e8. gis16]
+    e a a a a c c c c4 r
+    r2 r8. d,16[ d8. d16]
+    d4 r r16 d d d d g g g %25
+    gis4 r r2
+    e4\p r r2
+    d1\pp
+    gis2 g~
+    g1 %30
+    fis2 g
+    e r4 d\f
+    h1~\pp
+    h
+    g'~ %35
+    g2 r16 h, h8 r16 h h8
+    h16( h) h( h) h4~ h2
+    r16 a a8 a4~ a2
+    r16 a a8 r16 b b8 h16( h) h( h) h4~
+    h16( h) h( h) a( a) a( a) r a a8 r16 a a8 %40
+    a2 e4 r\fermata
+    \mvTrr a4\pp-\markup \remark "con sordino" r r2
+    R1
+    d4 r gis,2
+    a8 r r4 r2 %45
+    r16 a'\f a8~ a4~ a2
+    g4 c, fis r
+    r8 e\p e e fis2~\pp
+    fis e
+    cis1~ %50
+    cis2 fis
+    e1~
+    e
+    r4 e\f d8 g,\p g g
+    d'1\pp %55
+    c
+    d
+    c2 cis~
+    cis d
+    h! r16 b\mf b8 r16 e e8 %60
+    r2 c16(\pE\crescE c) c( c) c4~\ppE
+    c2 es
+    r16 d d8 r16 d d8 d2
+    a4 r r r16 d\mf d8
+    g,1\pp %65
+    r16 e' e8 r16 e( e e) c!2~
+    c1
+    r16 h! h8 r16 h( h h) d2~
+    d1
+    c %70
+    fis2 g
+    d r16 e!\p e8 r16 e( e e)
+    d1\pp
+    es2 r16 d\mf d8 r16 d( d d)
+    gis1 %75
+    r16 g( g g) g4 h r
+    r16 a a8 r16 g( g g) \tempoDochTraeumC f4 r
+    R1*11 \bar "||" %88 finis
+  }
+}

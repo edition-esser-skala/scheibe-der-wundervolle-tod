@@ -220,3 +220,59 @@ WerDuAuchBassoBLyrics = \lyricmode {
   wird man oh -- ne Feind im %75
   Fin -- ſtern um -- ge -- bracht. %76 finis
 }
+
+DochTraeumBassoB = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    R1*8 %8
+    r8 a'\fE fis fis r2
+    R1 %10
+    r2 r8 g g4
+    R1*6 %17
+    r2 r8 fis fis fis
+    fis8. h16 h8 r16 h h8 h, r4
+    a'!8. a16 a8. h16 h8 e, e8. e16 %20
+    a8 a r8. h16 h8 e, a g
+    e4 r \tempoDochTraeumB r2
+    R1*23 %45
+    r8 d c'! c h4 r8 h
+    c c c8. h16 h8 h r4
+    R1*27 %74
+    r4 h h8. d16 d4 %75
+    r8 a a a gis gis gis8. a16
+    d,4 r \tempoDochTraeumC r2
+    R1*3 %80
+    r2 r4 r8 c
+    c' c r4 a!8. a16 a8 a
+    es' a, a8. h!16 g4 r16 g g g
+    c8. c,16 c8 c' f, f g8. g16
+    c4 r r2 %85
+    R1*3 \bar "||" %88 finis
+  }
+}
+
+DochTraeumBassoBLyrics = \lyricmode {
+  O Wun -- der! %9
+
+  Er lebt! %11
+
+  Wir Fei -- gen %18
+  zit -- ter -- ten! wir Fei -- gen
+  zit -- ter -- ten aus blo -- ßem Miß -- ver -- %20
+  ſtan -- de! die Prie -- ſter irr -- ten
+  nicht.
+
+  Ach! ban -- ger Ruf! wer %46
+  kann die Deu -- tung faſ -- ſen?
+
+  Angſt! Schreck -- lich -- ſte! %75
+  bey der die Son -- ne ſelbſt er --
+  blaßt!
+
+  Ver -- %81
+  laſ -- ſen! ach! von Gott biſt
+  du, ge -- rech -- tes Lamm! und doch, er --
+  ret -- teſt du die un -- dank -- ba -- re
+  Welt. %85 finis
+}

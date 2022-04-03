@@ -220,3 +220,59 @@ WerDuAuchTenoreBLyrics = \lyricmode {
   wird man oh -- ne Feind im %75
   Fin -- ſtern um -- ge -- bracht. %76 finis
 }
+
+DochTraeumTenoreB = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    R1*8 %8
+    r8 fis\fE fis fis r2
+    R1 %10
+    r2 r8 d g4
+    R1*6 %17
+    r2 r8 cis, fis fis
+    fis8. fis16 fis8 r16 fis d8 d r4
+    dis8. dis16 dis8 h h h h8. e16 %20
+    e8 a, r8. h16 h8 e, a g
+    e4 r \tempoDochTraeumB r2
+    R1*23 %45
+    r8 d' d fis fis4 r8 dis
+    e e e8. fis16 fis8 dis r4
+    R1*27 %74
+    r4 f! f8. f16 f4 %75
+    r8 e e e f d d8. h16
+    a4 r \tempoDochTraeumC r2
+    R1*3 %80
+    r2 r4 r8 es'
+    es c r4 es8. es16 es8 c
+    a' c, es8. d16 d4 r16 d d f!
+    e!8. e16 e8 g f a d,8. g16
+    e4 r r2 %85
+    R1*3 \bar "||" %88 finis
+  }
+}
+
+DochTraeumTenoreBLyrics = \lyricmode {
+  O Wun -- der! %9
+
+  Er lebt! %11
+
+  Wir Fei -- gen %18
+  zit -- ter -- ten! wir Fei -- gen
+  zit -- ter -- ten aus blo -- ßem Miß -- ver -- %20
+  ſtan -- de! die Prie -- ſter irr -- ten
+  nicht.
+
+  Ach! ban -- ger Ruf! wer %46
+  kann die Deu -- tung faſ -- ſen?
+
+  Angſt! Schreck -- lich -- ſte! %75
+  bey der die Son -- ne ſelbſt er --
+  blaßt!
+
+  Ver -- %81
+  laſ -- ſen! ach! von Gott biſt
+  du, ge -- rech -- tes Lamm! und doch, er --
+  ret -- teſt du die un -- dank -- ba -- re
+  Welt. %85 finis
+}

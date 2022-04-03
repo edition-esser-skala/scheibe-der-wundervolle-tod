@@ -1135,3 +1135,68 @@ WoBinIchViolinoII = {
     cis cis cis cis h h h h ais4 r \bar "S-S" %68 finis
   }
 }
+
+DochTraeumViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDochTraeum
+    R1*21 %21
+    r2 \tempoDochTraeumB r8. gis'16[\fE gis8. h16]
+    a c c c c e e e e4 r
+    r2 r8. a,16[ a8. a16]
+    g4 r r16 g g g g h h h %25
+    h4 r r2
+    a4\p r r2
+    a\pp b
+    h a~
+    a1~ %30
+    a2 g~
+    g r4 fis\f
+    fis1~\pp
+    fis2 e~
+    e ais~ %35
+    ais r16 fis fis8 r16 fis fis8
+    e16( e) e( e) e4~ e2
+    r16 e e8 e4~ e2
+    r16 d d8 r16 d d8~ d16( d) d( d) d4~
+    d16( d) d( d) cis( cis) cis( cis) r d d8 r16 d d8 %40
+    dis2 e4 r\fermata
+    r8. \mvTrr e'16\pp-\markup \remark "consordino" e8( cis) b4( a)
+    r2 r8 b( g e)
+    r8. a16 a8( f) d2
+    cis8 r16 e e8( cis) b4( a) %45
+    r16 d'\f d8~ d4 dis2
+    e4 ais, h r
+    r16 gis(\p gis a) a( h) h( a) a2~\pp
+    a g~
+    g1~ %50
+    g2 fis
+    gis1
+    ais
+    r4 ais\f g16( d)\p d( e) e( f!) f( e)
+    f1\pp %55
+    e2 f~
+    f1
+    g~
+    g2 f~
+    f r16 e\mf e8 r16 g g8 %60
+    r16 b(\p\cresc b a!) a( g) g( f) f( f) f( f) f4~\pp
+    f1
+    r16 f f8 r16 f f8 f2
+    es4 r r r16 f\mf f8
+    e1\pp %65
+    r16 g g8 r16 g( g g) es2~
+    es1
+    r16 d d8 r16 d( d d) f2~
+    f1
+    es~ %70
+    es2 d
+    gis r16 a\p a8 r16 a( a a)
+    a2\pp g
+    cis r16 a\mf a8 r16 a( a a)
+    d1 %75
+    r16 cis( cis cis) cis4 d r
+    r16 d d8 r16 cis( cis cis) \tempoDochTraeumC b4 r
+    R1*11 \bar "||" %88 finis
+  }
+}

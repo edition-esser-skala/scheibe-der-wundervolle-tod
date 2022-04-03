@@ -2013,3 +2013,174 @@ WoBinIchSoliLyrics = \lyricmode {
 
   Wo %68 finis
 }
+
+DochTraeumSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    r8^\markup \remark "Der Hauptmann" fis fis h r4 g8. e16
+    a4 r r8 a d d
+    r4 g,8. fis16 a4 r
+    r r8 d, gis gis d cis
+    e4 r r r8 fis %5
+    h h h8. fis16 g8 g r e
+    c'!8. c16 c8 g fis4 r8 a
+    h h r g16 fis d4 r
+    r2 \clef treble r4^\markup \remark "Eine aus den Weibern" h''8. fis16
+    g4 r8 e c'! a fis8. g16 %10
+    g8 d r4 \clef bass r^\markup \remark "Einer aus dem Volke" r8 h
+    h e, d'8. h16 c4 r8 a
+    d r16 fis, fis8 a a r16 a d8 a
+    h4 r16 h h d d8. g,16 g8 h
+    e, e g8. fis16 d4 r %15
+    r r8 fis h8. fis16 fis8 fis
+    g e e8. d16 h4 r
+    R1*4 %21
+    r2 \tempoDochTraeumB r
+    \clef "treble_8" r^\markup \remark "Johannes" r8 e' e8. c16
+    a8 r16 a a8 a d4 r
+    r8 d d h g g r4 %25
+    r8 h h8. gis16 d'4 r8 h
+    c4 r8 a e' e e8. f!16
+    d4 r16 d d f f8. b,16 b8 d
+    gis, gis h8. a16 a4 r16 a a b
+    g8. g16 g8 b b a a e %30
+    fis fis r16 a a d d8. g,16 g8 d'
+    e, e fis8. g16 g8 d r4
+    r8 h' fis'8. dis16 h4 r16 h h c!
+    a8 a h8. fis16 g8 g r h
+    c! c c8. e16 ais,4 r8 g'! %35
+    g ais, ais8. cis16 h8 h r4
+    r r8 h gis h h e,
+    r4 a8. b16 g8 g b8. a16
+    f!4 r8 d' h!4 r8 f'
+    d4 r8 cis32([ e16.)] d4 r8 a %40
+    dis a a8. gis16 h!4 r\fermata
+    \fC r2^\markup \remark "Jeſus" r4 r8 a^\markup \remark "lugubre"
+    b4 r8 b \appoggiatura a g4 r
+    f8 a r4 d8 d d8. cis16
+    cis8 e r4 r2 %45
+    R1*2
+    \fC r2^\markup \remark "Johannes" r8 fis, fis a
+    c8 r16 fis, fis8. a16 g4 r8 e
+    ais4 r8 cis ais8. ais16 ais8 h %50
+    cis cis cis8. d16 h4 r16 h h d
+    gis,8 gis gis8. a!16 h4 r8 e,
+    e'4 cis ais8 ais ais8. d16
+    h4 r r2
+    r8 d d f! h, h d8. e16 %55
+    c!4 r8 c c f,! es'8. d16
+    d8 r16 d d8. f16 b,8 b d8. c16
+    c4 g8 g16 g cis4 r8 g
+    g g b8. a16 f!4 r8 f
+    h!8. f16 f8 g e!4 r %60
+    r2 r4 r8 c'
+    a4 c es8 es es8. d16
+    d8 d r f f8. h,!16 h8 d
+    es8. es16 es8 r16 h! c8 g r4
+    r8 g g b g g e'!4~ %65
+    e8 r r g, es' es es8. c16
+    a4 r8 c c fis, es'8. d16
+    h!4 r \clef treble f'!^\markup \remark "Maria" d'8. f,16
+    f4 r8 f as as as8. g16
+    es4 r8 es as as as8. c16 %70
+    fis,8 fis r a g g g d
+    r4 d8. cis16 cis8 e! r4
+    r8 a d d c8. b16 g8 g
+    cis cis g8. fis16 fis8 a r4
+    R1*2 %76
+    r2 \tempoDochTraeumC \clef "treble_8" r8^\markup \remark "Lazarus" d, d f
+    f8. as,16 as8 b g4 b
+    c8 as as g es4 r
+    \clef treble r8^\markup \remark "Eidli" g' g as f8. f16 f8 as %80
+    as g g d es4 r
+    R1*3
+    r2 \clef bass r8^\markup \remark "Der Hauptmann" e, e g %85
+    b a a8. e16 f4 a
+    r8 a16 f d8 d dis dis a'8. gis16
+    h!4 r r2 \bar "||" %88 finis
+  }
+}
+
+DochTraeumSoliLyrics = \lyricmode {
+  Doch träum ich?_— Wird es
+  Tag?_— Hilf Him -- mel!
+  wel -- cher Schein!
+  Welch Wun -- der! was ge --
+  ſchieht?_— Die %5
+  Son -- ne glän -- zet wie -- der? die
+  Fin -- ſter -- niß ent -- weicht, ſo
+  plötz -- lich, als ſie kam!
+  Je -- ſus
+  lebt! lebt auch er -- ſtorb -- ne %10
+  Glie -- der! Es
+  ſter -- ben Furcht und Gram! Ge --
+  troſt! Gott iſt ver -- ſöhnt, ſein Zorn ge --
+  ſtillt. Das Ur -- theil iſt nun -- mehr be --
+  ſtä -- tigt, bald er -- füllt. %15
+  Gott fo -- der -- te des
+  Na -- za -- re -- ners Blut.
+
+  O blin -- de %23
+  Wut! Un -- ſel -- ges Volk!
+  der Menſch -- heit Schan -- de! %25
+  Ver -- ſtock -- ter Schwarm! den
+  man, kaum da die Nacht ent --
+  flieht, in vor -- ger Ra -- ſe -- rey ſich
+  toll -- kühn wäl -- zen ſieht! Den des Un --
+  ſchul -- di -- gen halb -- tod -- tes Le -- ben %30
+  krän -- ket, das er mit neu -- em Grimm nun
+  zu ver -- fol -- gen den -- ket.
+  Zwar Je -- ſus lebt. Doch kann das
+  wohl ein Le -- ben heiſ -- ſen, das
+  Wun -- den, Schmerz und Schmach und %35
+  To -- des -- angſt zer -- reiſ -- ſen?
+  Seht, Got -- tes -- mör -- der!
+  Seht nur ſei -- ne Mar -- tern
+  an!_— ſeht ſie!_— er --
+  bebt!_— ſeufzt, ächzt: was %40
+  ha -- ben wir ge -- than?
+  Mein
+  Gott! mein Gott!
+  wa -- rum haſt du mich ver --
+  laſ -- ſen? %45
+
+  Je -- ho -- vah! %48
+  Gott! wie ſeufzt das Lamm! das
+  Lamm! das ſich bey dir für %50
+  al -- le Welt ver -- bürgt, und das itzt
+  an des Kreu -- zes -- ſtamm der
+  Schuld -- ner Un -- dank ſelbſt er --
+  würgt.
+  Wie ſeufzt das rech -- te O -- pfer -- %55
+  lamm, das nun des Va -- ters
+  Zorn im In -- ner -- ſten der See -- le
+  fühlt, das ei -- ne Angſt, die
+  un -- be -- ſchreib -- lich iſt, aufs
+  Grau -- ſam -- ſte durch -- wühlt. %60
+  O
+  Welt! ſieh! al -- le dei -- ne
+  Sün -- den muß itzt das Lamm aufs
+  Schreck -- lich -- ſte em -- pfin -- den!
+  Von Gott ver -- laſ -- ſen! ach! __ %65
+  wie un -- er -- gründ -- lich
+  ſchwer quält die -- ſe See -- len --
+  angst!_— Sohn! Hei -- lig --
+  ſter! War das die See -- len --
+  angſt, die in den fin -- ſtern %70
+  Stun -- den, du Sün -- den -- til -- ger!
+  haſt em -- pfun -- den?
+  War da -- rum je -- nes Licht, der
+  Son -- nen -- glanz, ver -- ſchwun -- den?
+
+  Wie un -- be -- %77
+  ſchreib -- lich ſchwer preßt dich, Herr!
+  unſ -- rer Sün -- den Laſt!
+  Noch un -- be -- ſchreib -- li -- cher muß %80
+  dei -- ne Mar -- ter ſeyn.
+
+  Wer dringt in %85
+  dieß Ge -- heim -- niß ein? Wie?
+  daß ſo -- gar ein Schau -- dern mich be --
+  fällt? %88 finis
+}

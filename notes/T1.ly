@@ -500,3 +500,58 @@ SelgeTenoreLyrics = \lyricmode {
   Tha -- %165
   ten. %166 finis
 }
+
+DochTraeumTenoreA = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    R1*8 %8
+    r8 fis\fE fis fis r2
+    R1 %10
+    r2 r8 d g4
+    R1*6 %17
+    r8 h, fis' fis fis8. fis16 fis4
+    r8 d h h r4 r8 h
+    h fis' fis8. g16 e8 e r g %20
+    e c! c8. h16 g4 r
+    r2 \tempoDochTraeumB r
+    R1*23 %45
+    r8 d' d fis fis4 r8 dis
+    e e e8. fis16 fis8 dis r4
+    R1*27 %74
+    r4 f! f8. f16 f4 %75
+    r8 e e e f d d8. h16
+    a4 r \tempoDochTraeumC r2
+    R1*3 %80
+    r2 r4 r8 es'
+    es c r4 es8. es16 es8 c
+    a' c, es8. d16 d4 r16 d d f!
+    e!8. e16 e8 g f a d,8. g16
+    e4 r r2 %85
+    R1*3 \bar "||" %88 finis
+  }
+}
+
+DochTraeumTenoreALyrics = \lyricmode {
+  O Wun -- der! %9
+
+  Er lebt! %11
+
+  Wir Fei -- gen zit -- ter -- ten! %18
+  wir Fei -- gen! aus
+  blo -- ßem Miß -- ver -- ſtan -- de! die %20
+  Prie -- ſter irr -- ten nicht.
+
+  Ach! ban -- ger Ruf! wer %46
+  kann die Deu -- tung faſ -- ſen?
+
+  Angſt! Schreck -- lich -- ſte! %75
+  bey der die Son -- ne ſelbſt er --
+  blaßt!
+
+  Ver -- %81
+  laſ -- ſen! ach! von Gott biſt
+  du, ge -- rech -- tes Lamm! und doch, er --
+  ret -- teſt du die un -- dank -- ba -- re
+  Welt. %85 finis
+}

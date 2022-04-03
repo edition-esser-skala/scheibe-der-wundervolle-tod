@@ -500,3 +500,58 @@ SelgeBassoLyrics = \lyricmode {
   Tha -- %165
   ten. %166 finis
 }
+
+DochTraeumBassoA = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    R1*8 %8
+    r8 a'\fE fis fis r2
+    R1 %10
+    r2 r8 g g4
+    R1*6 %17
+    r8 h d h cis8. ais16 ais4
+    r8 h h h r4 r8 h
+    a! a a8. g16 g8 g r e %20
+    a a a8. h16 e,4 r
+    r2 \tempoDochTraeumB r
+    R1*23 %45
+    r8 d c'! c h4 r8 h
+    c c c8. h16 h8 h r4
+    R1*27 %74
+    r4 h h8. d16 d4 %75
+    r8 a a a gis gis gis8. a16
+    d,4 r \tempoDochTraeumC r2
+    R1*3 %80
+    r2 r4 r8 c
+    c' c r4 a!8. a16 a8 a
+    es' a, a8. h!16 g4 r16 g g g
+    c8. c,16 c8 c' f, f g8. g16
+    c4 r r2 %85
+    R1*3 \bar "||" %88 finis
+  }
+}
+
+DochTraeumBassoALyrics = \lyricmode {
+  O Wun -- der! %9
+
+  Er lebt! %11
+
+  Wir Fei -- gen zit -- ter -- ten! %18
+  wir Fei -- gen! aus
+  blo -- ßem Miß -- ver -- ſtan -- de! die %20
+  Prie -- ſter irr -- ten nicht.
+
+  Ach! ban -- ger Ruf! wer %46
+  kann die Deu -- tung faſ -- ſen?
+
+  Angſt! Schreck -- lich -- ſte! %75
+  bey der die Son -- ne ſelbſt er --
+  blaßt!
+
+  Ver -- %81
+  laſ -- ſen! ach! von Gott biſt
+  du, ge -- rech -- tes Lamm! und doch, er --
+  ret -- teſt du die un -- dank -- ba -- re
+  Welt. %85 finis
+}

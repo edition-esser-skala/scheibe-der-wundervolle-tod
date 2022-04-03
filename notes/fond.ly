@@ -2574,3 +2574,189 @@ WoBinIchBassFigures = \figuremode {
   <5 _+>4 <7 \t> <6 4>2
   <7 _+>4 <7+ 6 4 2+> <5 _+>2 %68 finis
 }
+
+DochTraeumFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoDochTraeum
+    dis4\pE r e r
+    c! r fis r
+    e r d r
+    b1
+    a8 cis'16 h! a g fis e dis8. dis16 dis8 r %5
+    r2 e~
+    e d
+    g, r4 a
+    fis2 dis'
+    e a, %10
+    r4 d g, r
+    gis2 a4 r
+    fis1
+    g!~
+    g2 r4 a %15
+    dis1
+    e2 r4 fis
+    h, r fis' r
+    h, r r2
+    a!4 r g r %20
+    a r g a
+    r h \tempoDochTraeumB e,8.[ e'16\fE e8. e16]
+    a, a a a a a a a a4 r
+    r2 r8. fis'16[ fis8. fis16]
+    f4 r r16 f f f f f f f %25
+    e4 r r2
+    a4\p r r2
+    d,1~\pp
+    d2 cis~
+    cis1 %30
+    c2 h
+    c r4 d\f
+    dis1~\pp
+    dis2 e~
+    e1~ %35
+    e2 r16 dis dis8 r16 dis dis8
+    d16( d) d( d) d4~ d2
+    r16 cis cis8 cis4~ cis2
+    r16 d d8 r16 b b8 gis16( gis) gis( gis) gis4~
+    gis16( gis) gis( gis) g( g) g( g) r f f8 r16 f f8 %40
+    f2 e4 r\fermata
+    \mvTrr cis'\pp-\markup \remark "con sordino" -\tasto r r2
+    R1
+    d4 r b2
+    a4 r r2 %45
+    r16 c!\f c8~ c4 h2
+    c h4 r
+    e,\pE r dis'2~\pp
+    dis e~
+    e1~ %50
+    e2 d~
+    d1
+    cis
+    r4 fis\f g! r
+    gis1\pp %55
+    a
+    b,
+    e!~
+    e2 d~
+    d r16 c\mf c8 r16 c c8 %60
+    r2 es16(\p\crescE es) es( es) es4~\pp
+    es2 a,
+    r16 as as8 r16 as as8 g2
+    fis4 r r r16 g\mf g8
+    cis1 %65
+    r16 cis cis8 r16 cis( cis cis) fis2~
+    fis1
+    r16 f f8 r16 f( f f) h,!2~
+    h1
+    c~ %70
+    c2 b~
+    b r16 a\p a8 r16 g!( g g)
+    fis2\pp g
+    es' r16 d\mf d8 r16 c! c c
+    h!1 %75
+    r16 a( a a) a4 gis r
+    r16 a a8 r16 a( a a) b2~
+    b es
+    as, r4 b
+    h1~ %80
+    h2 c4 r
+    a!1~
+    a2 g
+    c f
+    r4 g cis,2~ %85
+    cis d~
+    d4 r f,2
+    e4 r r2 \bar "||" %88 finis
+  }
+}
+
+DochTraeumBassFigures = \figuremode {
+  <6 [_+]>1
+  <6>2 q
+  <6\\> <_+>
+  <6\\ [5!]>1
+  <_+>2 <6 [_+]> %5
+  r2 <5>
+  <6!> <_+>
+  r2. <_+>4
+  <6\\>2 <6 [_+]>
+  r <_!>4 <6\\> %10
+  r <_+>2.
+  <6 5>1
+  <6>
+  r
+  <6>2. <_+>4 %15
+  <6 [_+]>1
+  <5>4 <6\\>2 <5+ _+>4
+  <5+>2 <[5+] _+>4 <7 \t>
+  <5+>1
+  <6+ 4+ 2>2 <6> %20
+  <3>4 <6+ 4+ 3>8 <\t \t 2> <6>2
+  r4 <[5+] _+> r8. <_+>16 r4
+  r1
+  r2 r8. <6>4 <6 5!>16
+  <4 2>2 r16 q8. r4 %25
+  <7 5 _+>1
+  r
+  <_!>2 <6->
+  <6! 4+ _!>2 <6 5!>
+  r1 %30
+  <4+ 2>2 <6>
+  r2. <_+>4
+  <6 5 [_+]>1
+  r
+  <6!>2 <6+ 4+ _!> %35
+  r r16 <6 [_+]>4 <6 5! [_+]>8.
+  <6 4+ 2>1
+  r16 <6 5!>2...
+  r2 <7 5 [_!]>
+  r4 <4+ 2> r16 <6>4.. %40
+  <6\\>2 <5 _+>
+  r1
+  r
+  r2 <6\\>
+  <_+>1 %45
+  r16 <6 4+ 2>4.. <7 5+ _+>2
+  <5>4 <6\\> <5+ _+>2
+  <_+>2 <7 5 [_+]>
+  r1
+  <6+ 4+ _!> %50
+  r2 <6 _+>
+  <4+ 2>1
+  <6\\>
+  r4 <7 5+ _+> <5>2
+  <7! 5>1 %55
+  <5>2 <6!>
+  r1
+  <6 5->2 <6\\ \t>
+  r <5>
+  <6! 5- 3> r16 <7->4.. %60
+  r2 <4! 2>
+  r <6 5->
+  r16 <4 2->4.. <7 5 _!>2
+  <7- 5>2. r16 <7! _!>8.
+  <7- 5 [_!]>1 %65
+  r16 <7- 5>4.. <7- 5!>2
+  r1
+  r16 <6 4! 2>4.. <7- 5>2
+  r1
+  <[5] _->2 <6- \t> %70
+  <6! 4+ _-> <6>
+  <6\\> r16 <5! _+>4 <4+ 2>8.
+  <6 5!>2 <_->
+  <6\\> r16 <5 _+>4 <4+ 2>8.
+  <6\\ 5!>1 %75
+  r16 <7! _+>4.. <7 5>2
+  r16 <6 4>4 <7! 5 _+>8. <5>2
+  <7-> \bo <[5-]>
+  \bc q1
+  <6>1 %80
+  r2 <_->
+  <7 5->2 <6\\ \t>
+  r <_!>4 <7!>
+  <_!>1
+  r4 <_!> <6 5>2 %85
+  r <3>
+  r <6\\>
+  <5! _+>1 %88 finis
+}

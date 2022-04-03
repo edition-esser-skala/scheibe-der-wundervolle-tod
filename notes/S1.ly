@@ -491,3 +491,58 @@ SelgeSopranoLyrics = \lyricmode {
   Tha -- %165
   ten. %166 finis
 }
+
+DochTraeumSopranoA = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoDochTraeum
+    R1*8 %8
+    r8^\markup \remark "Das Volk" a'\fE dis dis r2
+    R1 %10
+    r2^\markup \remark "Die Weiber und die Gläubigen" r8 h d4
+    R1*6 %17
+    r8^\markup \remark "Das Volk" fis, h d cis8. e16 e4
+    r8 d fis fis r4 r8 fis
+    dis dis dis8. e16 e8 e r h %20
+    c! a dis8. e16 e4 r
+    r2 \tempoDochTraeumB r
+    R1*23 %45
+    r8^\markup \remark "Die Weiber und die Gläubigen" a, a a dis4 r8 fis
+    e e e8. dis16 dis8 fis r4
+    R1*27 %74
+    r4^\markup \remark "Die Weiber und die Gläubigen" d d8. h16 h4 %75
+    r8 cis cis cis d d d8. f16
+    d4 r \tempoDochTraeumC r2
+    R1*3 %80
+    r2^\markup \remark "Die Weiber und die Gläubigen" r4 r8 g,
+    c c r4 fis8. c16 c8 c
+    c es c8. d16 h!4 r16 h h d
+    c8. c16 c8 e! a, a f'8. e16
+    c4 r r2 %85
+    R1*3 \bar "||" %88 finis
+  }
+}
+
+DochTraeumSopranoALyrics = \lyricmode {
+  O Wun -- der! %9
+
+  Er lebt! %11
+
+  Wir Fei -- gen zit -- ter -- ten! %18
+  wir Fei -- gen! aus
+  blo -- ßem Miß -- ver -- ſtan -- de! die %20
+  Prie -- ſter irr -- ten nicht.
+
+  Ach! ban -- ger Ruf! wer %46
+  kann die Deu -- tung faſ -- ſen?
+
+  Angſt! Schreck -- lich -- ſte! %75
+  bey der die Son -- ne ſelbſt er --
+  blaßt!
+
+  Ver -- %81
+  laſ -- ſen! ach! von Gott biſt
+  du, ge -- rech -- tes Lamm! und doch, er --
+  ret -- teſt du die un -- dank -- ba -- re
+  Welt. %85 finis
+}

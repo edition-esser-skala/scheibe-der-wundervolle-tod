@@ -721,83 +721,177 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "12" "Aria" "Wo bin ich? — Was rühret mich?"
+  %   \addTocLabel "wobinich"
+  %   \paper { indent = 2\cm }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WoBinIchFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WoBinIchFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WoBinIchOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WoBinIchOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff <<
+  %         \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+  %         % \transpose c d
+  %         \partCombine \WoBinIchCornoI \WoBinIchCornoII
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WoBinIchViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WoBinIchViolinoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vla"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WoBinIchViolaI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WoBinIchViolaII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Der römiſche" "Hauptmann" }
+  %           \new Voice = "Soli" { \dynamicUp \WoBinIchSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WoBinIchSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WoBinIchFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \WoBinIchBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 115 }
+  %   }
+  % }
   \bookpart {
-    \section "12" "Aria" "Wo bin ich? — Was rühret mich?"
-    \addTocLabel "wobinich"
-    \paper { indent = 2\cm }
+    \section "13" "Recitativo" "Doch träum ich? – wird es Tag?"
+    \addTocLabel "dochtraeum"
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WoBinIchFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WoBinIchFlautoII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WoBinIchOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WoBinIchOboeII
-            }
-          >>
-        >>
-        \new Staff <<
-          \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
-          % \transpose c d
-          \partCombine \WoBinIchCornoI \WoBinIchCornoII
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WoBinIchViolinoI
+              \DochTraeumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WoBinIchViolinoII
+              \DochTraeumViolinoII
             }
           >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vla"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WoBinIchViolaI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WoBinIchViolaII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \DochTraeumViola
+          }
+        >>
+        \new ChoirStaff <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #8 }
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "SopranoA" { \dynamicUp \DochTraeumSopranoA }
+          }
+          \new Lyrics \lyricsto SopranoA \DochTraeumSopranoALyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "AltoA" { \dynamicUp \DochTraeumAltoA }
+          }
+          \new Lyrics \lyricsto AltoA \DochTraeumAltoALyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "TenoreA" { \dynamicUp \DochTraeumTenoreA }
+          }
+          \new Lyrics \lyricsto TenoreA \DochTraeumTenoreALyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "BassoA" { \dynamicUp \DochTraeumBassoA }
+          }
+          \new Lyrics \lyricsto BassoA \DochTraeumBassoALyrics
+        >>
+        \new ChoirStaff <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #8 }
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "SopranoB" { \dynamicUp \DochTraeumSopranoB }
+          }
+          \new Lyrics \lyricsto SopranoB \DochTraeumSopranoBLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "AltoB" { \dynamicUp \DochTraeumAltoB }
+          }
+          \new Lyrics \lyricsto AltoB \DochTraeumAltoBLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "TenoreB" { \dynamicUp \DochTraeumTenoreB }
+          }
+          \new Lyrics \lyricsto TenoreB \DochTraeumTenoreBLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "BassoB" { \dynamicUp \DochTraeumBassoB }
+          }
+          \new Lyrics \lyricsto BassoB \DochTraeumBassoBLyrics
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Der römiſche" "Hauptmann" }
-            \new Voice = "Soli" { \dynamicUp \WoBinIchSoli }
+            \set Staff.instrumentName = "soli"
+            \new Voice = "Soli" { \dynamicUp \DochTraeumSoli }
           }
-          \new Lyrics \lyricsto Soli \WoBinIchSoliLyrics
+          \new Lyrics \lyricsto Soli \DochTraeumSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WoBinIchFondamento
+            \DochTraeumFondamento
           }
         >>
-        \new FiguredBass { \WoBinIchBassFigures }
+        \new FiguredBass { \DochTraeumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 115 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
