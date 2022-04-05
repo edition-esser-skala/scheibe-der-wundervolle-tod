@@ -466,3 +466,111 @@ WoBinIchFlautoII = {
     e,4 d cis r \bar "S-S" %68 finis
   }
 }
+
+DuWirstFlautoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/2 \tempoDuWirst
+    d'2\fE d' b
+    \appoggiatura a gis1 g2
+    r f4 f2 d4
+    d2 cis r
+    d d' b %5
+    \appoggiatura a gis1 g2
+    r f4 d2 d4
+    d2 cis r
+    c c c
+    c1 c2 %10
+    c( h) d
+    d( c) r
+    r r f
+    f( e) r
+    a1 r2 %15
+    g1 g2
+    g( f) r
+    c c c
+    c( h2.) e4
+    d2( c) r %20
+    a' gis a
+    \appoggiatura g f1 f2
+    f( e) d
+    d( c) c~
+    c4. a8 a2( gis4.) h8 %25
+    h2( a) c!
+    c( h) r
+    c' es c
+    a1 c2
+    fis,4. c'8 c2( b4.) a8 %30
+    g4.( fis8) g2 r
+    g b g
+    f!( e!) f
+    \appoggiatura es d1 g2
+    f( e) e %35
+    d( d') b
+    \appoggiatura a gis1 g2
+    r f4 f2 d4
+    d2( cis) r
+    r r e %40
+    e( d) r
+    d1 r2
+    e f es
+    d1 f2
+    f1 f2 %45
+    f( e2.) a4
+    g2( f) r
+    gis h, e
+    e1 d2
+    cis1 r2 %50
+    d f f
+    f( e2.) a4
+    g2( f) r
+    d' cis d
+    \appoggiatura c b1 b2 %55
+    b( a) e
+    e( d) f~
+    f4. d8 d2( cis4.) e,8\pE
+    f2( e2.) f4
+    e2( d) r\fermata %60
+    c'!\pocoFE c c
+    c1 g'2
+    a g2. fis4
+    g1 d'2
+    h1.( %65
+    c
+    cis
+    d1) b!2
+    \appoggiatura a gis1 r2
+    a a g %70
+    g( f) es'
+    es( d) d
+    d cis r
+    c h c
+    b( a) b %75
+    as( g4) es' d2~
+    d4 c c2( h4.) c8
+    c1 r2
+    cis cis cis
+    d( a) g~ %80
+    g f2. e4
+    f1 c'2
+    a1.(
+    b
+    h %85
+    c1) as2
+    \appoggiatura g fis1 r2
+    f e! f
+    es( d) g
+    g1 g2 %90
+    g fis r
+    g b g
+    f!( e!) f
+    es( d) g
+    f( e2.) a4 %95
+    g2( f) r
+    d f d
+    b1 b2
+    b1 b2
+    b( a2.) d4 %100
+    c2( b) r \markDaCapo \bar "||" %101 finis
+  }
+}

@@ -2984,3 +2984,215 @@ MichDuerstetBassFigures = \figuremode {
   <6 4! 2+>2. <7 5 _+>4
   <_+>1 %33 finis
 }
+
+DuWirstFondamento = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/2 \tempoDuWirst
+    \mvTr d4(\fE-\soloE-\markup \remark "con sordino" d) d( d) d( d)
+    d( d) d( d) cis( cis)
+    r2 d4( d) gis,( gis)
+    a2 a r
+    d4(-\tuttiE d) d( d) d( d) %5
+    d( d) d( d) cis( cis)
+    r2 d4( d) gis,( gis)
+    a2 a r
+    f4( f) f'( f) f( f)
+    dis( dis) dis( dis) dis( dis) %10
+    e( e) e( e) e( e)
+    f!1 r2
+    r r d4( d)
+    a( a) a( a) g'( g)
+    fis( fis) fis( fis) r2 %15
+    \slurDashed f4( f) e( e) c( c) \slurSolid
+    f1 r2
+    f4( f) f( f) dis( dis)
+    \slurDashed e( e) e( e) e,( e) \slurSolid
+    f!1 r2 %20
+    dis'4( dis) d( d) cis( cis)
+    d( d) d( d) d,( d)
+    \slurDashed gis( gis) gis( gis) gis(-\soloE gis)
+    a( a) a( a) a( a)
+    e'( e) e( e) e( e) %25
+    a( a) g!( g) fis( fis) \slurSolid
+    g2 g, r
+    c4(-\tuttiE c) c( c) c( c)
+    c( c) c( c) c( c)
+    d( d) d( d) d( d) %30
+    g2 g, r
+    b4( b) b( b) b( b)
+    c( c) b( b) a( a)
+    b( b) b( b) g( g)
+    c( c) c( c) cis( cis) %35
+    d( d) d( d) d( d)
+    d( d) d( d) cis( cis)
+    r2 d4( d) gis,( gis)
+    a1 r2
+    r r cis4( cis) %40
+    d( d) d( d) c( c)
+    h!( h) h( h) r2
+    b4( b) a( a) a( a)
+    b( b) b( b) b( b)
+    gis( gis) gis( gis) gis( gis) %45
+    \slurDashed a( a) a( a) a( a) \slurSolid
+    d1 r2
+    d4( d) d( d) d( d)
+    cis( cis) cis( cis) d( d)
+    a( a) a( a) a( a) %50
+    b( b) b( b) gis( gis)
+    a( a) a( a) a( a)
+    b!1 r2
+    gis'4( gis) g( g) fis( fis)
+    g( g) g,( g) g( g) %55
+    cis( cis) cis( cis) cis(-\soloE cis)
+    d( d) d( d) d( d)
+    a( a) a( a) a( a)\p
+    a( a) a( a) a( a)
+    d,1 r2\fermata %60
+    f'4(\pocoF-\tuttiE f) f( f) es( es)
+    d( d) d( d) es( es)
+    d( d) d( d) d( d)
+    g,( g) g'( g) fis( fis)
+    as( as) g( g) f( f) %65
+    es( es) d( d) c( c)
+    b'!( b) a!( a) g( g)
+    f,( f) d( d) d'( d)
+    d( d) d( d) d( d)
+    c!( c) cis( cis) a( a) %70
+    d( d) d( d) a( a)
+    b( b) b( b) gis( gis)
+    a( a) a'( a) g!( g)
+    fis( fis) f( f) e( e)
+    \slurDashed f( f) es( es) d( d) \slurSolid %75
+    es( es) es( es) f( f)
+    fis( fis) g( g) g,( g)
+    c( c) c'( c) b!( b)
+    b( b) a!( a) g( g)
+    f!( f) d( d) g,( g) %80
+    c( c) c( c) c( c)
+    f,( f) f'( f) e!( e)
+    ges( ges) f( f) es( es)
+    des( des) c( c) b( b)
+    as'( as) g!( g) f( f) %85
+    es( es) c( c) c( c)
+    c( c) c( c) c( c)
+    h( h) b( b) a( a)
+    b( b) b( b) b( b)
+    es( es) es( es) es( es) %90
+    d( d) d( d) c( c)
+    b( b) b( b) b( b)
+    c( c) b( b) a( a)
+    b( b) b( b) g( g)
+    c( c) c( c) c( c) %95
+    f,1 r2
+    b4( b) b( b) b( b)
+    es( es) es( es) es( es)
+    cis( cis) cis( cis) cis( cis)
+    d( d) d( d) d( d) %100
+    g,2. g4( h cis) \markDaCapo \bar "||" %101 finis
+  }
+}
+
+DuWirstBassFigures = \figuremode {
+  r1 <6->2
+  <6! 5 2> <\t 4+ \t> <6 5!>
+  r1 <7 5 [_!]>2
+  <6 4> <5 _+>1
+  r <6->2 %5
+  <6! 5 2> <\t 4+ \t> <6 5!>
+  r1 <7 5 [_!]>2
+  <6 4> <5 _+>1
+  <5!>1.
+  <7 5 [_+]> %10
+  <6 4>2 <5! _+> <7 5!>
+  <6 4!> <5 3>1
+  r1.
+  <6 4>2 <5 _+> <4+ 2>
+  <6 5!>1. %15
+  <4! 2>2 <6> <7->
+  <9 4> <8 3>1
+  r <7 5 [_+]>2
+  <6 4> <5! _+>2. <6 4>4
+  <6 4!>2 <5 3>1 %20
+  <6! 5 [_+]>2 <[6!] 4+ 2> <6 5!>
+  <9 4> <8 3>1
+  <7 _!>2 <6 \t> <6 5 [_!]>
+  <9 4> <8 3>1
+  <6 4> <5! _+>4. <7 \t>8 %25
+  <9 4>2 <4+ 2> <6 5!>
+  <9 4> <8 _!>1
+  <_->1.
+  <6 _->
+  <_+>4. <9- 7 _+>8 <\t \t \t>2 <8 6 4>4 <7 5 _+> %30
+  <_->1.
+  <6>
+  <5 4!>2 <4! 2> <6>
+  <5 4-> <\t 3> <5>
+  <6 4> <5 _!> <6 5> %35
+  r1 <6->2
+  <6! 5 2> <\t 4+ \t> <6 5!>
+  r1 <7 5 [_!]>2
+  <6 4> <5 _+>1
+  r <6 5>2 %40
+  <9 4> <8 _+> <4+ 2>
+  <6 5!>1.
+  <4 2>2 <6> <6 5->
+  r1.
+  <7 5 [_!]> %45
+  <6 4>2 <5 _+>2. <6 4>4
+  <9 4>2 <8 3>1
+  <6! 4+ 2>1.
+  <6 5!>
+  <[8] _+>1 <7 \t>2 %50
+  <5>1 <7 5 [_!]>2
+  <6 4> <5 _+>2. <8 6 4>4
+  <6 4>2 <5 3>1
+  <6 5 [_!]>2 <4+ 2> <6 5!>
+  <4> <_->1 %55
+  <7- 3>2 <6> <6 5>
+  <9 4> <8 3>1
+  <6 4> <5 _+>4. <7 5>8
+  <6 4>2 <5 _+>2. <8 6>4
+  <9 4>2 <8 3>1 %60
+  r <4 2>2
+  <7 5 _+>1 <6>2
+  <7 5 _+> <6 4>2. <5 _+>4
+  r1 <6>2
+  <6! 4 2!> <7 _!> <6 4! _-> %65
+  <6> <7 4> <[_-]>
+  <6 4! 2+> <7 5 _+> <6 4+ _->
+  <6>1 <6->2
+  <6! 5 2> <\t 4+ \t>1
+  <6>2 <\t> <7 _+> %70
+  <9 4> <8 3> <6 5- _!>
+  <4-> <3> <7 5 [_!]>
+  <6 4> <5 _+> <4+ 2>
+  <6 5!> <4! 2> <6>
+  <5 4-> <4 2> <6> %75
+  \bo <[9] 4-> \bc <[8] 3> <6 _->
+  <8 6 _!>4 <7- 5 \t> <5 4>2 <\t _!>
+  <_->1 <4! 2>2
+  <6 4! 2+> <7 5 _+> <6 4 _->
+  <6>1. %80
+  <7 5>2 <6 4>2. <5+ 3>4
+  r1 <6>2
+  <6- 4 2> <7- 5 3> <6 4 _->
+  <6> <7 4 _-> <_->
+  <6 4 2!> <7 5 _!> <6 4! _-> %85
+  <6> <5 _-> <6- \t>
+  <6! 5 2> <\t 4+ \t>1
+  <6 5!>2 <4! 2> <6>
+  <4-> <3> <6>
+  <7> <6\\>1 %90
+  <4>2 <_+> <4+ 2>
+  <6>1.
+  <5 4!>2 <4! 2> <6>
+  <6 4-> <[5] 3>1
+  <6 4>2 <5 _!>2. <8 6 4>4 %95
+  <9 4>2 <8 3>1
+  r1.
+  <5>
+  <7 5 _!>
+  <6 4>2 <5 _+>2. <8 6>4 %100
+  <9 4>2 <8 3> <6> %101 finis
+}

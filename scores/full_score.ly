@@ -20,7 +20,7 @@
   %     <<
   %       \new StaffGroup <<
   %         \new GrandStaff \with { \setGroupDistance #10.5 #10.5 } <<
-  %           \set GrandStaff.instrumentName = "Flauto traverso"
+  %           \set GrandStaff.instrumentName = "Flauto"
   %           \new Staff {
   %             \set Staff.instrumentName = "I"
   %             \WoSindWirFlautoI
@@ -956,51 +956,139 @@
   %     \midi { \tempo 2 = 40 }
   %   }
   % }
+  % \bookpart {
+  %   \section "15" "Accompagnato" "Mich dürſtet!"
+  %   \addTocLabel "michduerstet"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MichDuerstetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MichDuerstetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MichDuerstetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \MichDuerstetSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \MichDuerstetSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \MichDuerstetFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \MichDuerstetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "15" "Accompagnato" "Mich dürſtet!"
-    \addTocLabel "michduerstet"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \section "16" "Coro" "Du wirſt, o Herr! für unſre Sünden"
+    \addTocLabel "duwirst"
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DuWirstFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DuWirstFlautoII
+            }
+          >>
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DuWirstOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DuWirstOboeII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+            \DuWirstFagotto
+          }
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MichDuerstetViolinoI
+              \DuWirstViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MichDuerstetViolinoII
+              \DuWirstViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \MichDuerstetViola
+            \DuWirstViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \MichDuerstetSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \DuWirstSoprano }
           }
-          \new Lyrics \lyricsto Soli \MichDuerstetSoliLyrics
+          \new Lyrics \lyricsto Soprano \DuWirstSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \DuWirstAlto }
+          }
+          \new Lyrics \lyricsto Alto \DuWirstAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \DuWirstTenore }
+          }
+          \new Lyrics \lyricsto Tenore \DuWirstTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \DuWirstBasso }
+          }
+          \new Lyrics \lyricsto Basso \DuWirstBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \MichDuerstetFondamento
+            \DuWirstFondamento
           }
         >>
-        \new FiguredBass { \MichDuerstetBassFigures }
+        \new FiguredBass { \DuWirstBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

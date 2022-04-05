@@ -741,3 +741,197 @@ DochTraeumAltoALyrics = \lyricmode {
   ret -- teſt du die un -- dank -- ba -- re
   Welt. %85 finis
 }
+
+DuWirstAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/2 \autoBeamOff \tempoDuWirst
+    R1.*4
+    \mvTr d2 \fE^\tuttiE d' b %5
+    \appoggiatura a gis1 g2
+    r f f
+    f e r
+    a a a
+    a1 a2 %10
+    a( gis) h
+    h( a) r
+    r r f
+    f( e) r
+    a1 r2 %15
+    g g g
+    g( f) r
+    a a a
+    a( gis2.) c4
+    h2( a) r %20
+    a gis a
+    \appoggiatura g f1 f2
+    f( e) r
+    R1.*4 %27
+    c'2 es c
+    a1 c2
+    fis,4. es'8 es2( d4.) c8 %30
+    b4.( a8) g2 r
+    g b g
+    f!( e!) f
+    \appoggiatura es d1 g2
+    f( e) g %35
+    f( d') b
+    \appoggiatura a gis1 g2
+    r f f
+    f( e) r
+    r r e %40
+    e( d) r
+    d1 r2
+    c c c
+    b1 f'2
+    f1 f2 %45
+    f( e2.) a4
+    g2( f) r
+    e e e
+    e1 d2
+    cis1 r2 %50
+    d f f
+    f( e2.) a4
+    g2( f) r
+    h a a
+    g1 b2 %55
+    b( a) r
+    R1.*3
+    R1.\fermata %60
+    a2\pocoFE a a
+    a1 c2~
+    c b2. a4
+    b1 a2
+    f!1 as2 %65
+    g1 g2
+    g1 b!2
+    a!( f) f
+    e1 r2
+    e a g! %70
+    g( f) es'
+    es( d) d
+    d cis r
+    c h c
+    b( a) b %75
+    as( g4) es' d2~
+    d4 c c2( h4.) c8
+    c1 r2
+    cis cis cis
+    d1 b!2~ %80
+    b a2. gis4
+    a1 c2
+    a1 a2
+    b1 b2
+    h1 h2 %85
+    c1 as2
+    \appoggiatura g fis1 r2
+    f e! f
+    es( d) d'
+    d( cis) g %90
+    g fis r
+    g b g
+    f!( e!) f
+    es( d) g
+    f( e2.) a4 %95
+    g2( f) r
+    f f f
+    es1 es2
+    e1 e2
+    d1 d2 %100
+    d1 r2 \markDaCapo \bar "||" %101 finis
+  }
+}
+
+DuWirstAltoLyrics = \lyricmode {
+  Du wirſt, o %5
+  Herr! für
+  un -- ſre
+  Sün -- den
+  mit ei -- nem
+  her -- ben %10
+  Trank __ ge --
+  tränkt;
+  und
+  ach! __
+  ach! %15
+  bis in den
+  Tod __
+  mit Spott und
+  Hohn __ ge --
+  kränkt! %20
+  bis in den
+  Tod ge --
+  kränkt!
+
+  Du wirſt, o %28
+  Herr! o
+  Herr! für un -- ſre %30
+  Sün -- den
+  mit ei -- nem
+  her -- ben
+  Trank ge --
+  tränkt, mit %35
+  ei -- nem
+  her -- ben
+  Trank ge --
+  tränkt;
+  und %40
+  ach! __
+  ach!
+  bis in den
+  Tod mit
+  Spott und %45
+  Hohn __ ge --
+  kränkt.
+  Und ach! bis
+  in den
+  Tod %50
+  mit Spott und
+  Hohn __ ge --
+  kränkt!
+  bis in den
+  Tod ge -- %55
+  kränkt!
+
+  Du mußt, da %61
+  ſchon dein __
+  Au -- ge
+  bricht, der
+  Mund ver -- %65
+  trock -- net,
+  bleich das
+  An -- ge --
+  ſicht,
+  die Bos -- heit %70
+  dei -- ner
+  Feind __ em --
+  pfin -- den;
+  da doch dein
+  Tod __ der %75
+  Welt, __ der Welt __
+  das Le -- ben
+  ſchenkt.
+  Du mußt, da
+  ſchon dein __ %80
+  Au -- ge
+  bricht, der
+  Mund ver --
+  trock -- net,
+  bleich das %85
+  An -- ge --
+  ſicht,
+  die Bos -- heit
+  dei -- ner
+  Feind __ em -- %90
+  pfin -- den;
+  da doch dein
+  Tod __ der
+  Welt __ das
+  Le -- ben %95
+  ſchenkt,
+  da doch dein
+  Tod der
+  Welt das
+  Le -- ben %100
+  ſchenkt. %101 finis
+}

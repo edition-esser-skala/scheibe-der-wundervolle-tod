@@ -1345,3 +1345,111 @@ MichDuerstetViolinoII = {
     e2 r\fermata \bar "|." %33 finis
   }
 }
+
+DuWirstViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/2 \tempoDuWirst
+    \mvTr a4(\fE-\markup \remark "con sordino" a) f'( f) f( f)
+    e( e) e( e) e( e)
+    r2 d4( d) d( d)
+    d2 cis r
+    a4( a) f'( f) f( f) %5
+    e( e) e( e) e( e)
+    r2 d4( d) d( d)
+    d2 cis r
+    c4( c) c( c) c( c)
+    c( c) c( c) c( c) %10
+    c( c) h( h) d( d)
+    d2( c) r
+    r r f4( f)
+    f( f) e( e) e( e)
+    a( a) a( a) r2 %15
+    g4( g) g( g) g( g)
+    g2( f) r
+    f4( f) f( f) fis( fis)
+    e( e) e( e) e( e)
+    d2( c) r %20
+    fis4( fis) e( e) e( e)
+    e( e) d( d) d( d)
+    h( h) h( h) h'( h)
+    h2( a) c~
+    c4. a8 a2( gis4.) h8 %25
+    h2( a) a
+    a( g!) r
+    g4( g) g( g) g( g)
+    es( es) es( es) es( es)
+    d4. c'8 c2( b4.) a8 %30
+    g2 d r
+    d4( d) d( d) d( d)
+    c( c) c( c) c( c)
+    b( b) b( b) g'( g)
+    f( f) e!( e) e( e) %35
+    d( d) f( f) f( f)
+    e( e) e( e) e( e)
+    r2 d4( d) d( d)
+    d2( cis) r
+    r r e4( e) %40
+    e( e) d( d) d( d)
+    d( d) d( d) r2
+    c!4( c) c( c) c( c)
+    b( b) f'( f) f( f)
+    f( f) f( f) f( f) %45
+    f2( e2.) a4
+    g2( f) r
+    e4( e) e( e) e( e)
+    e( e) e( e) d( d)
+    cis( cis) cis( cis) cis( cis) %50
+    d( d) f( f) f( f)
+    f2( e2.) a4
+    g2( f) r
+    e4( e) e( e) d( d)
+    d( d) g( g) g( g) %55
+    e( e) e( e) e'( e)
+    e( e) d( d) f( f)
+    f4. d8 d2( cis4.) e,8\p
+    d2( cis2.) f4
+    e2( d) r\fermata %60
+    f4(\pocoF f) f( f) f( f)
+    fis( fis) fis( fis) g( g)
+    a( a) g( g) g( fis)
+    g( g) g( g) a( a)
+    f!( f) f( f) as( as) %65
+    g( g) g( g) g( g)
+    g( g) g( g) b!( b)
+    a!( a) f( f) f( f)
+    e( e) e( e) e( e)
+    e( e) e( e) e( e) %70
+    e( e) d( d) f( f)
+    f( f) f( f) f( f)
+    f( f) e( e) a( a)
+    a( a) g( g) g( g)
+    g( g) f( f) f( f) %75
+    f( f) es( g) as( as)
+    a( a) g( g) g( g)
+    g( g) g( g) g( g)
+    g( g) g( g) b!( b)
+    a!( a) a( a) g( g) %80
+    g( g) f( f) e( e)
+    f( f) f( f) g( g)
+    es( es) es( es) ges( ges)
+    f( f) f( f) f( f)
+    f( f) f( f) as( as) %85
+    g!( g) es( es) es( es)
+    d( d) d( d) d( d)
+    d( d) c( c) c( c)
+    b( b) b( b) g'( g)
+    g( g) g( g) cis,( cis) %90
+    d( d) d( d) d( d)
+    d( d) d( d) d( d)
+    c( c) c( c) c( c)
+    c( c) b( b) g'( g)
+    f2( e!2.) a4 %95
+    g2( f) r
+    f4( f) f( f) f( f)
+    es( es) es( es) es( es)
+    e( e) e( e) e( e)
+    d2 d d %100
+    d1 r2 \markDaCapo \bar "||" %101 finis
+  }
+}

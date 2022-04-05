@@ -220,3 +220,111 @@ WoBinIchOboeI = {
     e8.[ e16 d8. d16] cis4 r \bar "S-S" %68 finis
   }
 }
+
+DuWirstOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/2 \tempoDuWirst
+    d2\fE d' b
+    \appoggiatura a gis1 g2
+    r f f
+    f e r
+    d d' b %5
+    \appoggiatura a gis1 g2
+    r f f
+    f e r
+    a a a
+    a1 a2 %10
+    a( gis) h
+    h( a) r
+    r r d
+    d( cis) r
+    c1 r2 %15
+    h c b
+    b( a) r
+    a a a
+    a( gis2.) c4
+    h2( a) r %20
+    a gis a
+    \appoggiatura g f1 f2
+    f( e) d'
+    d( c) a'~
+    a4. c,8 c2( h4.) d8 %25
+    d2( cis) c
+    c( h) r
+    c es c
+    a1 c2
+    fis,4. es'8 es2( d4.) c8 %30
+    b4.( a8) g2 r
+    g b g
+    f!( e!) f
+    \appoggiatura es d1 b'2
+    a( g) g %35
+    f( d') b
+    \appoggiatura a gis1 g2
+    r f f
+    f( e) r
+    r r g %40
+    g( fis) r
+    f1 r2
+    e f es
+    d1 d'2
+    d1 d2 %45
+    d( cis2.) f4
+    e2( d) r
+    gis, gis gis
+    g1 f2
+    e1 r2 %50
+    d d' d
+    d( cis2.) f4
+    e2( d) r
+    d cis d
+    \appoggiatura c b!1 b2 %55
+    b( a) g'
+    g( f) f~
+    f4. f8 f2( e4.) g,8\p
+    f2( e2.) a4
+    g2( f) r\fermata %60
+    a2\pocoFE a a
+    a1 c2~
+    c b2. a4
+    b1 d2
+    h1 h2 %65
+    c1 c2
+    cis1 cis2
+    d1 b!2
+    \appoggiatura a gis1 r2
+    a a g %70
+    g( f) es'
+    es( d) d
+    d cis r
+    c h c
+    b( a) b %75
+    as( g4) es' d2~
+    d4 c c2( h4.) c8
+    c1 r2
+    cis cis cis
+    d1 b!2~ %80
+    b a2. gis4
+    a1 c2
+    a1.(
+    b
+    h %85
+    c1) as2
+    \appoggiatura g fis1 r2
+    f e! f
+    es( d) d'
+    d( cis) g %90
+    g fis r
+    g b g
+    f!( e!) f
+    es( d) b'
+    a( g2.) c4 %95
+    b2( a) r
+    b d b
+    g1 g2
+    g1 g2
+    g( fis2.) b4 %100
+    a2( g) r \markDaCapo \bar "||" %101 finis
+  }
+}
