@@ -5,7 +5,7 @@ title: Der wundervolle Tod des Welterlöſers
 subtitle: Ein Oratorium. Erſter Theil.
 id: SchW online B2:313
 genre: oratory
-scoring: 3 S, 4 T, 3 B (solo), 2 S, T, B (coro 1), 2 S, T, B (coro 2), 2 fl, 2 ob, 2 ob grande, 2 fag, 2 cor (D), 2 vl, 2 vla, b, bc
+scoring: 3 S, 4 T, 3 B (solo), 2 S, T, B (coro 1), 2 S, T, B (coro 2),\\2 fl, 2 ob, 2 ob (grande), 2 fag, 2 cor (D), 2 vl, 2 vla, b, bc
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -22,8 +22,8 @@ sources:
     date: 1761
     url: https://www.kb.dk/e-mat/dod/130021514617_color.pdf
     license: public domain
-    notes: libretto, Johann Christian & Georg Christopher Berling, Copenhagen
-imslp:
+    notes: libretto, Johann Christian \& Georg Christopher Berling, Copenhagen
+imslp: Der_wundervolle_Tod_des_Welterlösers,_SchW_B2:313_(Scheibe,_Johann_Adolph)
 parts:
   ob1: Oboe I\\Oboe grande I
   ob2: Oboe I\\Oboe grande II
