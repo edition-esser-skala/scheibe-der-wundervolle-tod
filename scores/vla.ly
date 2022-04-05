@@ -1,19 +1,31 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Coro" "Wo sind wir?"
-    \addTocLabel "wosindwir"
+    \addTocLabel "wosindwir1"
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \WoSindWirFondamento
+          \set Staff.instrumentName = "Viola I"
+          \WoSindWirViolaI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1" "Coro" "Wo sind wir?"
+    \addTocLabel "wosindwir2"
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "vla 2"
+          \WoSindWirViolaII
         }
       >>
     }
@@ -31,7 +43,7 @@
           }
           \new Lyrics \lyricsto Soli \WerDuAuchSoliLyrics
         >>
-        \new Staff { \WerDuAuchFondamento }
+        \new Staff { \WerDuAuchViola }
       >>
     }
   }
@@ -40,7 +52,7 @@
     \addTocLabel "otoedtet"
     \score {
       <<
-        \new Staff { \OToedtetFondamento }
+        \new Staff { \OToedtetViola }
       >>
     }
   }
@@ -57,7 +69,7 @@
           }
           \new Lyrics \lyricsto Soli \AchHeilandSoliLyrics
         >>
-        \new Staff { \AchHeilandFondamento }
+        \new Staff { \AchHeilandViola }
       >>
     }
   }
@@ -66,7 +78,7 @@
     \addTocLabel "duherrscher"
     \score {
       <<
-        \new Staff { \DuHerrscherFondamento }
+        \new Staff { \DuHerrscherViola }
       >>
     }
   }
@@ -86,7 +98,7 @@
           }
           \new Lyrics \lyricsto Soli \WieLiebensSoliLyrics
         >>
-        \new Staff { \WieLiebensFondamento }
+        \new Staff { \WieLiebensViola }
       >>
     }
   }
@@ -95,27 +107,7 @@
     \addTocLabel "fliesstzitternde"
     \score {
       <<
-        \new Staff { \FliesstZitterndeFondamento }
-      >>
-    }
-  }
-  \bookpart {
-    \section "8" "Recitativo" "Doch Herz! von manchen Wiederſprüchen voll!"
-    \addTocLabel "dochherz"
-    \paper {
-      systems-per-page = #5
-      indent = 2\cm
-    }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "Johannes"
-            \new Voice = "Soli" { \dynamicUp \DochHerzSoli }
-          }
-          \new Lyrics \lyricsto Soli \DochHerzSoliLyrics
-        >>
-        \new Staff { \DochHerzFondamento }
+        \new Staff { \FliesstZitterndeViola }
       >>
     }
   }
@@ -132,7 +124,7 @@
           }
           \new Lyrics \lyricsto Soli \OMatterSoliLyrics
         >>
-        \new Staff { \OMatterFondamento }
+        \new Staff { \OMatterViola }
       >>
     }
   }
@@ -141,7 +133,7 @@
     \addTocLabel "selge"
     \score {
       <<
-        \new Staff { \SelgeFondamento }
+        \new Staff { \SelgeViola }
       >>
     }
   }
@@ -161,7 +153,7 @@
           }
           \new Lyrics \lyricsto Soli \WasFuerSoliLyrics
         >>
-        \new Staff { \WasFuerFondamento }
+        \new Staff { \WasFuerViola }
       >>
     }
   }
@@ -170,7 +162,22 @@
     \addTocLabel "wobinich"
     \score {
       <<
-        \new Staff { \WoBinIchFondamento }
+        \new Staff {
+          \set Staff.instrumentName = "vla 1"
+          \WoBinIchViolaI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "12" "Aria" "Wo bin ich? — Was rühret mich?"
+    \addTocLabel "wobinich"
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "vla 2"
+          \WoBinIchViolaII
+        }
       >>
     }
   }
@@ -187,7 +194,7 @@
           }
           \new Lyrics \lyricsto Soli \DochTraeumSoliLyrics
         >>
-        \new Staff { \DochTraeumFondamento }
+        \new Staff { \DochTraeumViola }
       >>
     }
   }
@@ -196,7 +203,7 @@
     \addTocLabel "martern"
     \score {
       <<
-        \new Staff { \MarternFondamento }
+        \new Staff { \MarternViola }
       >>
     }
   }
@@ -213,7 +220,7 @@
           }
           \new Lyrics \lyricsto Soli \MichDuerstetSoliLyrics
         >>
-        \new Staff { \MichDuerstetFondamento }
+        \new Staff { \MichDuerstetViola }
       >>
     }
   }
@@ -222,7 +229,7 @@
     \addTocLabel "duwirst"
     \score {
       <<
-        \new Staff { \DuWirstFondamento }
+        \new Staff { \DuWirstViola }
       >>
     }
   }

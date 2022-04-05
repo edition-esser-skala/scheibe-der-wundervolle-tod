@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "bc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,9 +12,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
+          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
           \WoSindWirFondamento
         }
+        \new FiguredBass { \WoSindWirBassFigures }
       >>
     }
   }
@@ -24,7 +25,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #14 } <<
           \new Staff {
             \set Staff.instrumentName = "soli"
             \new Voice = "Soli" { \dynamicUp \WerDuAuchSoli }
@@ -32,6 +33,7 @@
           \new Lyrics \lyricsto Soli \WerDuAuchSoliLyrics
         >>
         \new Staff { \WerDuAuchFondamento }
+        \new FiguredBass { \WerDuAuchBassFigures }
       >>
     }
   }
@@ -41,6 +43,7 @@
     \score {
       <<
         \new Staff { \OToedtetFondamento }
+        \new FiguredBass { \OToedtetBassFigures }
       >>
     }
   }
@@ -58,6 +61,7 @@
           \new Lyrics \lyricsto Soli \AchHeilandSoliLyrics
         >>
         \new Staff { \AchHeilandFondamento }
+        \new FiguredBass { \AchHeilandBassFigures }
       >>
     }
   }
@@ -67,6 +71,7 @@
     \score {
       <<
         \new Staff { \DuHerrscherFondamento }
+        \new FiguredBass { \DuHerrscherBassFigures }
       >>
     }
   }
@@ -87,6 +92,7 @@
           \new Lyrics \lyricsto Soli \WieLiebensSoliLyrics
         >>
         \new Staff { \WieLiebensFondamento }
+        \new FiguredBass { \WieLiebensBassFigures }
       >>
     }
   }
@@ -96,6 +102,7 @@
     \score {
       <<
         \new Staff { \FliesstZitterndeFondamento }
+        \new FiguredBass { \FliesstZitterndeBassFigures }
       >>
     }
   }
@@ -116,6 +123,7 @@
           \new Lyrics \lyricsto Soli \DochHerzSoliLyrics
         >>
         \new Staff { \DochHerzFondamento }
+      \new FiguredBass { \DochHerzBassFigures }
       >>
     }
   }
@@ -133,6 +141,7 @@
           \new Lyrics \lyricsto Soli \OMatterSoliLyrics
         >>
         \new Staff { \OMatterFondamento }
+        \new FiguredBass { \OMatterBassFigures }
       >>
     }
   }
@@ -142,6 +151,7 @@
     \score {
       <<
         \new Staff { \SelgeFondamento }
+        \new FiguredBass { \SelgeBassFigures }
       >>
     }
   }
@@ -154,7 +164,7 @@
     }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #14 } <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Der römiſche" "Hauptmann" }
             \new Voice = "Soli" { \dynamicUp \WasFuerSoli }
@@ -162,6 +172,7 @@
           \new Lyrics \lyricsto Soli \WasFuerSoliLyrics
         >>
         \new Staff { \WasFuerFondamento }
+        \new FiguredBass { \WasFuerBassFigures }
       >>
     }
   }
@@ -171,6 +182,7 @@
     \score {
       <<
         \new Staff { \WoBinIchFondamento }
+        \new FiguredBass { \WoBinIchBassFigures }
       >>
     }
   }
@@ -180,7 +192,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #14 } <<
           \new Staff {
             \set Staff.instrumentName = "soli"
             \new Voice = "Soli" { \dynamicUp \DochTraeumSoli }
@@ -188,6 +200,7 @@
           \new Lyrics \lyricsto Soli \DochTraeumSoliLyrics
         >>
         \new Staff { \DochTraeumFondamento }
+        \new FiguredBass { \DochTraeumBassFigures }
       >>
     }
   }
@@ -197,6 +210,7 @@
     \score {
       <<
         \new Staff { \MarternFondamento }
+        \new FiguredBass { \MarternBassFigures }
       >>
     }
   }
@@ -206,7 +220,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #14 } <<
           \new Staff {
             \set Staff.instrumentName = "soli"
             \new Voice = "Soli" { \dynamicUp \MichDuerstetSoli }
@@ -214,6 +228,7 @@
           \new Lyrics \lyricsto Soli \MichDuerstetSoliLyrics
         >>
         \new Staff { \MichDuerstetFondamento }
+        \new FiguredBass { \MichDuerstetBassFigures }
       >>
     }
   }
@@ -223,6 +238,7 @@
     \score {
       <<
         \new Staff { \DuWirstFondamento }
+        \new FiguredBass { \DuWirstBassFigures }
       >>
     }
   }

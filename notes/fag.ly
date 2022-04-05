@@ -77,7 +77,7 @@ DuWirstFagotto = {
   \relative c {
     \clef bass
     \key d \minor \time 3/2 \tempoDuWirst
-    d2\fE d' b
+    \mvTr d2\fE-\unisono d' b
     \appoggiatura a gis1 g2
     r f f
     f e r

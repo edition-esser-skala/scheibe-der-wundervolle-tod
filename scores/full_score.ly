@@ -31,7 +31,7 @@
             }
           >>
           \new GrandStaff \with { \setGroupDistance #10.5 #10.5 } <<
-            \set GrandStaff.instrumentName = "Oboe grande"
+            \set GrandStaff.instrumentName = \transposedName "Oboe grande" "A" ""
             \new Staff {
               \set Staff.instrumentName = "I"
               % \transpose g e
@@ -895,7 +895,7 @@
     }
   }
   \bookpart {
-    \section "14" "Aria" "Was für Martern, was für Plagen"
+    \section "14" "Duetto" "Was für Martern, was für Plagen"
     \addTocLabel "martern"
     \paper {
       top-system-spacing.basic-distance = #12
@@ -910,7 +910,7 @@
     \score {
       <<
         \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = "fag"
+          \set Staff.instrumentName = \markup \center-column { "fag" "solo" }
           \MarternFagotto
         }
         \new StaffGroup <<

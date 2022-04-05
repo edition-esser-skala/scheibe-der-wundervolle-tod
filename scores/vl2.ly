@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \WoSindWirFondamento
+          \set Staff.instrumentName = "Violino II"
+          \WoSindWirViolinoII
         }
       >>
     }
@@ -31,7 +31,7 @@
           }
           \new Lyrics \lyricsto Soli \WerDuAuchSoliLyrics
         >>
-        \new Staff { \WerDuAuchFondamento }
+        \new Staff { \WerDuAuchViolinoII }
       >>
     }
   }
@@ -40,7 +40,7 @@
     \addTocLabel "otoedtet"
     \score {
       <<
-        \new Staff { \OToedtetFondamento }
+        \new Staff { \OToedtetViolinoII }
       >>
     }
   }
@@ -57,7 +57,7 @@
           }
           \new Lyrics \lyricsto Soli \AchHeilandSoliLyrics
         >>
-        \new Staff { \AchHeilandFondamento }
+        \new Staff { \AchHeilandViolinoII }
       >>
     }
   }
@@ -66,7 +66,7 @@
     \addTocLabel "duherrscher"
     \score {
       <<
-        \new Staff { \DuHerrscherFondamento }
+        \new Staff { \DuHerrscherViolinoII }
       >>
     }
   }
@@ -86,7 +86,7 @@
           }
           \new Lyrics \lyricsto Soli \WieLiebensSoliLyrics
         >>
-        \new Staff { \WieLiebensFondamento }
+        \new Staff { \WieLiebensViolinoII }
       >>
     }
   }
@@ -95,27 +95,7 @@
     \addTocLabel "fliesstzitternde"
     \score {
       <<
-        \new Staff { \FliesstZitterndeFondamento }
-      >>
-    }
-  }
-  \bookpart {
-    \section "8" "Recitativo" "Doch Herz! von manchen Wiederſprüchen voll!"
-    \addTocLabel "dochherz"
-    \paper {
-      systems-per-page = #5
-      indent = 2\cm
-    }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "Johannes"
-            \new Voice = "Soli" { \dynamicUp \DochHerzSoli }
-          }
-          \new Lyrics \lyricsto Soli \DochHerzSoliLyrics
-        >>
-        \new Staff { \DochHerzFondamento }
+        \new Staff { \FliesstZitterndeViolinoII }
       >>
     }
   }
@@ -132,7 +112,7 @@
           }
           \new Lyrics \lyricsto Soli \OMatterSoliLyrics
         >>
-        \new Staff { \OMatterFondamento }
+        \new Staff { \OMatterViolinoII }
       >>
     }
   }
@@ -141,7 +121,7 @@
     \addTocLabel "selge"
     \score {
       <<
-        \new Staff { \SelgeFondamento }
+        \new Staff { \SelgeViolinoII }
       >>
     }
   }
@@ -161,7 +141,7 @@
           }
           \new Lyrics \lyricsto Soli \WasFuerSoliLyrics
         >>
-        \new Staff { \WasFuerFondamento }
+        \new Staff { \WasFuerViolinoII }
       >>
     }
   }
@@ -170,7 +150,7 @@
     \addTocLabel "wobinich"
     \score {
       <<
-        \new Staff { \WoBinIchFondamento }
+        \new Staff { \WoBinIchViolinoII }
       >>
     }
   }
@@ -187,7 +167,7 @@
           }
           \new Lyrics \lyricsto Soli \DochTraeumSoliLyrics
         >>
-        \new Staff { \DochTraeumFondamento }
+        \new Staff { \DochTraeumViolinoII }
       >>
     }
   }
@@ -196,7 +176,7 @@
     \addTocLabel "martern"
     \score {
       <<
-        \new Staff { \MarternFondamento }
+        \new Staff { \MarternViolinoII }
       >>
     }
   }
@@ -213,7 +193,7 @@
           }
           \new Lyrics \lyricsto Soli \MichDuerstetSoliLyrics
         >>
-        \new Staff { \MichDuerstetFondamento }
+        \new Staff { \MichDuerstetViolinoII }
       >>
     }
   }
@@ -222,7 +202,7 @@
     \addTocLabel "duwirst"
     \score {
       <<
-        \new Staff { \DuWirstFondamento }
+        \new Staff { \DuWirstViolinoII }
       >>
     }
   }
