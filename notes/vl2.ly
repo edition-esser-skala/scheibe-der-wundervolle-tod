@@ -1200,3 +1200,148 @@ DochTraeumViolinoII = {
     R1*11 \bar "||" %88 finis
   }
 }
+
+MarternViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \tempoMartern
+    r8 \mvTrr c\ppE-\markup \remark "con sordino e pizzicato" e a r a c e
+    r fis e h r h h e
+    r e d a r a a d
+    r a gis c r c h fis'
+    r gis, e h' r gis h d %5
+    r c c a r e a cis
+    r d a f r d f b
+    r e, gis h r a c f!
+    r f, a dis r d gis h,
+    r a cis e r d d h %10
+    r h a c r a gis h
+    r c, e a r a c e
+    r fis e h r h h e
+    r e d a r a a d
+    r a gis c r c h fis' %15
+    r gis, e h' r gis h d
+    r c c a r e a cis
+    r a a f! r f a d
+    r h a a r e a c
+    r a g d' r a gis d' %20
+    r h a d r d e h
+    r2 r4 \mvTrr a8.\pp-\arco a16
+    a4( gis) r h8. h16
+    \once \slurDashed h4( a8.) a16 a4( gis8.) h16
+    h4( a8.) gis16 a4 r %25
+    r8 e-\pizz a c r a d fis
+    r d, g h r g c e
+    r f,! a c r a c es
+    r d, g h r g c e
+    r e dis h r fis g h %30
+    r g h e r e c f!
+    r h, h e, r e dis fis
+    r2 r4 \mvTrr h'16(\pp-\arco h) h( h)
+    h( h) h( h) a( a) a( a) r4 a16( a) a( a)
+    fis( fis) fis( fis) dis( dis) dis( dis) r4 fis16( fis) fis( fis) %35
+    e( e) e( e) d( d) d( d) c( c) c( c) fis( fis) fis( fis)
+    fis( fis) fis( fis) e( e) e( e) e( e) e( e) dis( dis) dis( dis)
+    e4 r r2
+    r8 ais,-\pizz h h r h a c!
+    r h a f'! r a, gis e' %40
+    r e, a cis r d fis a,
+    r g! h d r c! c e
+    r d d h r h c h
+    r a e c r e a c
+    r c a c r c a c %45
+    r c gis h r a e' cis
+    r d fis, d' r d f, d'
+    r c! e, c' r c h d
+    r d c e r4\fermata \mvTrr c16(\pp-\arco c) c( c)
+    c( c) c( c) h( h) h( h) r4 d16( d) d( d) %50
+    d( d) d( d) c( c) c( c) r4 g'16( g) g( g)
+    g( g) g( g) f( f) f( f) r4 f16( f) f( f)
+    f( f) f( f) e( e) e( e) r2
+    r r8 gis,-\pizz h! d
+    r c e a r f,! a d %55
+    r h c a r a gis h
+    r c a c r c a c
+    r c a c r c a c
+    r a gis h r h a gis
+    r e a cis r d b f %60
+    r gis a c r a gis h
+    r a, c e r a c e
+    r fis e h r h h e
+    r e d a r a a d
+    r a gis h r h a h %65
+    r e cis a r a h d
+    r d c e r a, gis h \noBreak
+    r a' e c a4 r\fermata \bar "||"
+    \time 3/4 \tempoMarternB
+      r8 \mvTr f\pp-\arco g4( f8.) f16 \noBreak
+    f4( e8.) g16 \appoggiatura g8 f8. e16 %70
+    \appoggiatura e8 d8. e16 f4 f
+    g d g~
+    g( f) f8. f16
+    f8. d16 f4( e8.) f16
+    f8 f g4( f8.) f16 %75
+    f4( e8.) g16 \appoggiatura g8 f8. e16
+    \appoggiatura e8 d8. e16 f8 d'( cis) e,
+    \appoggiatura e d4 d d~
+    d( c!4.) c8
+    c8. a16 c4( h8.) c16 %80
+    c8. cis'16 cis8. cis,32( d e8.) e16
+    e4( d8.) e16 \appoggiatura e8 d8. cis16
+    d4. d8 e8. e16
+    f4. r16 f'16[\f e8. g,16]
+    f8 a\pp b4( a8.) g16 %85
+    g4( f8.[) b16 a8. b16]
+    b4( a) g
+    g( f) r8 a
+    h!8.[ d,16 e8. f16] e4~
+    e8.[ e16 f8. g16] f4~ %90
+    f8. d16 f4( e8.) f16
+    f8 f g4( f8.) f16
+    f4( e8.) g16\f \appoggiatura g8 f8. e16
+    \appoggiatura e8 d8. b16\pp \appoggiatura b8 a8. gis16 a4~
+    a4. a8 d8. d16 %95
+    d8. h!16 d4( cis8.) d16
+    d2 r4 \markDaCapo \bar "||" %97 finis
+  }
+}
+
+MichDuerstetViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoMichDuerstet
+    r16 \mvTr a'(\p-\markup \remark "con sordino" a a) a( a) a( a) r g( g g) g( g) g( g)
+    f1~\pp
+    f~
+    f4 e f2~
+    f1 %5
+    e!2 r4 e\f
+    c r f\pp r
+    e r a r
+    a r b2
+    gis2. r4 %10
+    r a\f a16( h!) h( h) h4\pp
+    r2 \once \tieDashed e~
+    e es
+    d~ d4 c
+    r a\f b16( g) g( g) g4~\pp %15
+    g1~
+    g2 as4 r
+    r g\f g2~\pp
+    g as~
+    as a~ %20
+    a b
+    g1
+    as2 c
+    b c
+    r4 c\f as2~\pp %25
+    as g
+    r4 g\f as16( as) as( as) as4\pp
+    a1~
+    a
+    g2 e!~ %30
+    e a
+    gis r4 gis\f
+    e2 r\fermata \bar "|." %33 finis
+  }
+}

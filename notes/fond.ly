@@ -2760,3 +2760,227 @@ DochTraeumBassFigures = \figuremode {
   r <6\\>
   <5! _+>1 %88 finis
 }
+
+MarternFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key a \minor \time 2/2 \tempoMartern
+    \mvTrr a4\ppE-\markup \remark "Cembalo tasto solo (Lautenzug)"-\markup \remark "con sordino e pizzicato" r a' a,
+    a g g g
+    g f f f'
+    e r dis r
+    e r e e, %5
+    a r a a
+    d r d d
+    e e f! r
+    f r e e,
+    a' g! f gis, %10
+    a r e' e,
+    a r a a
+    a g! g g
+    g f! f f'
+    e r dis r %15
+    e r e e,
+    a r a a
+    d, r d' d
+    d c c c
+    c h h h %20
+    a r gis r
+    a r r \mvTrr dis\pp-\arco
+    e e, r e'8. e16
+    a,4 a e' e
+    e e, a r %25
+    a-\tasto-\pizz r d d,
+    g g c c
+    f,! f' f fis
+    g g, c a
+    h h h h %30
+    e, e' a, a
+    h e, h' h
+    e, r gis' e
+    a, r a a
+    h r dis r %35
+    e e, a dis
+    e e, h' h
+    e, r e' e,
+    fis' gis a! a,
+    e' f dis e %40
+    a, a d d
+    g, g c c
+    h h e e,
+    a r r2
+    f'4 f dis dis %45
+    e e, a a
+    d! d g, g
+    c c g' g,
+    c r r\fermata \mvTrr fis\pp-\arco
+    g g, r g %50
+    c c e e
+    f f, b b
+    a a d, r
+    d'-\pizz-\tasto r e e,
+    a a d r8 f %55
+    e4 a, e' e,
+    a r f' r
+    dis r dis r
+    e e, e e'
+    a, a' d, d %60
+    e a, e' e,
+    a r a' a,
+    a g! g g
+    g f! f f'
+    e r e r %65
+    a g! f! gis,
+    a a e' e, \noBreak
+    a r r2\fermata \bar "||"
+    \time 3/4 \tempoMarternB \mvTrr d4\pp-\arco d d \noBreak
+    a' a, r %70
+    d d, d'
+    g f e
+    a d, b'
+    gis a a,
+    d, d' d %75
+    a' a, r
+    d d, a'
+    d c! h!
+    e a, f'!
+    dis e e, %80
+    a r cis
+    d d, a'
+    d g c,
+    f f, c'\f
+    f, f\pp f %85
+    f f' f
+    f f, c'
+    f2 r8 fis
+    g4 g, c
+    a' a, b %90
+    gis a a
+    d d, d'
+    a' a, r
+    d, r r8 cis'
+    d8. cis16 d4 b %95
+    gis a a
+    d,2 r4 \markDaCapo \bar "||" %97 finis
+  }
+}
+
+MarternBassFigures = \figuremode {
+  r1*21 %21
+  r2. <7 5 [_+]>4
+  <6 4> <5 _+>2 <7 _+>4
+  <9 4> <8 3> <6 4> <5 _+>8. <7 \t>16
+  <7 5 _+>4 <6 4>8. <5 _+>16 <3>2 %25
+  r1*23 %48
+  r2. <7- 5>4
+  <6- 4> <5 _!>2 <7 5>4 %50
+  <9 4> <8 _!> <6> <6 5->
+  <9 4-> <8 3>8. <7->16 <7 4->8 <\t 3> <6\\ 5 3>4
+  <6 4> <5 _+>8 <7 \t> <9 4>4 <8 3>
+  r1*15 %68
+  <5 3>4 <6- 4> <5 3>
+  <6 4> <5 _+>2 %70
+  r2.
+  <_->4 <6 4- 2>8 <\t 4! \t> <6>4
+  <7 _+> <3> <5>
+  <7 5 [_!]> <6 4> <5 _+>
+  r <6- 4> <5 3> %75
+  <6 4> <5 _+>2
+  r <_+>4
+  <4>8 <3> <4 2> <4+ \t> <6>4
+  <7 _+> <_!> <5>
+  <7 5 [_+]> <6 4> <5 _+> %80
+  r <7! _+> <6 5>
+  <9 4> <8 3> <6 4>8. <5 _+>16
+  r4 <_-> <7->
+  <9 4-> <8 3> <7->
+  r <6 4-> <5 3>8. <4- 2>16 %85
+  <\t \t>4 <3 1>8. <6 4->16 <5 3>8. <6 4->16
+  <\t \t>4 <5 3> <7->
+  <9 4-> <8 3>4. <6>8
+  <_!>4 <6 4>8. <5 _!>16 <5>4
+  \bo <5 [_!]>8. \bc <\t [_+]>16 <6 4>8. <5 _+>16 <5>4 %90
+  <7 [_!]> <6 4> <5 _+>
+  r <6- 4> <5 3>
+  \bo <[6 4]> \bc <[5 _+]>2
+  r2 r8 <6 5>
+  r8. <6>16 r4 <5> %95
+  <7 [_!]> <6 4> <5 _+>
+  r2. %97 finis
+}
+
+MichDuerstetFondamento = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoMichDuerstet
+    f4\p f f f
+    f1\pp
+    b,
+    g'2 f~
+    f b,~ %5
+    b r4 c\f
+    f r d\pp r
+    c r cis r
+    d r b2~
+    b2. r4 %10
+    r a\f d16( d) d( d) d4\pp
+    r2 c!~
+    c1
+    g2 es'
+    r4 d\f g,16 \once \slurDashed f'!( f f) f4~\pp %15
+    f1
+    es2 f4 r
+    r g\f c,2~
+    \once \tieDashed c~\pp c~
+    c1~ %20
+    c2 b~
+    b1
+    as
+    b
+    r4 c\f des2~\pp %25
+    des1
+    r4 es\f ges16( ges) ges( ges) ges4\pp
+    f1
+    fis
+    g~ %30
+    g2 f!~
+    f r4 e\f
+    a,2 r\fermata \bar "|." %33 finis
+  }
+}
+
+MichDuerstetBassFigures = \figuremode {
+  r2 <7 4- 2>
+  <5 3>1
+  r
+  <7 _->4 <6 \t>2.
+  r1 %5
+  <4 2>2. <7->4
+  r2 <6!>
+  r <6>
+  r <5>
+  <6\\ 5>1 %10
+  r4 <7 _+> <5>16 <6! 4+ _!>4..
+  r2 <6>
+  r <6 4+ _->
+  <_-> <7 [5-]>4 <6>
+  r4 <[_+]> <_->16 <4! 2>4.. %15
+  r1
+  <6>2 <_->
+  r4 <5 _!> <_->2
+  r <6- _->
+  r <6! 4+ _-> %20
+  r <6>
+  <6 4! _->1
+  \bo <[6 \l]>
+  <_->2 \bc <[4! 2]>
+  r <5-> %25
+  r <[6-] 4 2->
+  r4 <[5-]> <[6-] 4 2->2
+  <7- 5 _!>1
+  <7- 5 3>
+  <_->2 <6! 5 _-> %30
+  <\t 4+ \t> <6>
+  <6 4! 2+>2. <7 5 _+>4
+  <_+>1 %33 finis
+}

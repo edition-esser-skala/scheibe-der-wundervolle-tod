@@ -800,9 +800,170 @@
   %     \midi { \tempo 4 = 115 }
   %   }
   % }
+  % \bookpart {
+  %   \section "13" "Recitativo" "Doch träum ich? – wird es Tag?"
+  %   \addTocLabel "dochtraeum"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DochTraeumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DochTraeumViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DochTraeumViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #8 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "SopranoA" { \dynamicUp \DochTraeumSopranoA }
+  %         }
+  %         \new Lyrics \lyricsto SopranoA \DochTraeumSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "AltoA" { \dynamicUp \DochTraeumAltoA }
+  %         }
+  %         \new Lyrics \lyricsto AltoA \DochTraeumAltoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "TenoreA" { \dynamicUp \DochTraeumTenoreA }
+  %         }
+  %         \new Lyrics \lyricsto TenoreA \DochTraeumTenoreALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "BassoA" { \dynamicUp \DochTraeumBassoA }
+  %         }
+  %         \new Lyrics \lyricsto BassoA \DochTraeumBassoALyrics
+  %       >>
+  %       \new ChoirStaff <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #8 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "SopranoB" { \dynamicUp \DochTraeumSopranoB }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \DochTraeumSopranoBLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "AltoB" { \dynamicUp \DochTraeumAltoB }
+  %         }
+  %         \new Lyrics \lyricsto AltoB \DochTraeumAltoBLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "TenoreB" { \dynamicUp \DochTraeumTenoreB }
+  %         }
+  %         \new Lyrics \lyricsto TenoreB \DochTraeumTenoreBLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "BassoB" { \dynamicUp \DochTraeumBassoB }
+  %         }
+  %         \new Lyrics \lyricsto BassoB \DochTraeumBassoBLyrics
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \DochTraeumSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DochTraeumSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \DochTraeumFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \DochTraeumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "14" "Aria" "Was für Martern, was für Plagen"
+  %   \addTocLabel "martern"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = "fag"
+  %         \MarternFagotto
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MarternViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MarternViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MarternViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Maria"
+  %           \new Voice = "Maria" { \dynamicUp \MarternMaria }
+  %         }
+  %         \new Lyrics \lyricsto Maria \MarternMariaLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Johannes"
+  %           \new Voice = "Johannes" { \dynamicUp \MarternJohannes }
+  %         }
+  %         \new Lyrics \lyricsto Johannes \MarternJohannesLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \MarternFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \MarternBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 40 }
+  %   }
+  % }
   \bookpart {
-    \section "13" "Recitativo" "Doch träum ich? – wird es Tag?"
-    \addTocLabel "dochtraeum"
+    \section "15" "Accompagnato" "Mich dürſtet!"
+    \addTocLabel "michduerstet"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -810,85 +971,33 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DochTraeumViolinoI
+              \MichDuerstetViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DochTraeumViolinoII
+              \MichDuerstetViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DochTraeumViola
+            \MichDuerstetViola
           }
-        >>
-        \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #8 }
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "SopranoA" { \dynamicUp \DochTraeumSopranoA }
-          }
-          \new Lyrics \lyricsto SopranoA \DochTraeumSopranoALyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "AltoA" { \dynamicUp \DochTraeumAltoA }
-          }
-          \new Lyrics \lyricsto AltoA \DochTraeumAltoALyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "TenoreA" { \dynamicUp \DochTraeumTenoreA }
-          }
-          \new Lyrics \lyricsto TenoreA \DochTraeumTenoreALyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "BassoA" { \dynamicUp \DochTraeumBassoA }
-          }
-          \new Lyrics \lyricsto BassoA \DochTraeumBassoALyrics
-        >>
-        \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #8 }
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "SopranoB" { \dynamicUp \DochTraeumSopranoB }
-          }
-          \new Lyrics \lyricsto SopranoB \DochTraeumSopranoBLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "AltoB" { \dynamicUp \DochTraeumAltoB }
-          }
-          \new Lyrics \lyricsto AltoB \DochTraeumAltoBLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "TenoreB" { \dynamicUp \DochTraeumTenoreB }
-          }
-          \new Lyrics \lyricsto TenoreB \DochTraeumTenoreBLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "BassoB" { \dynamicUp \DochTraeumBassoB }
-          }
-          \new Lyrics \lyricsto BassoB \DochTraeumBassoBLyrics
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \DochTraeumSoli }
+            \new Voice = "Soli" { \dynamicUp \MichDuerstetSoli }
           }
-          \new Lyrics \lyricsto Soli \DochTraeumSoliLyrics
+          \new Lyrics \lyricsto Soli \MichDuerstetSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \DochTraeumFondamento
+            \MichDuerstetFondamento
           }
         >>
-        \new FiguredBass { \DochTraeumBassFigures }
+        \new FiguredBass { \MichDuerstetBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

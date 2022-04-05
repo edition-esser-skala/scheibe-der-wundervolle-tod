@@ -2184,3 +2184,372 @@ DochTraeumSoliLyrics = \lyricmode {
   daß ſo -- gar ein Schau -- dern mich be --
   fällt? %88 finis
 }
+
+MarternMaria = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/2 \autoBeamOff \tempoMartern
+    R1*11 %11
+    r2 \mvTr c'4.\pE^\soloE c8
+    dis,4 e r h'8. h16
+    cis,4 d r a'8. a16
+    a4( gis8.) c16 c4( h8.) a16 %15
+    gis8.([ a16)] h4 r2
+    R1*5 %21
+    r2 r4 a8. a16
+    a4( gis) r h8. h16
+    h4( a8.) a16 a4( gis8.) h16
+    h4( a8.) gis16 a4 r %25
+    r a2 \appoggiatura g16 fis8 \appoggiatura e16 d8
+    \appoggiatura c8 h4 f'8. f16 f4( e8.) gis16
+    a4. a8 a4 a8.([ h32 c)]
+    c4( h) r c8. e,!16
+    e4( dis) r2 %30
+    r8 e4 d8 c([ c')] a([ f!)]
+    dis4 e e( dis8.) e16
+    e4 r r2
+    R1*5 %38
+    r4 d'8. d16 d4 c!
+    r c8. c16 c4 h %40
+    r e8. g,!16 g4( fis)
+    r8. d'16 d8. f,16 f4 e
+    R1
+    r2 a4 a
+    a8.([ gis16)] a4 r a8. a16 %45
+    a4 gis r g8. g16
+    g4( fis) r8. d'16 d8. f,16
+    f4 e r2
+    r r4\fermata c'8. c16
+    c4( h) r d8. d16 %50
+    d4( c) r8. c16 g8. b16
+    b4( a8.) a16 a4( gis8.) d'16
+    d4( cis) r2
+    b4 b8. d16 \appoggiatura a8 gis4 r
+    r8 a a8. g16 f4 r8 a %55
+    gis4 a a( gis8.) a16
+    a4 r r c
+    c c c8.([ h16)] c4
+    c( h8.) h16 h4( a8.) gis16
+    a4 a8. g16 f4 d'8([ b)] %60
+    gis4 a a( gis8.) a16
+    a4 r r2
+    R1*5 \noBreak %67
+    R1\fermata \bar "||"
+    \time 3/4 \tempoMarternB r8 a b4( a8.) d16 \noBreak
+    d4( cis8.) b16 \appoggiatura b8 a8. g16 %70
+    \appoggiatura g8 f8.([ g16)] a4 r8 a
+    \appoggiatura a b4. h8 c8. h16
+    cis4( d) d8. d16
+    d8. h!16 d4( cis8.[ d16)]
+    d2 r4 %75
+    R2.*5 %80
+    r4 g,!4. g8
+    g4( f8.) g16 \appoggiatura g8 f8. e16
+    f8. d16 b'4. b8
+    b4( a) r
+    r8 a b4 a8. g16 %85
+    g4 f8. b16 a8. d16
+    d4( c) b
+    b( a) d~
+    d8. h16 c8. h16 c4~
+    c8. cis16 d8. cis16 d4~ %90
+    d8. h!16 d4( cis8.) d16
+    d8 a b4 a8. d16
+    d4 cis r
+    r r r8 g
+    \appoggiatura g f8. e16 f2~ %95
+    f8. d16 f4( e8.) d16
+    d2 r4 \markDaCapo \bar "||" %97 finis
+  }
+}
+
+MarternMariaLyrics = \lyricmode {
+  Was für %12
+  Mar -- tern, was für
+  Pla -- gen haſt du,
+  Herr, __ bis -- her __ er -- %15
+  tra -- gen?
+
+  A -- ber %22
+  ach! __ a -- ber
+  ach! __ dein inn -- rer
+  See -- len -- ſchmerz %25
+  ach! der zer --
+  reißt, der zer -- reißt __ weit
+  ſchreck -- li -- cher dein __
+  Herz! __ der zer --
+  reißt, __ %30
+  der zer -- reißt weit
+  ſchreck -- li -- cher __ dein
+  Herz!
+
+  Was für Mar -- tern, %39
+  was für Pla -- gen %40
+  haſt du, Herr! __
+  bis -- her er -- tra -- gen!
+
+  Was für
+  Mar -- tern, was für %45
+  Pla -- gen haſt du,
+  Herr! __ bis -- her er --
+  tra -- gen!
+  A -- ber
+  ach! __ a -- ber %50
+  ach! __ dein inn -- rer
+  Schmerz, dein See -- len --
+  ſchmerz!
+  Ach! der zer -- reißt
+  weit ſchreck -- li -- cher, weit %55
+  ſchreck -- li -- cher __ dein
+  Herz. Dein
+  inn -- rer See -- len --
+  ſchmerz, dein See -- len --
+  ſchmerz, der zer -- reißt weit %60
+  ſchreck -- li -- cher __ dein
+  Herz.
+
+  Für al -- le %69
+  Welt __ wollſt du be -- %70
+  zah -- len: drum
+  duldſt du ſo viel
+  Angſt, __ ſo viel
+  Angſt und Qua --
+  len! %75
+
+  Herr! Ja, %81
+  ja! __ den Sün -- der
+  haſt du frey ge --
+  macht,
+  den Sün -- der, den %85
+  Sün -- der, den haſt du
+  frey __ ge --
+  macht, den, __
+  der Got -- tes Zorn, __
+  der Got -- tes Zorn __ %90
+  auf dich __ ge --
+  bracht, den Sün -- der, den
+  Sün -- der!
+  der
+  Got -- tes Zorn __ %95
+  auf dich __ ge --
+  bracht. %97 finis
+}
+
+MarternJohannes = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 2/2 \autoBeamOff \tempoMartern
+    R1*17 %17
+    r2 \mvTr f4.\pE^\soloE f8
+    gis,4 a r e'8. e16
+    fis,4 g! r d'8. d16 %20
+    d4( c8.) f!16 f4( e8.) d16
+    c8.([ d16)] e4 r c8. c16
+    c4( h) r d8. d16
+    d4( c8.) c16 c4( h8.) d16
+    d4( c8.) h16 c4 e~ %25
+    e \appoggiatura d16 c8 \appoggiatura h16 a8 \appoggiatura g!8 fis4 r
+    r d'8. d16 d4( c8.) h16
+    c4. c8 c4 c8.([ d32 es)]
+    es4( d) r2
+    r4 fis8. a,16 a4( g8.) fis16 %30
+    g4 gis a2~
+    a16[ g fis8] g16([ fis e8)] g4( fis8.) g16
+    g4 r r2
+    R1*4 %37
+    r2 g'4. g8
+    ais,4 h r f'!8. f16
+    gis,4 a r e'8. d16 %40
+    c8.([ h16)] a4 r d8. c16
+    h8.([ a16)] g4 r a8. a16
+    a4( gis8.) f'!16 f4( e8.) d16
+    c8.([ d16)] e4 r2
+    c4 c c8.([ h16)] c4 %45
+    r h8. d16 d4 cis
+    r a8. c16 c4( h8.) d16
+    d4( c8.) e16 e4( d8.) f!16
+    f4 e r\fermata es8. es16
+    es4( d) r f8. f16 %50
+    f4( e) r2
+    r8. f16 c8. es16 es8([ d)] r f
+    f4( e8.) g,!16 g4( f)
+    r2 h!4 h8. d16
+    \appoggiatura d8 c4 cis8. cis16 d8 a d4~ %55
+    d16[ c h8] c16([ h a8)] c4( h8.) a16
+    a4 a a a
+    a8.([ gis16)] a4 a r
+    r e8. d'16 d4( c8.) h16
+    c4 cis d2~ %60
+    d16[ c h8] c16([ h a8)] c4( h8.) h16
+    a4 r r2
+    R1*5 \noBreak %67
+    R1\fermata \bar "||"
+    \time 3/4 \tempoMarternB R2.*6 %74
+    r8 a b4( a8.) d16 %75
+    d4( cis8.) b16 \appoggiatura b8 a8. g16
+    \appoggiatura g8 f8.([ g16)] a4 r8 a
+    \appoggiatura g f4. fis8 g8. fis16
+    gis4( a4.) a8
+    a8. fis16 a4( gis8.[ a16)] %80
+    a4 e'4. e8
+    e4( d8.) e16 \appoggiatura e8 d8. cis16
+    d4. d8 e8. e16
+    f2 r4
+    r8 c d4 c8. b16 %85
+    b4 a8. d16 c8. b16
+    b4( a) g
+    g( f) r
+    g8. d'16 e8. f16 e4~
+    e8. e16 f8. g16 f4~ %90
+    f8. d16 f4( e8.) d16
+    d8 f g4 f8. f16
+    f4 e r
+    r8. b16 \appoggiatura b8 a8. gis16 a4~
+    a4. a8 d8. d16 %95
+    d8. h!16 d4( cis8.) d16
+    d2 r4 \markDaCapo \bar "||" %97 finis
+  }
+}
+
+MarternJohannesLyrics = \lyricmode {
+  Was für %18
+  Strie -- men, Schläg’ und
+  Wun -- den hat dein %20
+  heil -- ger Leib __ em --
+  pfun -- den? A -- ber
+  ach! __ a -- ber
+  ach! __ dein inn -- rer
+  See -- len -- ſchmerz, ach! __ %25
+  der zer -- reißt,
+  der zer -- reißt __ weit
+  ſchreck -- li -- cher dein __
+  Herz! __
+  der zer -- reißt __ weit %30
+  ſchreck -- _ _
+  li -- cher __ dein
+  Herz!
+
+  Was für %38
+  Strie -- men, Schläg’ und
+  Wun -- den, was für %40
+  Strie -- men, Schläg’ und
+  Wun -- den hat dein
+  heil -- ger Leib __ em --
+  pfun -- den!
+  Was für Strie -- men, %45
+  Schläg’ und Wun -- den
+  hat dein Leib, __ dein
+  heil -- ger Leib __ em --
+  pfun -- den! A -- ber
+  ach! __ a -- ber %50
+  ach! __
+  dein inn -- rer Schmerz! dein
+  See -- len -- ſchmerz!
+  Ach! der zer --
+  reißt, der zer -- reißt weit ſchreck -- %55
+  li -- cher __ dein
+  Herz. Dein inn -- rer
+  See -- len -- ſchmerz,
+  der zer -- reißt __ weit
+  ſchreck -- _ _ %60
+  li -- cher __ dein
+  Herz.
+
+  Der Zorn __ des %75
+  Va -- ters ſchnaub -- te
+  Ra -- che: Du,
+  Herr! du, Herr, ver --
+  tratſt __ des
+  Sün -- ders Sa -- %80
+  che. Herr! Ja,
+  ja! __ den Sün -- der
+  haſt du frey ge --
+  macht,
+  den Sün -- der, den %85
+  Sün -- der, den haſt du
+  frey __ ge --
+  macht,
+  den, der Got -- tes Zorn, __
+  der Got -- tes Zorn __ %90
+  auf dich __ ge --
+  bracht, den Sün -- der, den
+  Sün -- der!
+  der Got -- tes Zorn, __
+  der Got -- tes %95
+  Zorn auf dich __ ge --
+  bracht. %97 finis
+}
+
+MichDuerstetSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoMichDuerstet
+    R1
+    r8^\markup \remark "Jeſus" c a a \fC r4^\markup \remark "Johannes" r8 cis
+    d d f8. d16 b4 r8 d
+    b b b8. a16 a8 c r c
+    f f r4 d8. d16 d8 b %5
+    g g e8. f16 f8 c r4
+    r c' f,8 f f8. e16
+    g4 r8 b a a a8. e16
+    f4 r8 a d d d8. f16
+    d4 r8 f d d cis8. f16 %10
+    \appoggiatura e8 d4 r r r8 h!
+    gis gis f'!8. e16 e8 e e c
+    \appoggiatura h a4 r8 c fis, fis g a
+    b4 d d8 g, c b
+    g4 r r r8 g %15
+    d' d d8. h!16 g8 d' d8. es16
+    c8 c r16 c es c as8 as h!8. c16
+    c8 g r4 r8 c c es
+    c c c8. es16 as,8 as as c
+    as4 r16 as as c fis,8. fis16 fis8 c' %20
+    es fis, fis b g4 r16 b b g
+    e!8. e16 e8 des' des e,! e8. as16
+    f4 r8 c' f4 r8 c
+    des des des b g g b8. as16
+    f4 r r8 as as des %25
+    r4 des8 b g b des8. c16
+    as4 r \clef treble r^\markup \remark "Maria" r8 c'
+    c es, r4 a! r
+    r8 c c es, c' c c8. d16
+    b4 r8 d d8. e,16 e8 b' %30
+    b cis, cis8. f16 d4 r8 d
+    gis gis gis8. c16 a4 r
+    R1\fermata \bar "|." %33 finis
+  }
+}
+
+MichDuerstetSoliLyrics = \lyricmode {
+  Mich dür -- ſtet! Dich %2
+  dür -- ſtet, See -- len -- freund! nach
+  ſo viel Pein und Pla -- gen? Was
+  Wun -- der! du haſt ja des %5
+  Ta -- ges Laſt ge -- tra -- gen.
+  Doch wa -- rum dür -- ſtet
+  dich? was macht die Zun -- ge
+  matt? Des Sün -- ders Straf und
+  Schuld, die er ver -- die -- net %10
+  hat. Dich
+  dür -- ſtet, Herr! nach un -- ſrer Se -- lig --
+  keit, und die er -- ringſt du
+  uns durch ſo viel Kampf und
+  Streit. Schaut, %15
+  Men -- ſchen, ſchaut den Herrn, den Le -- bens --
+  für -- ſten blos eu -- rer Sün -- den we -- gen
+  dür -- ſten. Itzt, da die
+  Mar -- ter ihn bey -- na -- he hat ent --
+  ſeelt, da ihn die letz -- te Quahl vor %20
+  ſei -- nem To -- de quählt, weil ihn des
+  Sün -- ders Hand den Mör -- dern gleich ge --
+  macht, da, da hat
+  er an ſei -- ne Hen -- ker noch ge --
+  dacht. Ihn dür -- ſtet, %25
+  auch nach ih -- rer Se -- lig --
+  keit. Ihn
+  dür -- ſtet!_— Seht_—
+  der Mör -- der wil -- de Gü -- tig --
+  keit: ein her -- ber Trank muß %30
+  ſei -- ner letz -- ten Pein ein
+  bitt -- res Lab -- ſal ſeyn! %32 finis
+}

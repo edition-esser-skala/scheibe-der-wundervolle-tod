@@ -1202,3 +1202,148 @@ DochTraeumViola = {
     R1*11 \bar "||" %88 finis
   }
 }
+
+MarternViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key a \minor \time 2/2 \tempoMartern
+    r8 \mvTrr a\ppE-\markup \remark "con sordino e pizzicato" c e r e a c
+    r dis, h e r e e h'
+    r cis, a d r d f! a
+    r e e e r fis fis h
+    r e, h gis' r d gis h %5
+    r a a e r cis e e
+    r d f d r b d f
+    r h, e gis r f! a c
+    r c, a' a r h d gis,
+    r e a cis r a e h' %10
+    r e, e e r e e e
+    r a, c e r e a c
+    r h e, e r e e h'
+    r a d, d r d f a
+    r e e e r fis fis h, %15
+    r e h gis' r e gis h
+    r a a e r cis e e
+    r d f! d r d f a
+    r h e, e r e e a
+    r a d, d r d d gis %20
+    r e a a r h e, e
+    r2 r4 \mvTrr fis\pp-\arco
+    e e r gis
+    e e e e
+    e e e r %25
+    r8 c-\pizz e a r fis a d
+    r h, d g r g g g
+    r f! f a r es a c
+    r d, d g r g a c
+    r h, fis' fis r h, h h %30
+    r e gis h r a a c
+    r fis, g h, r h h h
+    r2 r8 e gis e
+    r e e e r c f! f
+    r fis fis fis r a fis h %35
+    r h e, gis r e h' h
+    r h h h r h h a
+    r g h g e4 r
+    r8 e d! h' r e, f! a
+    r gis a c r fis, gis h %40
+    r c, e a r a d fis,
+    r d g! h r g e a
+    r d, d d r h e e
+    r e c a r c e a
+    r f f f r fis fis fis %45
+    r e e e r e e e
+    r d d fis r d d h'
+    r g g e r e d f
+    r f e c' r4\fermata \mvTrr a\pp-\arco
+    g2 r4 h %50
+    g2 r4 c
+    c2 r4 gis
+    a a r2
+    r r8 e-\pizz gis h
+    r e, a e r a, d f %55
+    r e e e r e e e
+    r e e e r f f f
+    r fis fis fis r fis fis fis
+    r e e e r e e e
+    r c e a r b f f %60
+    r e e e r e e e
+    r e, a c r e a c
+    r fis, g e r e e h'
+    r a d, d r d d a'
+    r e e gis r h e, e %65
+    r e e e r f e e
+    r e e e r e e e \noBreak
+    r c e a a,4 r\fermata \bar "||"
+    \time 3/4 \tempoMarternB
+      r8 \mvTr d\pp-\arco d4 d \noBreak
+    a a r %70
+    a d d
+    d g, g
+    a a b
+    h a a
+    a8 d d4 d %75
+    a a r
+    a d a
+    a a g
+    h! a f!
+    dis e e %80
+    a a a
+    a a a
+    a g c
+    c c c\fE
+    c8 f\ppE f4 f, %85
+    c' f, f'
+    f f e
+    c2 r8 d
+    d4 g, g
+    a a b %90
+    h a a
+    a8 d d4 d
+    a a r
+    d, r r8 e
+    d8. cis16 d4 b' %95
+    gis a a
+    d,2 r4\fermata \markDaCapo \bar "||" %97 finis
+  }
+}
+
+MichDuerstetViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoMichDuerstet
+    r16 \mvTr f(\p-\markup \remark "con sordino" f f) f( f) f( f) r e( e e) e( e) e( e)
+    c1\pp
+    d~
+    d4 g, c2~
+    c d %5
+    c r4 b\f
+    a r d\pp r
+    g, r e' r
+    f r f2~
+    f2. r4 %10
+    r g\f f16( f) f( f) f4\pp
+    r2 a~
+    a fis
+    g es
+    r4 d\f d16( d) d( d) d4~\pp %15
+    d1
+    c2 f4 r
+    r d\f es2~\pp
+    es1~
+    es2 fis~ %20
+    fis g
+    e!1
+    f~
+    f2 g
+    r4 g\f des2~\pp %25
+    des es
+    r4 es\f es16( es) es( es) es4~\pp
+    es1~
+    es
+    d %30
+    cis2 d~
+    d r4 d\f
+    cis2 r\fermata \bar "|." %33 finis
+  }
+}
